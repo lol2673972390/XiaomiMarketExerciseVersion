@@ -236,3 +236,5 @@ class tabSelect {
     }
 }
 new tabSelect('#wear .listTitle>div>span', '#wear .contentList')
+new tabSelect('#appliances .listTitle>div>span', '#appliances .contentList')
+new tabSelect('#liftDevice .listTitle>div>span', '#liftDevice .contentList')

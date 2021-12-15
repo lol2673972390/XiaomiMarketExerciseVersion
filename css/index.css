@@ -440,11 +440,11 @@
 
 /* 最新产品展示 */
 
-#newProduct {
+.newProduct {
     padding: 20px 0;
 }
 
-#newProduct img {
+.newProduct img {
     width: 100%;
 }
 
@@ -460,6 +460,14 @@
 /* 穿戴分类 */
 
 #wear {
+    padding: 10px 0;
+    position: relative;
+}
+
+
+/* 家电分类 */
+
+#appliances {
     padding: 10px 0;
     position: relative;
 }
@@ -537,6 +545,10 @@
     box-shadow: 5px 5px 10px -1px #d4d4d4, -5px 5px 10px -1px #d4d4d4;
 }
 
+.firstFixed>div:nth-child(2) {
+    margin-top: 12px;
+}
+
 
 /* 列表样式 */
 
@@ -611,7 +623,7 @@
 
 /* 最后一个浏览更多选项卡 */
 
-.contentList>.lastMore {
+.contentList .lastMore {
     height: 105px;
     text-align: left;
     position: relative;
@@ -619,13 +631,13 @@
     padding-top: 30px;
 }
 
-.contentList>.lastMore>a>div:nth-child(1) {
+.contentList .lastMore>a>div:nth-child(1) {
     margin: 0 110px 0 30px;
     font-size: 18px;
     color: #333;
 }
 
-.contentList>.lastMore>a>div:nth-child(2) {
+.contentList .lastMore>a>div:nth-child(2) {
     position: absolute;
     right: 0;
     width: 48px;
@@ -637,6 +649,6 @@
     top: calc(50% - 24px);
 }
 
-.contentList>.lastMore>a>div:nth-child(2)>span::before {
+.contentList .lastMore>a>div:nth-child(2)>span::before {
     font-size: 24px;
 }
