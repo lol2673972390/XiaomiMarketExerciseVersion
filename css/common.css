@@ -1,0 +1,287 @@
+/* 浮动 */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+/* 清浮动 */
+
+.clearF::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* 导航栏 */
+
+#header {
+    background: rgb(51, 51, 51);
+    height: 40px;
+    color: #b0b0b0;
+    line-height: 40px;
+    font-size: 12px;
+    min-width: 1170px;
+    user-select: none;
+}
+
+
+/* 超链接颜色 */
+
+#header a {
+    color: #b0b0b0;
+}
+
+#header a:not(.navCartMini):hover {
+    color: #fff;
+}
+
+
+/* 间隔符颜色 */
+
+#header .sep {
+    color: #424242;
+    margin: 0 3.6px;
+}
+
+
+/* 第二个div字体右对齐 */
+
+#header>div>div:nth-child(2) {
+    text-align: right;
+    position: relative;
+}
+
+
+/* 单独设置迷你购物车样式 */
+
+#header .navCartMini {
+    background: #424242;
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+/* 迷你购物车悬停时的样式 */
+
+#header .navCartMini-active {
+    background: #fff;
+    color: #ff6700;
+}
+
+
+/* 迷你购物车内容展示样式 */
+
+#header .miniCart-menu {
+    width: 316px;
+    height: 0;
+    background: #fff;
+    box-shadow: 1px 1px 10px #cecece;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: 99;
+    overflow: hidden;
+}
+
+
+/* 底部 */
+
+
+/* 五大服务 */
+
+#serve {
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#serve>ul {
+    width: 100%;
+}
+
+
+/* 每个li平分宽度，设置样式 */
+
+#serve>ul>li {
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    border-left: 1px solid #e0e0e0;
+    ;
+}
+
+#serve>ul>li:first-child {
+    border-left: 0;
+}
+
+
+/* 超链接字体颜色 */
+
+#serve>ul>li>a {
+    color: #616161;
+}
+
+
+/* 悬停颜色 */
+
+#serve>ul>li>a:hover {
+    color: #ff6700;
+}
+
+
+/* 自定义图标样式 */
+
+#serve>ul>li>a>span {
+    font-size: 24px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+
+/* 底部链接 */
+
+#footer-link {
+    padding: 40px 0;
+}
+
+
+/* 固定每个dl的宽度+浮动 */
+
+#footer-link>.col-link {
+    width: 160px;
+    float: left;
+}
+
+
+/* dt下外边距+字体大小+行高+字体颜色 */
+
+#footer-link>.col-link>dt {
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+
+
+/* dd上外边距+字体大小 */
+
+#footer-link>.col-link>dd {
+    margin: 10px 0 0;
+    font-size: 12px;
+}
+
+
+/* 超链接默认字体颜色 */
+
+#footer-link>.col-link>dd>a {
+    color: #757575;
+}
+
+
+/* 悬停颜色 */
+
+#footer-link>.col-link>dd>a:hover {
+    color: #ff6700;
+}
+
+
+/* 最后一个div样式 */
+
+#footer-link>.col-concat {
+    float: right;
+    text-align: center;
+    color: #616161;
+}
+
+
+/* 电话样式 */
+
+#footer-link>.col-concat>.phone {
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+
+#footer-link>.col-concat>p:nth-of-type(2) {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+
+/* 超链接按钮样式 */
+
+#footer-link>.col-concat>.btn {
+    display: inline-block;
+    width: 158px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #b0b0b0;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    color: #b0b0b0;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+#footer-link>.col-concat>.btn-line-primary {
+    border-color: #ff6700;
+    background: #fff;
+    color: #ff6700;
+}
+
+#footer-link>.col-concat>.btn-line-primary:hover {
+    color: #fff;
+    background-color: #f25807;
+    border-color: #f25807;
+}
+
+#footer-link>.col-concat>.btn-small {
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+#footer-link>.col-concat>.follow {
+    font-size: 12px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#footer-link>.col-concat>.follow>a {
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+    margin-top: -3px;
+}
+
+#footer-link>.col-concat>.follow>a:hover {
+    color: #ff6700;
+}
+
+
+/* 结尾标语 */
+
+#footer-say {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footer-say>.slogan {
+    text-indent: -9999em;
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+}

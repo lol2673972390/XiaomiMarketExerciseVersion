@@ -1,0 +1,36 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>onmouseout的bug</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background: #ccc;
+            margin: 40px auto;
+        }
+        
+        h3 {
+            height: 30px;
+            background: yellow;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var oDiv = document.getElementsByTagName('div')[0];
+            oDiv.onmouseout = function(ev) {
+                var oEvent = ev || event;
+                var oTo = oEvent.toElement || oEvent.relatedTarget;
+                //其中oEvent.toElement兼容IE，chrome
+                //oEvent.relatedTarget;兼容FF。
+                if (this.contains(oTo)) return; //判断div是不是包含oTo,如果包含就返回
+                alert('移出了');
+            };
+        };
+    </script>
+</head>
+
+<body>
+    <div>
+        <h3></h3>
+    </div>
+</body>

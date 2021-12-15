@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3012824 */
+  src: url('iconfont.woff2?t=1639535938361') format('woff2'),
+       url('iconfont.woff?t=1639535938361') format('woff'),
+       url('iconfont.ttf?t=1639535938361') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-baozhang:before {
+  content: "\e60d";
+}
+
+.icon-huafeichongzhi:before {
+  content: "\e642";
+}
+
+.icon-simqia:before {
+  content: "\e609";
+}
+
+.icon-Fma:before {
+  content: "\e603";
+}
+
+.icon-qiye:before {
+  content: "\e646";
+}
+
+.icon-zhuanzhang:before {
+  content: "\e6a1";
+}
+
+.icon-tuihuo15day:before {
+  content: "\e606";
+}
+
+.icon-liwuhuodong:before {
+  content: "\e602";
+}
+
+.icon-dingwei:before {
+  content: "\e8ae";
+}
+
+.icon-yuyueweixiu:before {
+  content: "\e60c";
+}
+
+.icon-tuihuan7day:before {
+  content: "\e61f";
+}
+
+.icon-xiaomishangcheng:before {
+  content: "\e613";
+}
+
+.icon-sousuo:before {
+  content: "\e636";
+}
+
+.icon-gouwucheman:before {
+  content: "\e600";
+}
+
+.icon-gouwuchekong:before {
+  content: "\e601";
+}
+
