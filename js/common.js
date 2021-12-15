@@ -53,3 +53,45 @@ class miniCartMenu {
     }
 }
 new miniCartMenu('#header .miniCart-menu')
+
+// 悬停时打开展示栏
+class navShowMenu {
+    // @param {ele1,ele2}
+    // ele1: 展示框
+    // ele2: 导航栏父级，使用事件委托
+    constructor(ele1, ele2) {
+        this.showMenu = document.querySelector(ele1);
+        this.navUl = document.querySelectorAll(ele2);
+        // this.navUl = document.querySelector(ele2);
+        // 事件委托
+        this.ulDelegate();
+        // 绑定展示框显示或掩藏事件
+        // this.showMenuSoHFn()
+    }
+    ulDelegate() {
+        for (let i = 0; i < this.navUl.length; i++) {
+            this.navUl[i].onmouseover = () => {
+                this.show()
+            }
+            this.navUl[i].onmouseout = () => {
+                this.hide()
+            }
+        }
+        this.showMenu.onmouseover = () => {
+            this.show()
+        }
+        this.showMenu.onmouseout = () => {
+            this.hide()
+        }
+    }
+    show() {
+        this.showMenu.style.display = 'block';
+        animation.easingAnimate(this.showMenu, 229, 'height')
+    }
+    hide() {
+        animation.easingAnimate(this.showMenu, 0, 'height', () => {
+            this.showMenu.style.display = 'none';
+        })
+    }
+}
+new navShowMenu('#oneNavContent', '#oneNav>div>div:last-child>ul .navMenu')

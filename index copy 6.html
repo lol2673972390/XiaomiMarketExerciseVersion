@@ -56,15 +56,109 @@
                 <a href="#none">注册</a>
                 <span class="sep">|</span>
                 <a href="#none">消息通知</a>
-                <a href="#none" class="navCartMini"><span class="layui-icon layui-icon-cart"></span> 购物车(<span class="miniCartNum">0</span>)</a>
-                <div class="miniCart-menu">
-                    <span></span>
-                </div>
+                <a href="#none" class="navCartMini">
+                    <span class="layui-icon layui-icon-cart"></span> 购物车(<span class="miniCartNum">0</span>)
+                    <div class="miniCart-menu">
+                        <span></span>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
     <!-- 主体 -->
-    <div id="main"></div>
+    <div id="main">
+        <!-- 导航部分 -->
+        <div id="nav">
+            <div class="layui-container">
+                <!-- 一级导航 -->
+                <div id="oneNav">
+                    <div class="layui-row">
+                        <div class="layui-col-md2">
+                            <a href="index.html" class="iconfont icon-xiaomishangcheng"></a>
+                        </div>
+                        <div class="layui-col-md10">
+                            <ul class="clearF">
+                                <li><a href="#none" class="navMenu xmPhone">Xiaomi手机</a></li>
+                                <li><a href="#none" class="navMenu rmPhone">Redmi红米</a></li>
+                                <li><a href="#none" class="navMenu watchTv">电视</a></li>
+                                <li><a href="#none" class="navMenu laptop">笔记本</a></li>
+                                <li><a href="#none" class="navMenu tablet">平板</a></li>
+                                <li><a href="#none" class="navMenu appliances">家电</a></li>
+                                <li><a href="#none" class="navMenu router">路由器</a></li>
+                                <li><a href="#none">服务</a></li>
+                                <li><a href="#none">社区</a></li>
+                            </ul>
+                            <!-- 搜索框 -->
+                            <form action="" id="oneNavSearch">
+                                <input type="text" name="goods" placeholder=""><button class="layui-icon layui-icon-search"></button>
+                                <div class="searchSelect">
+                                    <a href="#none">全部商品</a>
+                                    <a href="#none">空调</a>
+                                    <a href="#none">电视</a>
+                                    <a href="#none">手机</a>
+                                    <a href="#none">耳机</a>
+                                    <a href="#none">洗衣机</a>
+                                    <a href="#none">冰箱</a>
+                                    <a href="#none">小米平板5</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 导航对应内容展示 -->
+            <div tabindex="-1" id="oneNavContent">
+                <!-- 居中 -->
+                <div class="layui-container">
+                    <ul class="clearF">
+                        <li class="first">
+                            <a href="#none">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d4b362431de4bdda03315ffdbc7b32a.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                <div>Xiaomi 11 青春活力版</div>
+                                <p class="pirce">1999元起</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d4b362431de4bdda03315ffdbc7b32a.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                <div>Xiaomi 11 青春活力版</div>
+                                <p class="pirce">1999元起</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d4b362431de4bdda03315ffdbc7b32a.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                <div>Xiaomi 11 青春活力版</div>
+                                <p class="pirce">1999元起</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d4b362431de4bdda03315ffdbc7b32a.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                <div>Xiaomi 11 青春活力版</div>
+                                <p class="pirce">1999元起</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d4b362431de4bdda03315ffdbc7b32a.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                <div>Xiaomi 11 青春活力版</div>
+                                <p class="pirce">1999元起</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#none">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d4b362431de4bdda03315ffdbc7b32a.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                                <div>Xiaomi 11 青春活力版</div>
+                                <p class="pirce">1999元起</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <!-- 底部 -->
     <div id="footer">
         <div class="layui-container">
@@ -145,5 +239,7 @@
 <script src="./js/animation.js"></script>
 <!-- 引入公共JS -->
 <script src="./js/common.js"></script>
+<!-- 引入主页js -->
+<script src="./js/index.js"></script>
 
 </html>
