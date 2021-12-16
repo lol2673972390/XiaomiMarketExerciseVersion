@@ -1,0 +1,27 @@
+{
+  "name": "XiaomiMarketExerciseVersion",
+  "version": "1.0.0",
+  "description": "学习前端编程第二阶段最终项目，模仿小米商城进行一个部分功能的开发，主要使用HTML5+CSS+JS(可能有node.js等)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lol2673972390/XiaomiMarketExerciseVersion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lol2673972390/XiaomiMarketExerciseVersion/issues"
+  },
+  "homepage": "https://github.com/lol2673972390/XiaomiMarketExerciseVersion#readme",
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "qs": "^6.10.2"
+  }
+}

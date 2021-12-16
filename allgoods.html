@@ -14,9 +14,9 @@
     <script src="./layui/layui.js"></script>
     <!-- 引入公共样式 -->
     <link rel="stylesheet" href="./css/common.css">
-    <!-- 引入主页样式 -->
-    <link rel="stylesheet" href="./css/index.css">
-
+    <!-- 引入商品列表页样式 -->
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel="stylesheet" href="./css/allGoods.css">
 </head>
 
 <body>
@@ -78,7 +78,7 @@
                         </div>
                         <div class="">
                             <ul class="clearF">
-                                <li><a href="#none" class="navMenu xmPhone hide">全部商品</a></li>
+                                <li><a href="./allGoods.html" class="navMenu xmPhone hide">全部商品</a></li>
                                 <li><a href="#none" class="navMenu xmPhone">Xiaomi手机</a></li>
                                 <li><a href="#none" class="navMenu rmPhone">Redmi红米</a></li>
                                 <li><a href="#none" class="navMenu watchTv">电视</a></li>
@@ -158,6 +158,63 @@
                 </div>
             </div>
         </div>
+        <!-- 层级导航 -->
+        <div id="arrNav">
+            <div class="layui-container">
+                <a href="./index.html">首页</a> / 全部商品分类
+            </div>
+        </div>
+        <!-- 商品总列表 -->
+        <div id="goodsListParent">
+            <div class="layui-container">
+                <!-- 手机分类 -->
+                <div id="phone">
+                    <!-- 标题+点击事件 -->
+                    <h3 class="show">
+                        <span class="layui-icon layui-icon-up "></span> 手机
+                    </h3>
+                    <!-- 列表 -->
+                    <ul class="contentList clearF show">
+                        <li>
+                            <a href="#">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e2ea5e610875460bc0cda0e45f4822ec.png" alt="">
+                                <span>Xiaomi 11 青春活力版</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e2ea5e610875460bc0cda0e45f4822ec.png" alt="">
+                                <span>Xiaomi 11 青春活力版</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e2ea5e610875460bc0cda0e45f4822ec.png" alt="">
+                                <span>Xiaomi 11 青春活力版</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e2ea5e610875460bc0cda0e45f4822ec.png" alt="">
+                                <span>Xiaomi 11 青春活力版</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e2ea5e610875460bc0cda0e45f4822ec.png" alt="">
+                                <span>Xiaomi 11 青春活力版</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e2ea5e610875460bc0cda0e45f4822ec.png" alt="">
+                                <span>Xiaomi 11 青春活力版</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- 侧边栏 -->
     <div id="aside">
@@ -187,6 +244,8 @@
             <span>回到顶部</span>
         </a>
     </div>
+    <!-- 隔宽 -->
+    <div id="interval"></div>
     <!-- 底部 -->
     <div id="footer">
         <div class="layui-container">
@@ -267,7 +326,8 @@
 <script src="./js/animation.js"></script>
 <!-- 引入公共JS -->
 <script src="./js/common.js"></script>
-<!-- 引入主页js -->
+<!-- 引入列表页js -->
 <!-- <script src="./js/index.js"></script> -->
+<script src="./js/allGoods.js"></script>
 
 </html>
