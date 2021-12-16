@@ -54,32 +54,77 @@ class miniCartMenu {
 }
 new miniCartMenu('#header .miniCart-menu')
 
+// 搜索框快捷导航 + 默认提示轮换
+class searchNav {
+    // @param {input,div} 节点对象
+    // input 搜索框
+    // div 快捷导航
+    constructor(input, div) {
+        this.input = document.querySelector(input);
+        this.div = document.querySelector(div);
+        // 绑定获取焦点事件
+        this.focusFn();
+        // 绑定失去焦点事件
+        this.blurFn();
+    }
+    focusFn() {
+        this.input.onfocus = () => {
+            // 添加css类
+            this.div.classList.add('show');
+        }
+    }
+    blurFn() {
+        this.div.onmousemove = () => {
+            setTimeout(() => {
+                this.input.focus();
+            }, 0)
+        }
+        this.div.onclick = () => {
+            // 
+            this.div.classList.remove('show');
+            // 
+            // this.input.blur()
+        }
+        document.onclick = (e) => {
+            this.input.onblur = () => {
+                this.div.classList.remove('show')
+            }
+        }
+    }
+}
+new searchNav('#oneNavSearch>input', '#oneNavSearch>.searchSelect')
+
 // 悬停时打开展示栏
 class navShowMenu {
-    // @param {ele1,ele2}
-    // ele1: 展示框
-    // ele2: 导航栏父级，使用事件委托
-    constructor(ele1, ele2) {
-        this.showMenu = document.querySelector(ele1);
-        this.navUl = document.querySelectorAll(ele2);
+    // @param {showMenu,ulLi}
+    // showMenu: 展示框
+    // ulLi: 导航栏父级，使用事件委托
+    constructor(showMenu, ulLi) {
+        this.showMenu = document.querySelector(showMenu);
+        this.navUl = document.querySelectorAll(ulLi);
         // this.navUl = document.querySelector(ele2);
-        // 事件委托
-        this.ulDelegate();
+        // 绑定事件
+        this.Delegate();
         // 绑定展示框显示或掩藏事件
         // this.showMenuSoHFn()
     }
-    ulDelegate() {
+    Delegate() {
+        // 循环绑定事件
         for (let i = 0; i < this.navUl.length; i++) {
+            // 移入
             this.navUl[i].onmouseover = () => {
                 this.show()
-            }
+            };
+            // 移出
             this.navUl[i].onmouseout = () => {
                 this.hide()
             }
         }
+        // 一定要给展示框再绑定显示
         this.showMenu.onmouseover = () => {
             this.show()
-        }
+        };
+        // 绑定移出
         this.showMenu.onmouseout = () => {
             this.hide()
         }
@@ -90,8 +135,31 @@ class navShowMenu {
     }
     hide() {
         animation.easingAnimate(this.showMenu, 0, 'height', () => {
+            // 动画完毕后再隐藏，否则会有边框残留
             this.showMenu.style.display = 'none';
         })
     }
 }
 new navShowMenu('#oneNavContent', '#oneNav>div>div:last-child>ul .navMenu')
+
+// 窗口滚动侧边栏显示回到顶部事件
+class windowScrollAside {
+    // @param {a} 节点对象
+    // a 侧边栏最后一个盒子
+    constructor(a) {
+        this.box = document.querySelector(a);
+        // 根据窗口滚动，显示回到顶部
+        this.watchScroll();
+    }
+    watchScroll() {
+        window.onscroll = () => {
+            // 如果滚动距离大于当前视窗高度，则显示回到顶部
+            if (window.scrollY > window.innerHeight) {
+                this.box.classList.remove('hide')
+            } else {
+                this.box.classList.add('hide')
+            }
+        }
+    }
+}
+new windowScrollAside('#aside>a:last-child')
