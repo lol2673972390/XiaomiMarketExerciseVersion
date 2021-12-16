@@ -1,0 +1,9 @@
+{
+    "users": [{
+        "id": 1,
+        "phone": "13776980023",
+        "password": "123456",
+        "username": "Lim",
+        "loginStatus": 0
+    }]
+}

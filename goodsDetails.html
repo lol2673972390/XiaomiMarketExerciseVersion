@@ -14,8 +14,8 @@
     <script src="./layui/layui.js"></script>
     <!-- 引入公共样式 -->
     <link rel="stylesheet" href="./css/common.css">
-    <!-- 引入主页样式 -->
-    <link rel="stylesheet" href="./css/index.css">
+    <!-- 引入商品详情页样式 -->
+    <link rel="stylesheet" href="./css/goodsDetails.css">
 
 </head>
 
@@ -158,6 +158,90 @@
                 </div>
             </div>
         </div>
+        <!-- 顶部标题 -->
+        <div id="title" class="clearF">
+            <div class="layui-container">
+                <!-- 由js生成名字 -->
+                <div class="left">
+                    Redmi Buds 3
+                </div>
+                <div class="right">
+                    <a href="#none">详情</a>
+                    <span>|</span>
+                    <a href="#none">参数</a>
+                    <span>|</span>
+                    <a href="#none">F码通道</a>
+                    <span>|</span>
+                    <a href="#none">咨询客服</a>
+                    <span>|</span>
+                    <a href="#none">用户评价</a>
+                </div>
+            </div>
+        </div>
+        <!-- 提示登陆 -->
+        <div id="tipsLogin">
+            为方便您购买，请提前登录
+            <a href="#none">立即登录</a>
+            <a href="#none" class="layui-icon layui-icon-close"></a>
+        </div>
+        <!-- 商品购买时类型选择 -->
+        <div id="buySelect">
+            <div class="layui-container clearF">
+                <!-- 左侧商品展示 -->
+                <!-- 带轮播效果 -->
+                <!-- 展示图片暂时不考虑? -->
+                <div class="left" id="exhibition">
+                    <div class="exhBanner">
+                        <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1639469340.48245139.png" alt="" class="bannerItem show">
+                        <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950313.75237391.png" alt="" class="bannerItem">
+                        <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950306.77395317.png" alt="" class="bannerItem">
+                        <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950311.52976915.png" alt="" class="bannerItem">
+                        <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950313.75237391.png" alt="" class="bannerItem">
+                        <div class="exhBtn">
+                            <a href="#none" class="layui-icon layui-icon-left"></a>
+                            <a href="#none" class="layui-icon layui-icon-right"></a>
+                        </div>
+                        <div class="exhCircle">
+                            <a href="#none" class="active"></a>
+                            <a href="#none"></a>
+                            <a href="#none"></a>
+                            <a href="#none"></a>
+                            <a href="#none"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 右侧单个商品的选购版本，最后提交汇总 -->
+                <div class="right" id="choose">
+                    <!-- js渲染 -->
+                    <h2 class="name">
+                        Xiaomi 11 青春活力版
+                    </h2>
+                    <p>
+                        <span>「火爆抢购中；购机赠AirDots 2真无线蓝牙耳机；+9.9元得小米定制马克杯」</span> 轻薄5G | 骁龙778G | 6400万主摄像头 | 柔性AMOLED 直屏 | 超线性立体声
+                    </p>
+                    <p>小米自营</p>
+                    <!-- js渲染 -->
+                    <p class="price">
+                        1999 元
+                    </p>
+                    <!-- 分割线 -->
+                    <div class="hr"></div>
+                    <!-- 赠品 -->
+                    <div class="give">
+                        <span>赠品</span>满1件赠价值79元Redmi AirDots 2真无线蓝牙耳机 白色 赠完即止
+                    </div>
+                    <!-- 分割线 -->
+                    <div class="hr"></div>
+                    <!-- 地址定位 -->
+                    <div class="location">
+                        <p>
+                            <span class="layui-icon layui-icon-location"></span> 北京 北京市 海淀区 清河街道
+                            <a href="#none">修改</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- 侧边栏 -->
     <div id="aside">
@@ -263,11 +347,14 @@
         </div>
     </div>
 </body>
+<!-- 引入Ajax -->
+<script src="./js/axiosP.js"></script>
 <!-- 引入动画js -->
 <script src="./js/animation.js"></script>
 <!-- 引入公共JS -->
 <script src="./js/common.js"></script>
 <!-- 引入主页js -->
 <!-- <script src="./js/index.js"></script> -->
+<script src="./js/goodsDetails.js"></script>
 
 </html>

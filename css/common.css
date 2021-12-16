@@ -240,7 +240,7 @@
     border: 1px solid #ff6700;
     border-top: 0;
     background: #fff;
-    z-index: 50;
+    z-index: 100;
     display: none;
     outline: none;
 }

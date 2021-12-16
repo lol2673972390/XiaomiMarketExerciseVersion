@@ -15,11 +15,12 @@ class goodsList {
     H3clickShow() {
         console.log(this.tabH3, this.ul)
         this.tabH3.onclick = () => {
+            // 如果当前显示则关闭列表，并取消标题的选中样式
             if (this.ul.classList.contains('show')) {
-                this.ul.classList.remove('show')
+                this.ul.classList.remove('show');
                 this.tabH3.className = ''
-                    // this.span.style.tran
             } else {
+                // 否则打开列表，标题添加选中样式
                 this.ul.classList.add('show')
                 this.tabH3.className = 'show'
             }
