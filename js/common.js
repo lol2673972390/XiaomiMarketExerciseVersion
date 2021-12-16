@@ -68,26 +68,20 @@ class searchNav {
         this.blurFn();
     }
     focusFn() {
-        this.input.onfocus = () => {
-            // 添加css类
-            this.div.classList.add('show');
+        this.input.oninput = () => {
+            if (this.input.value == '') {
+                this.div.classList.remove('show');
+            } else {
+                this.div.classList.add('show');
+            }
         }
     }
     blurFn() {
-        this.div.onmousemove = () => {
-            setTimeout(() => {
-                this.input.focus();
-            }, 0)
-        }
-        this.div.onclick = () => {
-            // 
-            this.div.classList.remove('show');
-            // 
-            // this.input.blur()
-        }
-        document.onclick = (e) => {
-            this.input.onblur = () => {
-                this.div.classList.remove('show')
+        this.input.onblur = () => {
+            if (this.input.value == '') {
+                this.div.classList.remove('show');
+            } else {
+                this.input.focus()
             }
         }
     }

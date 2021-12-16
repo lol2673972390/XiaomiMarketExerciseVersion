@@ -23,7 +23,7 @@
     <!-- 头部 -->
     <div id="header">
         <div class="layui-container">
-            <div class="layui-col-md9 navBox">
+            <div class="left navBox">
                 <a href="./index.html">小米商城</a>
                 <span class="sep">|</span>
                 <a href="#none">MIUI</a>
@@ -50,7 +50,7 @@
                 <span class="sep">|</span>
                 <a href="#none">Select Location</a>
             </div>
-            <div class="layui-col-md3">
+            <div class="right">
                 <a href="#none">登陆</a>
                 <span class="sep">|</span>
                 <a href="#none">注册</a>
@@ -72,12 +72,13 @@
             <div class="layui-container">
                 <!-- 一级导航 -->
                 <div id="oneNav">
-                    <div class="layui-row">
-                        <div class="layui-col-md2">
+                    <div class="clearF">
+                        <div class="leftLogo">
                             <a href="index.html" class="iconfont icon-xiaomishangcheng"></a>
                         </div>
-                        <div class="layui-col-md10">
+                        <div class="">
                             <ul class="clearF">
+                                <li><a href="#none" class="navMenu xmPhone hide">Xiaomi手机</a></li>
                                 <li><a href="#none" class="navMenu xmPhone">Xiaomi手机</a></li>
                                 <li><a href="#none" class="navMenu rmPhone">Redmi红米</a></li>
                                 <li><a href="#none" class="navMenu watchTv">电视</a></li>
@@ -91,15 +92,15 @@
                             <!-- 搜索框 -->
                             <form action="" id="oneNavSearch">
                                 <input type="text" name="goods" placeholder=""><button class="layui-icon layui-icon-search"></button>
-                                <div tabindex="-1" class="searchSelect">
+                                <div class="searchSelect">
                                     <a href="./allgoods.html">全部商品</a>
-                                    <a href="#none">空调</a>
-                                    <a href="#none">电视</a>
-                                    <a href="#none">手机</a>
-                                    <a href="#none">耳机</a>
-                                    <a href="#none">洗衣机</a>
-                                    <a href="#none">冰箱</a>
-                                    <a href="#none">小米平板5</a>
+                                    <a href="./allgoods.html">空调</a>
+                                    <a href="./allgoods.html">电视</a>
+                                    <a href="./allgoods.html">手机</a>
+                                    <a href="./allgoods.html">耳机</a>
+                                    <a href="./allgoods.html">洗衣机</a>
+                                    <a href="./allgoods.html">冰箱</a>
+                                    <a href="./allgoods.html">小米平板5</a>
                                 </div>
                             </form>
                         </div>
@@ -247,8 +248,8 @@
         <!-- 新品展示 -->
         <div id="newGoods">
             <div class="layui-container">
-                <div class="layui-row">
-                    <div class="layui-col-md3">
+                <div class="clearF">
+                    <div class="left">
                         <ul class="clearF">
                             <li>
                                 <a href="#none" class="iconfont icon-baozhang"><br> 保障服务</a>
@@ -271,17 +272,17 @@
                         </ul>
                     </div>
                     <!-- 三个新品链接是动态生成的 -->
-                    <div class="layui-col-md3">
+                    <div class="right">
                         <a href="#none">
                             <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d8a6d6d37904e22c72130e3e4ec79b41.jpg?w=632&h=340" alt="">
                         </a>
                     </div>
-                    <div class="layui-col-md3">
+                    <div class="right">
                         <a href="#none">
                             <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/fce474f4024b96545959ccd45b7e50f3.jpg?w=632&h=340" alt="">
                         </a>
                     </div>
-                    <div class="layui-col-md3">
+                    <div class="right">
                         <a href="#none">
                             <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/35b3f906861db9d6472206e6d68318d9.jpeg?w=632&h=340" alt="">
                         </a>
@@ -308,15 +309,15 @@
                     </h2>
                     <!-- 内容 -->
                     <!-- 因为第一个是一个大型展示页所以暂时不考虑实现 -->
-                    <div class="layui-row">
-                        <div class="layui-col-md2 firstFixed">
+                    <div class="clearF">
+                        <div class="left firstFixed">
                             <div>
                                 <a href="#none">
                                     <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c583f2edc613f1be20fa415910b13ce3.jpg?thumb=1&w=293&h=768&f=webp&q=90" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="layui-col-md10">
+                        <div class="right">
                             <ul class="clearF contentList show">
                                 <!-- 批量生成仅做样式参考 -->
                                 <li>
@@ -375,15 +376,15 @@
                     </h2>
                     <!-- 内容 -->
                     <!-- 因为第一个是一个大型展示页所以暂时不考虑实现 -->
-                    <div class="layui-row">
-                        <div class="layui-col-md2 firstFixed">
+                    <div class="clearF">
+                        <div class="left firstFixed">
                             <div>
                                 <a href="#none">
                                     <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9895c56a7b792fb9053e3085fc261072.jpg?thumb=1&w=293&h=768&f=webp&q=90" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="layui-col-md10">
+                        <div class="right">
                             <ul class="clearF contentList show">
                                 <!-- 批量生成仅做样式参考 -->
                                 <li>
@@ -501,8 +502,8 @@
                     </h2>
                     <!-- 内容 -->
                     <!-- 因为第一个是一个大型展示页所以暂时不考虑实现 -->
-                    <div class="layui-row">
-                        <div class="layui-col-md2 firstFixed">
+                    <div class="clearF">
+                        <div class="left firstFixed">
                             <div>
                                 <a href="#none">
                                     <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3d47879ec183e25a36e67e0219636e60.jpg?thumb=1&w=293&h=375&f=webp&q=90" alt="">
@@ -514,7 +515,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="layui-col-md10">
+                        <div class="right">
                             <ul class="clearF contentList show">
                                 <!-- 批量生成仅做样式参考 -->
                                 <li>
@@ -624,7 +625,7 @@
                 <div id="liftDevice">
                     <!-- 标题 -->
                     <h2 class="listTitle">
-                        家电
+                        生活电器
                         <div class="tabSelectQia right">
                             <span class="tab-active">扫地机</span>
                             <span>空净</span>
@@ -634,8 +635,8 @@
                     </h2>
                     <!-- 内容 -->
                     <!-- 因为第一个是一个大型展示页所以暂时不考虑实现 -->
-                    <div class="layui-row">
-                        <div class="layui-col-md2 firstFixed">
+                    <div class="clearF">
+                        <div class="left firstFixed">
                             <div>
                                 <a href="#none">
                                     <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3d47879ec183e25a36e67e0219636e60.jpg?thumb=1&w=293&h=375&f=webp&q=90" alt="">
@@ -647,7 +648,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="layui-col-md10">
+                        <div class="right">
                             <ul class="clearF contentList show">
                                 <!-- 批量生成仅做样式参考 -->
                                 <li>
