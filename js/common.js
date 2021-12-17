@@ -146,14 +146,14 @@ class windowScrollAside {
         this.watchScroll();
     }
     watchScroll() {
-        window.onscroll = () => {
+        window.addEventListener('scroll', () => {
             // 如果滚动距离大于当前视窗高度，则显示回到顶部
             if (window.scrollY > window.innerHeight) {
                 this.box.classList.remove('hide')
             } else {
                 this.box.classList.add('hide')
             }
-        }
+        })
     }
 }
 new windowScrollAside('#aside>a:last-child')

@@ -15,7 +15,7 @@
     <!-- 引入公共样式 -->
     <link rel="stylesheet" href="./css/common.css">
     <!-- 引入主页样式 -->
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/cart.css">
 
 </head>
 
@@ -51,12 +51,20 @@
                 <a href="#none">Select Location</a>
             </div>
             <div class="right">
-                <a href="#none">登陆</a>
-                <span class="sep">|</span>
-                <a href="#none">注册</a>
+                <div class="testingLogin">
+                    <a href="./loginAndRegis.html?method=login">登陆</a>
+                    <span class="sep">|</span>
+                    <a href="./loginAndRegis.html?method=regis">注册</a>
+                </div>
+                <div class="testingLogin hide">
+                    <a href="#none">欢迎
+                        <span>XXXXX</span>
+                    </a>
+                    <a href="#none">注销</a>
+                </div>
                 <span class="sep">|</span>
                 <a href="#none">消息通知</a>
-                <a href="#none" class="navCartMini">
+                <a href="./cart.html" class="navCartMini">
                     <span class="layui-icon layui-icon-cart"></span> 购物车(<span class="miniCartNum">0</span>)
                     <div class="miniCart-menu">
                         <span></span>
@@ -158,6 +166,82 @@
                 </div>
             </div>
         </div>
+        <!-- 购物车 -->
+        <div id="title">
+            <div class="layui-container">
+                <i>我的购物车</i> 温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算
+            </div>
+        </div>
+        <!-- 购物车列表 -->
+        <div id="cartList">
+            <div class="layui-container">
+                <!-- 列表 -->
+                <div id="listContent">
+                    <!-- 头部显示栏 -->
+                    <div id="top" class="listStyle clearF">
+                        <div class="col col-check">
+                            <span class="layui-icon layui-icon-ok checkBox "></span> 全选
+                        </div>
+                        <div class="col col-images">
+                            s
+                        </div>
+                        <div class="col col-name">
+                            商品名称
+                        </div>
+                        <div class="col col-price">
+                            单价
+                        </div>
+                        <div class="col col-num">
+                            数量
+                        </div>
+                        <div class="col col-total">
+                            小计
+                        </div>
+                        <div class="col col-action">
+                            操作
+                        </div>
+                    </div>
+                    <div class="listStyleBox clearF">
+                        <div class="col col-check">
+                            <span class="layui-icon layui-icon-ok checkBox "></span>
+                        </div>
+                        <div class="col col-images">
+                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1572579555.84564766.jpg?thumb=1&w=100&h=100" alt="">
+                        </div>
+                        <div class="col col-name">
+                            <h3>
+                                小米移动电源3 10000mAh快充版 银色
+                            </h3>
+                        </div>
+                        <div class="col col-price">
+                            <span>12</span>元
+                        </div>
+                        <div class="col col-num clearF">
+                            <a href="#none" class="reduce">-</a><input type="text" name="goodsNum" id="" value="1"><a href="#none" class="add">+</a>
+                        </div>
+                        <div class="col col-total">
+                            <span>69</span>元
+                        </div>
+                        <div class="col col-action">
+                            <a href="#none" class="layui-icon layui-icon-close"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 总计 -->
+                <div id="cartTotal" class="clearF">
+                    <div class="left">
+                        <a href="./index.html">继续购物</a> 共
+                        <span class="cart-num-total">3</span> 件商品，已选择
+                        <span class="cart-selected-total">0</span> 件
+                    </div>
+                    <div class="right clearF">
+                        合计：<span class="cart-price-total">0</span>元
+                        <a href="#none" class="buyBtn right btnDisabled">去结算</a>
+                        <!-- btnDisabled -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- 侧边栏 -->
     <div id="aside">
@@ -177,7 +261,7 @@
             <div class="layui-icon layui-icon-chat"></div>
             <span>人工客服</span>
         </a>
-        <a href="#none">
+        <a href="./cart.html">
             <div class="layui-icon layui-icon-cart-simple"></div>
             <span>购物车</span>
             <span class="hide">2</span>
@@ -263,11 +347,13 @@
         </div>
     </div>
 </body>
+<!-- 引入Ajax -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <!-- 引入动画js -->
 <script src="./js/animation.js"></script>
 <!-- 引入公共JS -->
 <script src="./js/common.js"></script>
 <!-- 引入主页js -->
-<!-- <script src="./js/index.js"></script> -->
+<script src="./js/cart.js"></script>
 
 </html>
