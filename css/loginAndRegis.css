@@ -40,7 +40,7 @@ body {
     line-height: 40px;
 }
 
-#box .title>.left>span {
+#box .title>.left span {
     font-size: 40px;
     color: #ff6700;
     vertical-align: middle;
@@ -68,6 +68,7 @@ body {
     margin-right: 10px;
     padding-bottom: 4px;
     border-bottom: 4px transparent solid;
+    transition: all .5s;
 }
 
 
@@ -144,9 +145,16 @@ body {
 
 /* input获取焦点时 */
 
-.interface input:focus+label {
+.interface .labelFocus {
     top: 20px;
     font-size: 12px;
+}
+
+
+/* 判断内容错误时 */
+
+.interface input.error+label {
+    color: #F25B5A;
 }
 
 
@@ -156,6 +164,13 @@ body {
     padding: 10px;
     color: #F25B5A;
     display: none;
+}
+
+
+/* 判断内容错误时 */
+
+.interface input.error~p {
+    display: block;
 }
 
 
@@ -193,7 +208,7 @@ body {
 
 /* 复选框选中 */
 
-.interface .agreement i.agree {
+.interface .agreement.agree i {
     border-color: #ff6700;
     background: #ff6700;
 }
@@ -211,6 +226,7 @@ body {
     color: #fff;
     font-size: 16px;
     transition: all .5s;
+    border-radius: 5px;
 }
 
 .interface .btn:hover {
@@ -220,16 +236,26 @@ body {
 
 /* 被选中的盒子 */
 
-.login,
-.regis {
-    height: 0;
-    overflow: hidden;
+.loginAndRegis .main {
+    position: relative;
+    width: 374px;
+    /* height: 700px; */
+    /* overflow: hidden; */
 }
 
+.login,
+.regis {
+    /* position: absolute; */
+    float: left;
+    display: none;
+}
 
-/* 测试 */
+.login {
+    /* left: -374px; */
+    margin-left: -380px;
+}
 
-
-/* 盒子显示 */
-
-.boxShow {}
+.regis {
+    /* left: 374px; */
+    margin-left: 380px;
+}

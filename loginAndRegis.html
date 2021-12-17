@@ -24,7 +24,7 @@
         <!-- 标题 -->
         <div class="clearF title">
             <div class="left">
-                <span class="iconfont icon-xiaomishangcheng"></span> 小米账号
+                <a href="./index.html"><span class="iconfont icon-xiaomishangcheng"></span></a> 小米账号
             </div>
             <div class="right">
                 <a href="#none">用户协议</a>
@@ -37,53 +37,58 @@
             <!-- 切换显示界面的按钮 -->
             <div class="tabSelect poRelative">
                 <a href="#none">登陆</a>
-                <a href="#none" class="active">注册</a>
+                <a href="#none">注册</a>
             </div>
-            <!-- 登陆界面 -->
-            <div class="login interface ">
-                <div class="user poRelative">
-                    <input type="text" name="username" value="" class="error">
-                    <label class="">邮箱/手机号码/小米ID</label>
-                    <p>请输入账号</p>
+            <div class="main clearF">
+                <!-- 登陆界面 -->
+                <div class="login interface">
+                    <div class="user poRelative">
+                        <input type="text" name="loginName" value="" class="">
+                        <label class="">手机号码</label>
+                        <p>请输入账号</p>
+                    </div>
+                    <div class="pwd poRelative">
+                        <input type="password" name="loginPwd" value="">
+                        <label class="">密码</label>
+                        <p>请输入密码</p>
+                    </div>
+                    <div class="poRelative">
+                        <span class="agreement"><i class="layui-icon layui-icon-ok"></i>已阅读并同意小米账号 <a href="#none">用户协议</a> 和 <a href="#none">隐私政策</a></span>
+                    </div>
+                    <div class="poRelative">
+                        <a href="#none" class="btn loginBtn">登录</a>
+                    </div>
                 </div>
-                <div class="pwd poRelative">
-                    <input type="password" name="password" value="">
-                    <label class="">密码</label>
-                    <p>请输入密码</p>
-                </div>
-                <div class="poRelative">
-                    <span class="agreement"><i class="layui-icon layui-icon-ok"></i>已阅读并同意小米账号 <a href="#none">用户协议</a> 和 <a href="#none">隐私政策</a></span>
-                </div>
-                <div class="poRelative">
-                    <a href="#none" class="btn loginBtn">登录</a>
-                </div>
-            </div>
-            <!-- 注册界面 -->
-            <div class="regis interface show">
-                <div class="name poRelative">
-                    <input type="text" name="username" value="" class="error">
-                    <label class="">4-8位中文或英文个性账户</label>
-                    <p>请输入账户名</p>
-                </div>
-                <div class="user poRelative">
-                    <input type="text" name="username" value="" class="error">
-                    <label class="">邮箱/手机号码</label>
-                    <p>请输入账号</p>
-                </div>
-                <div class="pwd poRelative">
-                    <input type="password" name="password" value="">
-                    <label class="">密码</label>
-                    <p>请输入密码</p>
-                </div>
-                <div class="poRelative">
-                    <span class="agreement"><i class="layui-icon layui-icon-ok"></i>已阅读并同意小米账号 <a href="#none">用户协议</a> 和 <a href="#none">隐私政策</a></span>
-                </div>
-                <div class="poRelative">
-                    <a href="#none" class="btn regisBtn">注册</a>
+                <!-- 注册界面 -->
+                <div class="regis interface">
+                    <!-- 由于后台把两个按钮写在一起，所以统一第一个是手机号，第二个是密码 -->
+                    <div class="user poRelative">
+                        <input type="text" name="phone" value="" class="">
+                        <label class="">手机号码</label>
+                        <p>请输入账号</p>
+                    </div>
+                    <div class="pwd poRelative">
+                        <input type="password" name="regisPwd" value="">
+                        <label class="">密码</label>
+                        <p>请输入密码</p>
+                    </div>
+                    <div class="name poRelative">
+                        <input type="text" name="regisName" value="" class="">
+                        <label class="">4-8位中文或英文用户名</label>
+                        <p>请输入账户名</p>
+                    </div>
+                    <div class="poRelative">
+                        <span class="agreement"><i class="layui-icon layui-icon-ok"></i>已阅读并同意小米账号 <a href="#none">用户协议</a> 和 <a href="#none">隐私政策</a></span>
+                    </div>
+                    <div class="poRelative">
+                        <a href="#none" class="btn regisBtn" style="opacity: .7;">注册</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- 引入动画 -->
+    <script src="./js/animation.js"></script>
     <!-- 引入axios -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <!-- 引入layui -->
