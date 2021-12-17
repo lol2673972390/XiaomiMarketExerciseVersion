@@ -1,0 +1,235 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 展示图 */
+
+#bg {
+    width: 350px;
+    height: 100%;
+    background: url("https://cdn.web-global.fds.api.mi-img.com/mcfe--mi-account/static/static/media/banner.4994397e.jpg") no-repeat 0 0;
+    background-size: 100% auto;
+}
+
+
+/* 登陆盒子 */
+
+#box {
+    overflow: hidden;
+    text-align: center;
+}
+
+
+/* 头部标题 */
+
+#box .title {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+/* 左侧logo+文字 */
+
+#box .title .left {
+    font-size: 26px;
+    font-family: '黑体';
+    line-height: 40px;
+}
+
+#box .title>.left>span {
+    font-size: 40px;
+    color: #ff6700;
+    vertical-align: middle;
+}
+
+
+/* 右侧协议等链接 */
+
+#box .title>.right>a {
+    margin: 0 7px;
+    line-height: 40px;
+    color: #838383;
+}
+
+#box .title>.right>a:hover {
+    color: #ff7329;
+}
+
+
+/* 切换按钮 */
+
+.loginAndRegis .tabSelect a {
+    color: #BBB;
+    font-size: 22px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+    border-bottom: 4px transparent solid;
+}
+
+
+/* 切换按钮被选中时的样式 */
+
+.loginAndRegis .tabSelect a.active {
+    color: #333;
+    border-color: #ff5c00;
+}
+
+
+/* 登陆注册的盒子 */
+
+.loginAndRegis {
+    display: inline-block;
+    padding: 40px 45px;
+    margin: 0 auto 15px;
+    text-align: left;
+    box-shadow: 0 20px 50px 0 hsl(0deg 0% 64% / 10%);
+    overflow: hidden;
+}
+
+.poRelative {
+    position: relative;
+    padding: 10px;
+}
+
+
+/* 输入框 */
+
+.interface input {
+    box-sizing: border-box;
+    padding: 30px 20px 10px;
+    width: 354px;
+    border-radius: 5px;
+    background: #F9F9F9;
+    border-color: transparent;
+    transition: all .5s;
+    outline: none;
+}
+
+
+/* 获取焦点样式 */
+
+.interface input:focus {
+    border: 1px #ff6700 solid;
+    box-shadow: 2px 2px 10px -1px #cecdcd;
+    background: #fff;
+}
+
+
+/* 错误样式 */
+
+.interface input.error {
+    background: #FCF2F3;
+}
+
+
+/* 提示文字定位 */
+
+.interface label {
+    font-size: 17px;
+    color: rgba(0, 0, 0, .4);
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    z-index: 0;
+    /* 这个属性可以设置元素是否对指针事件做出反应 */
+    /* 相当于层次上的透明，鼠标直接就能对input进行操作 */
+    pointer-events: none;
+    transition: all .5s;
+}
+
+
+/* input获取焦点时 */
+
+.interface input:focus+label {
+    top: 20px;
+    font-size: 12px;
+}
+
+
+/* 如果错误时提示字体的样式 */
+
+.interface input~p {
+    padding: 10px;
+    color: #F25B5A;
+    display: none;
+}
+
+
+/* 同意协议字体样式 */
+
+.interface .agreement {
+    color: #AAA;
+    cursor: pointer;
+}
+
+
+/* 超链接 */
+
+.interface .agreement a {
+    color: #333;
+}
+
+
+/* 复选框 */
+
+.interface .agreement i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px #e0e0e0 solid;
+    margin-right: 10px;
+    color: #fff;
+    transition: all .5s;
+    border-radius: 5px;
+}
+
+
+/* 复选框选中 */
+
+.interface .agreement i.agree {
+    border-color: #ff6700;
+    background: #ff6700;
+}
+
+
+/* 登陆和注册的按钮 */
+
+.interface .btn {
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #ff5c00;
+    color: #fff;
+    font-size: 16px;
+    transition: all .5s;
+}
+
+.interface .btn:hover {
+    background: #ff7e29;
+}
+
+
+/* 被选中的盒子 */
+
+.login,
+.regis {
+    height: 0;
+    overflow: hidden;
+}
+
+
+/* 测试 */
+
+
+/* 盒子显示 */
+
+.boxShow {}

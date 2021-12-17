@@ -27,14 +27,14 @@ class scrollCeiling {
         this.scrollCeilingFn();
     }
     scrollCeilingFn() {
-        window.onscroll = () => {
+        window.addEventListener('scroll', () => {
             // 当彻底滚动过这个标题栏的时候再添加定位
             if (window.scrollY > (this.div.offsetTop + this.div.offsetHeight)) {
                 this.div.classList.add('fixedPosition');
             } else {
                 this.div.classList.remove('fixedPosition');
             }
-        }
+        })
     }
 }
 new scrollCeiling('#title');
@@ -171,32 +171,41 @@ class exhBanner {
 new exhBanner('.exhBanner>.bannerItem', '.exhBanner>.exhBtn>a:first-child', '.exhBanner>.exhBtn>a:last-child', '.exhBanner>.exhCircle>a', '.exhBanner')
 
 
-Ajax.request({
-    method: 'get',
-    url: 'localhost:3000/users/1',
-    dataType: ''
-}).then(res => {
-    console.log(res)
-})
+// 选中效果切换 && 修改当前总价
 
-/*
-let axios = require('axios')
-axios({
-    method: 'get',
-    url: 'localhost:3000/users/1'
-}).then(res => {
-    console.log(res)
-}) */
-
-var express = require("express");
-var app = express();
-
-//设置跨域访问
-app.all('*', function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "X-Requested-With");
-    res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
-    res.header("X-Powered-By", ' 3.2.1')
-    res.header("Content-Type", "application/json;charset=utf-8");
-    next();
-});
+class activeTab {
+    // @params {total,a/li,state} 节点对象
+    // a/li：选项卡组
+    // state 意外保险再点击时可以取消(2),默认不取消(1)
+    constructor(a, state = 1 || 2) {
+        this.aS = document.querySelectorAll(a);
+        this.state = state
+        this.activeTabFn()
+    }
+    activeTabFn() {
+        // 排他方法
+        for (let i = 0; i < this.aS.length; i++) {
+            // 使用2级监听，还要绑定别的事件
+            this.aS[i].addEventListener('click', () => {
+                if (this.aS[i].classList.contains('active')) {
+                    // 如果state为1则不执行这一条命令
+                    if (this.state == 1) return
+                    this.aS[i].classList.remove('active')
+                } else {
+                    for (let j = 0; j < this.aS.length; j++) {
+                        this.aS[j].classList.remove('active');
+                    }
+                    this.aS[i].classList.add('active');
+                }
+            })
+        }
+    }
+}
+// 版本
+new activeTab('#choose>.version>a');
+// 颜色
+new activeTab('#choose>.theme>a');
+// 套餐
+new activeTab('#choose>.package>a');
+// 意外保护
+new activeTab('#choose>.accident>ul>li', 2)

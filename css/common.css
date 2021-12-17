@@ -46,6 +46,7 @@
 
 #header a {
     color: #b0b0b0;
+    display: inline-block;
 }
 
 #header a:not(.navCartMini):hover {
@@ -66,6 +67,30 @@
 #header>div>div>div:nth-child(2) {
     text-align: right;
     position: relative;
+}
+
+
+/* 检测是否登陆更换显示 */
+
+#header .testingLogin {
+    display: inline-block;
+}
+
+
+/* 用户名样式 */
+
+#header .testingLogin>a>span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    float: right;
+}
+
+#header .testingLogin.hide {
+    display: none;
 }
 
 
@@ -240,7 +265,7 @@
     border: 1px solid #ff6700;
     border-top: 0;
     background: #fff;
-    z-index: 100;
+    z-index: 120;
     display: none;
     outline: none;
 }
@@ -273,7 +298,7 @@
     background: #fff;
     top: 100px;
     left: 0;
-    z-index: 49;
+    z-index: 110;
     overflow: hidden;
     border-top: 1px solid #e0e0e0;
     box-shadow: 0 5px 5px -1px #b0b0b0;
@@ -335,7 +360,7 @@
     position: fixed;
     right: 0;
     bottom: 70px;
-    z-index: 60;
+    z-index: 120;
 }
 
 #aside>a {

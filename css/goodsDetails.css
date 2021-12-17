@@ -248,11 +248,15 @@
 /* 地址定位 */
 
 #choose>.location {
-    margin-top: 24px;
+    margin: 24px 0;
     padding: 30px 50px;
     position: relative;
     background: #fafafa;
     border: 1px solid #e0e0e0;
+}
+
+#choose>.location>span {
+    color: #ff6700;
 }
 
 
@@ -261,4 +265,286 @@
 #choose>.location>p>a {
     margin-left: 15px;
     color: #ff6700;
+}
+
+
+/* 选择内容的标题加粗 */
+
+#choose>div>h3 {
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+
+/* 选择版本 */
+
+#choose>.edition {
+    margin: 12px 0 24px;
+}
+
+#choose>.edition>.editionItem {
+    display: block;
+    float: left;
+    width: 250px;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+    color: #757575;
+    transition: all .5s;
+    margin-top: 12px;
+}
+
+
+/* 悬浮样式&选中样式 */
+
+#choose>.edition>.editionItem:hover {
+    border: 1px #ff6700 solid;
+    color: #ff6700;
+}
+
+#choose>.edition>.editionItem.active {
+    border: 1px #ff6700 solid;
+    color: #ff6700;
+}
+
+
+/* 每行第二个左外边距50px */
+
+#choose>.edition>.editionItem:nth-of-type(2n) {
+    margin-left: 50px;
+}
+
+
+/* 保险 */
+
+#choose>.edition>ul>li {
+    border: 1px solid #e0e0e0;
+    padding: 30px 0;
+    background: #fff;
+    margin-top: -1px;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    transition: all .5s;
+    z-index: 0;
+}
+
+
+/* 选中框 */
+
+#choose>.edition>ul>li .checkSpan {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #b0b0b0;
+    line-height: 14px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    font-size: 12px;
+    transition: all .5s;
+}
+
+#choose>.edition>ul>li>span:nth-of-type(1) {
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+
+/* 安全盾牌 */
+
+#choose>.edition>ul>li>.vercode {
+    font-size: 50px;
+    margin: 0 10px 0 15px;
+    color: skyblue;
+}
+
+
+/* 主题 */
+
+#choose>.edition>ul>li h3 {
+    font-weight: 700;
+    transition: all .5s;
+}
+
+#choose>.edition>ul>li h3>b {
+    background: #ff6700;
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+
+/* 描述 */
+
+#choose>.edition>ul>li p {
+    padding: 8px 0;
+    color: #b0b0b0;
+}
+
+
+/* 协议链接 */
+
+#choose>.edition>ul>li a {
+    color: #ff6700;
+}
+
+
+/* 右浮动 */
+
+#choose>.edition>ul>li>div {
+    flex: 1;
+}
+
+#choose>.edition>ul>li .accPrice {
+    margin-right: 20px;
+}
+
+
+/* li被选中时的样式 */
+
+#choose>.edition>ul>li.active {
+    border-color: #ff6700;
+    z-index: 10;
+}
+
+#choose>.edition>ul>li.active .checkSpan {
+    background: #ff6700;
+    border-color: #ff6700;
+}
+
+#choose>.edition>ul>li.active h3 {
+    color: #ff6700;
+}
+
+
+/* 商品页面的总计 */
+
+#choose>.total {
+    margin: 30px 0;
+    background: #f9f9fa;
+    padding: 30px;
+}
+
+
+/* 手机相关详细信息 */
+
+#choose>.total>.phoneOf {
+    padding: 5px 0;
+    height: 15px;
+    line-height: 15px;
+}
+
+#choose>.total>.phoneOf>li {
+    float: left;
+    margin: 0 5px;
+}
+
+
+/* 价格总计 */
+
+#choose>.total>.totalPrice {
+    padding: 5px 0;
+    color: #ff6700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+
+/* 加入购物车按钮 */
+
+#choose>.addCart>a:first-child {
+    display: inline-block;
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background: #ff6700;
+    transition: all .5s;
+    vertical-align: middle;
+}
+
+
+/* 悬停样式 */
+
+#choose>.addCart>a:first-child:hover {
+    background-color: #f25807;
+}
+
+
+/* 加入喜欢  按钮 */
+
+#choose>.addCart>a:last-child {
+    display: inline-block;
+    width: 140px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background: #b0b0b0;
+    vertical-align: middle;
+    transition: all .5s;
+}
+
+
+/* 悬停样式 */
+
+#choose>.addCart>a:last-child:hover {
+    background: #757575;
+}
+
+
+/* 爱心样式 */
+
+#choose>.addCart>a:last-child::before {
+    font-weight: 900;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+
+/* 版权相关 */
+
+#choose>.copyright {
+    padding: 30px 0;
+}
+
+#choose>.copyright>a {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    cursor: default;
+    white-space: nowrap;
+    color: #b0b0b0;
+    font-size: 16px;
+}
+
+#choose>.copyright>a::before {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+
+/* 价格说明 */
+
+#explain {
+    padding-bottom: 50px;
+}
+
+#explain h3 {
+    padding: 1em 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#explain img {
+    width: 100%;
 }
