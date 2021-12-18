@@ -46,11 +46,15 @@
                         <input type="text" name="loginName" value="" class="">
                         <label class="">手机号码</label>
                         <p>请输入账号</p>
+                        <p>请输入正确的手机号码！！</p>
+                        <p>不存在该账号！！</p>
                     </div>
                     <div class="pwd poRelative">
                         <input type="password" name="loginPwd" value="">
-                        <label class="">密码</label>
+                        <label class="">6-18位密码</label>
                         <p>请输入密码</p>
+                        <p>密码错误！！</p>
+                        <p>请检查密码长度！！</p>
                     </div>
                     <div class="poRelative">
                         <span class="agreement"><i class="layui-icon layui-icon-ok"></i>已阅读并同意小米账号 <a href="#none">用户协议</a> 和 <a href="#none">隐私政策</a></span>
@@ -64,18 +68,24 @@
                     <!-- 由于后台把两个按钮写在一起，所以统一第一个是手机号，第二个是密码 -->
                     <div class="user poRelative">
                         <input type="text" name="phone" value="" class="">
-                        <label class="">手机号码</label>
-                        <p>请输入账号</p>
+                        <label class="">手机号码(包含+86、0086、+)</label>
+                        <p>请输入手机号码</p>
+                        <p>请输入正确的手机号码！！</p>
+                        <p>该手机号已注册！！</p>
                     </div>
                     <div class="pwd poRelative">
                         <input type="password" name="regisPwd" value="">
-                        <label class="">密码</label>
+                        <label class="">6-18位密码(包含字母、数字、\ _ . )</label>
                         <p>请输入密码</p>
+                        <p>请输入正确的密码格式！！（不能有空格和其他字符）</p>
+                        <p>请检查密码长度！！</p>
                     </div>
                     <div class="name poRelative">
                         <input type="text" name="regisName" value="" class="">
-                        <label class="">4-8位中文或英文用户名</label>
+                        <label class="">最长8位用户名(包含中文、英文、数字)</label>
                         <p>请输入账户名</p>
+                        <p>用户名超出长度</p>
+                        <p>用户名格式错误！！(有其他字符)</p>
                     </div>
                     <div class="poRelative">
                         <span class="agreement"><i class="layui-icon layui-icon-ok"></i>已阅读并同意小米账号 <a href="#none">用户协议</a> 和 <a href="#none">隐私政策</a></span>

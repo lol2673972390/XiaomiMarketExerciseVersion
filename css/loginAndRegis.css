@@ -126,6 +126,14 @@ body {
     background: #FCF2F3;
 }
 
+.interface input.error2 {
+    background: #FCF2F3;
+}
+
+.interface input.error3 {
+    background: #FCF2F3;
+}
+
 
 /* 提示文字定位 */
 
@@ -157,6 +165,14 @@ body {
     color: #F25B5A;
 }
 
+.interface input.error2+label {
+    color: #F25B5A;
+}
+
+.interface input.error3+label {
+    color: #F25B5A;
+}
+
 
 /* 如果错误时提示字体的样式 */
 
@@ -167,9 +183,23 @@ body {
 }
 
 
-/* 判断内容错误时 */
+/* 判断内容错误1时 */
 
-.interface input.error~p {
+.interface input.error~p:nth-of-type(1) {
+    display: block;
+}
+
+
+/* 判断内容错误2时 */
+
+.interface input.error2~p:nth-of-type(2) {
+    display: block;
+}
+
+
+/* 判断内容错误3时 */
+
+.interface input.error3~p:nth-of-type(3) {
     display: block;
 }
 
