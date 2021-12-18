@@ -80,13 +80,14 @@
 /* 用户名样式 */
 
 #header .testingLogin>a>span {
-    display: inline-block;
+    /* display: inline-block; */
     width: 40px;
     height: 40px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     float: right;
+    text-align: center;
 }
 
 #header .testingLogin.hide {

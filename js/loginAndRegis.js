@@ -343,8 +343,26 @@ class loginAndRegis {
             // 有该手机号
             // 判断密码是否正确
             if (res[order].password == pwd) {
-                layer.msg(`登陆成功！欢迎"${res[order].username}"来到小米商城`)
-                setTimeout(() => {
+                // 获取localStorage,判断是否有人登录
+                let local = localStorage.getItem('user');
+                // 如果有数据，则不允许登陆，并2秒后跳转到首页
+                if (local) {
+                    layer.msg(`已经有人登录了，不允许悄悄挤别人下线哦！`);
+                    setTimeout(() => {
+                        location.href = `${indexHtml}`;
+                    }, 2000)
+                    return
+                }
+                layer.msg(`登陆成功！欢迎"${res[order].username}"来到小米商城`);
+                // 2秒后修改对应用户的登陆状态并且跳转到主页
+                setTimeout(async() => {
+                    let a = await axios({
+                        method: 'patch',
+                        url: `http://localhost:3000/users/${res[order].id}`,
+                        data: {
+                            "loginStatus": 1
+                        }
+                    })
                     location.href = `${indexHtml}`
                 }, 2000)
             } else {
