@@ -7,8 +7,8 @@ class goodsList {
         this.tabH3 = document.querySelector(tabH3);
         this.span = document.querySelector(span);
         this.ul = document.querySelector(ul);
-        // 生成内容
-        // 点击打开
+        // 生成内容 异步
+        // 点击打开 
         this.H3clickShow()
     }
     createHTML() {}

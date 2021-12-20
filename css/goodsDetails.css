@@ -97,6 +97,13 @@
     height: 500px;
 }
 
+
+/* 如果没有轮播图，只展示一个图片 */
+
+#exhibition .oneImg {
+    width: 80%;
+}
+
 .exhBanner {
     position: relative;
     width: 100%;
@@ -106,7 +113,7 @@
 
 /* 图片 */
 
-.exhBanner>.bannerItem {
+.exhBanner .bannerItem {
     width: 80%;
     position: absolute;
     opacity: 0;
@@ -115,7 +122,7 @@
     transition: all 1.5s;
 }
 
-.exhBanner>.bannerItem.show {
+.exhBanner .bannerItem.show {
     opacity: 1;
 }
 
@@ -155,11 +162,12 @@
     bottom: 0;
     left: 20%;
     z-index: 10;
+    text-align: center;
 }
 
 .exhBanner>.exhCircle>a {
     display: inline-block;
-    width: 16%;
+    width: 10%;
     height: 3px;
     background: #ccc;
     margin: 0 5px;
@@ -401,6 +409,7 @@
 
 #choose>.edition>ul>li .accPrice {
     margin-right: 20px;
+    color: #000;
 }
 
 
@@ -418,6 +427,20 @@
 
 #choose>.edition>ul>li.active h3 {
     color: #ff6700;
+}
+
+
+/* li被隐藏时的样式 */
+
+#choose>.edition>ul>li.liNoDataHide {
+    display: none;
+}
+
+
+/* 功能隐藏 */
+
+#choose .noDataHide {
+    display: none;
 }
 
 
@@ -536,6 +559,7 @@
 /* 价格说明 */
 
 #explain {
+    background: #f5f5f5;
     padding-bottom: 50px;
 }
 
