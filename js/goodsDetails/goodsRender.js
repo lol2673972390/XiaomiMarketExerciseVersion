@@ -33,7 +33,7 @@ class goodsRender {
         // 现在没有先测试
         let res = await axios({
             method: 'get',
-            url: `http://localhost:3000/goodsPhone/${this.receiveId}`
+            url: `http://localhost:3000/goods/${this.receiveId}`
         });
         // 获取data
         res = res.data;

@@ -14,6 +14,11 @@ class testingLogin {
         this.testingLoginFn();
         // 注销
         this.cancelFn();
+        // 把浏览器中的缓存储存到用户中
+        // 用setTimeout把函数变成宏任务，最后运行
+        setTimeout(() => {
+            this.transferData();
+        }, 500)
     }
     async testingLoginFn() {
         // 发送axios get请求 获取数据
@@ -79,8 +84,67 @@ class testingLogin {
                     this.box[0].classList.remove('hide');
                     // 删除后台localStorage
                     localStorage.removeItem('user');
+                    layer.closeAll(`dialog`)
                 }
             });
         })
+    }
+    transferData() {
+        // 获取登陆者的id
+        let userID = this.btn.getAttribute(`login-id`);
+        if (userID) {
+            // 如果登陆
+            // 获取localStorage
+            let xiaomi = JSON.parse(localStorage.getItem(`xiaomiCart`));
+            if (xiaomi) {
+                // 如果有数据
+                // 遍历数据
+                xiaomi.forEach(async(val, i) => {
+                    // 用缓存商品的名字和数据库的比对
+                    let res = await axios({
+                        method: `get`,
+                        url: `http://localhost:3000/cart?name=${encodeURIComponent(val.name)}&belongTo=${userID}`
+                    })
+                    console.log(res)
+                    if (res.data.length != 0) {
+                        // 如果存在相同数据，以新加入的为准，修改服务、数量和单价
+                        axios({
+                            method: `patch`,
+                            url: `http://localhost:3000/cart/${res.data[0].id}`,
+                            data: {
+                                "additional": val.additional,
+                                "totalPrice": val.totalPrice,
+                                "num": val.num
+                            }
+                        }).then(res => {
+                            // 成功后删除对应的缓存
+                            xiaomi.splice(i, 1);
+                            // 修改到localStorage中
+                            localStorage.setItem(`xiaomiCart`, JSON.stringify(xiaomi))
+                        })
+                    } else {
+                        // 如果没有找到，则新增商品
+                        axios({
+                            method: `post`,
+                            url: `http://localhost:3000/cart`,
+                            data: {
+                                "name": val.name,
+                                "num": val.num,
+                                "additional": val.additional,
+                                "belongTo": (userID - 0),
+                                "totalPrice": val.totalPrice,
+                                "gID": val.gID,
+                            }
+                        })
+                    }
+                });
+                // 删除浏览器缓存
+                localStorage.removeItem(`xiaomiCart`)
+            } else {
+
+            }
+        } else {
+            return;
+        }
     }
 }

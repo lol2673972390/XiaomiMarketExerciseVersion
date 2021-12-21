@@ -84,7 +84,7 @@ class activeTab {
             this.totalDetails.querySelector(`.right`).innerHTML = `${price}元`
         } else {
             // 只修改显示内容
-            this.totalDetails.querySelector(`.versionOf`).innerHTML = `${ele.innerHTML}`
+            this.totalDetails.querySelector(`.themeOf`).innerHTML = `${ele.innerHTML}`
         }
     }
     optionalFn(ele) {

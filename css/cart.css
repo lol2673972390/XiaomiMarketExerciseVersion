@@ -55,6 +55,20 @@
 }
 
 
+/* 没有商品 */
+
+#listContent .noCart {
+    text-align: center;
+}
+
+
+/* 默认显示 */
+
+#listContent .noCart.hide {
+    display: none;
+}
+
+
 /* 购物车统一排版 */
 
 #listContent .col {
@@ -158,6 +172,7 @@
     overflow: hidden;
     white-space: nowrap;
     background: transparent;
+    user-select: none;
 }
 
 
