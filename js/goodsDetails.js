@@ -40,7 +40,11 @@ new goodsRender({
     // 总计价格 + 插入标记 
     totalPrice: '#choose>.total>.totalPrice',
     // 总计详情
-    totalDetails: '#choose>.total>.details'
+    totalDetails: '#choose>.total>.details',
+    // 提交按钮
+    addCart: `#choose>.addCart>a:first-child`,
+    // 喜欢按钮
+    likeGoods: `#choose>.addCart>a:last-child`
 }, {
     // 节点对象群组
     // 暂无
@@ -71,5 +75,5 @@ window.addEventListener("load", function() {
         new activeTab({ a: '#choose>.install>ul>li', state: 2 });
         // 云空间
         new activeTab({ a: '#choose>.cloudSpace>ul>li', state: 2 });
-    }, 1000)
+    }, 500)
 });

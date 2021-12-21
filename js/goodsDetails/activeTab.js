@@ -88,18 +88,26 @@ class activeTab {
         }
     }
     optionalFn(ele) {
+        // 获取最外面容器的css
         let css = ele.parentNode.parentNode.classList[0];
-        let text = ele.querySelector(`h3`).childNodes[0].nodeValue.trim()
-        let price = parseInt(ele.querySelector(`.accPrice`).innerHTML)
+        // 获取h3文本
+        let text = ele.querySelector(`h3`).childNodes[0].nodeValue.trim();
+        // 获取span价格
+        let price = parseInt(ele.querySelector(`.accPrice`).innerHTML);
+        // 在总计里查找对应css的组件
         let content = this.total.querySelector(`.${css}`)
         if (content) {
+            // 如果存在组件时
             if (ele.classList.contains(`active`)) {
+                // 点击按钮，存在选中时，修改文案
                 content.querySelector(`li`).innerHTML = `${text}`
                 content.querySelector(`span`).innerHTML = `${price}元`
             } else {
+                // 取消选中则删除该组件
                 content.remove()
             }
         } else {
+            // 如果不存在组件则新增一个
             this.total.insertBefore(this.createHTML2(css, text, price), this.totalPrice)
         }
     }

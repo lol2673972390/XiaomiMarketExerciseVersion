@@ -48,7 +48,7 @@
 /* 商品栏 */
 
 #listContent .listStyleBox {
-    height: 70px;
+    /* height: 70px; */
     line-height: 70px;
     padding: 15px 16px 15px 0;
     border-top: 1px solid #e0e0e0;
@@ -129,6 +129,7 @@
 
 #listContent .col-name {
     width: 400px;
+    position: relative;
 }
 
 
@@ -144,6 +145,19 @@
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+
+#listContent .col-name span {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #b0b0b0;
+    /* height: 20px; */
+    width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    background: transparent;
 }
 
 
@@ -247,6 +261,29 @@
     background-color: #e53935;
     color: #fff;
 }
+
+
+/* 如果是手机的额外增加 */
+
+
+/* 待完成 */
+
+#listContent .col-phone {
+    display: none;
+}
+
+#listContent .phone .col-phone {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+
+/*  */
+
+
+/*  */
 
 
 /* 总计 */

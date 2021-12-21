@@ -185,6 +185,7 @@ class loginAndRegis {
                     "phone": phone,
                     "password": pwd,
                     "username": username,
+                    "likeGoods": null,
                     "loginStatus": 0
                 }
             });

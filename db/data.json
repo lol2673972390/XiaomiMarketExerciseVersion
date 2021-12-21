@@ -4,12 +4,14 @@
             "phone": "13776980023",
             "password": "123456",
             "username": "Lim",
+            "likeGoods": null,
             "loginStatus": 0
         },
         {
             "phone": "17628903772",
             "password": "123456",
             "username": "小明",
+            "likeGoods": null,
             "loginStatus": 1,
             "id": 2
         },
@@ -17,81 +19,122 @@
             "phone": "18790902233",
             "password": "123456",
             "username": "笑呵呵",
+            "likeGoods": null,
             "loginStatus": 0,
             "id": 3
         }
     ],
     "goodsPhone": [{
-        "name": "Xiaomi 11",
-        "label": "xm",
-        "type": "phone",
-        "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d4b362431de4bdda03315ffdbc7b32a.jpg?thumb=1&w=250&h=250&f=webp&q=90",
-        "title": "轻薄5G，内外皆出彩",
-        "activity": [
-            "「信用卡分期最高立减100元；+9.9元得小米定制马克杯；+110元得Air2 SE蓝牙耳机」",
-            "轻薄5G | 骁龙778G | 6400万主摄像头 | 柔性AMOLED 直屏 | 超线性立体声"
-        ],
-        "price": 1999,
-        "give": false,
-        "bannerSrc": [
-            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1639469340.48245139.png",
-            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950313.75237391.png",
-            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950306.77395317.png",
-            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950309.35894424.png",
-            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950311.52976915.png"
-        ],
-        "version": [
-            ["6GB+64GB", 1369],
-            ["8GB+128GB", 1999],
-            ["8GB+256GB", 2299]
-        ],
-        "theme": [
-            "晴光白雪",
-            "樱花蜜粉",
-            "冰峰黑提",
-            "清凉薄荷"
-        ],
-        "package": [
-            "标准版",
-            "套装版（赠充电器）"
-        ],
-        "size": false,
-        "accident": true,
-        "guarantee": true,
-        "cloudSpace": true,
-        "install": false,
-        "id": 1
-    }, {
-        "name": "Redmi X65 2022款",
-        "label": "recommend",
-        "type": "watchTv",
-        "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6511d77270e94146c0b1f96b66d8cc58.png?thumb=1&w=200&h=138&f=webp&q=90",
-        "title": "",
-        "activity": [
-            "【21号到手价3499元！赠2年延保：请确认购物车选购上2年延保】",
-            "金属全面屏，双120Hz高刷屏，4K HDR，全场景互联，94%P3电影级广色域"
-        ],
-        "price": 3499,
-        "give": false,
-        "bannerSrc": [
-            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.91032872.jpg",
-            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637922.04175457.jpg",
-            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.96783722.jpg",
-            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.97192476.jpg",
-            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.9741674.jpg",
-            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.99193377.jpg"
-        ],
-        "version": false,
-        "theme": [
-            "蓝色"
-        ],
-        "package": false,
-        "size": ["65英寸"],
-        "accident": false,
-        "guarantee": true,
-        "cloudSpace": false,
-        "install": true,
-        "id": 2
-    }],
-    "cart": []
+            "name": "Xiaomi 11",
+            "label": "xm",
+            "type": "phone",
+            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d4b362431de4bdda03315ffdbc7b32a.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "title": "轻薄5G，内外皆出彩",
+            "activity": [
+                "「信用卡分期最高立减100元；+9.9元得小米定制马克杯；+110元得Air2 SE蓝牙耳机」",
+                "轻薄5G | 骁龙778G | 6400万主摄像头 | 柔性AMOLED 直屏 | 超线性立体声"
+            ],
+            "price": 1999,
+            "give": false,
+            "bannerSrc": [
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1639469340.48245139.png",
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950313.75237391.png",
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950306.77395317.png",
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950309.35894424.png",
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950311.52976915.png"
+            ],
+            "version": [
+                [
+                    "6GB+64GB",
+                    1369
+                ],
+                [
+                    "8GB+128GB",
+                    1999
+                ],
+                [
+                    "8GB+256GB",
+                    2299
+                ]
+            ],
+            "theme": [
+                "晴光白雪",
+                "樱花蜜粉",
+                "冰峰黑提",
+                "清凉薄荷"
+            ],
+            "package": [
+                "标准版",
+                "套装版（赠充电器）"
+            ],
+            "size": false,
+            "accident": true,
+            "guarantee": true,
+            "cloudSpace": true,
+            "install": false,
+            "id": 1
+        },
+        {
+            "name": "Redmi X65 2022款",
+            "label": "recommend",
+            "type": "watchTv",
+            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6511d77270e94146c0b1f96b66d8cc58.png?thumb=1&w=200&h=138&f=webp&q=90",
+            "title": "",
+            "activity": [
+                "【21号到手价3499元！赠2年延保：请确认购物车选购上2年延保】",
+                "金属全面屏，双120Hz高刷屏，4K HDR，全场景互联，94%P3电影级广色域"
+            ],
+            "price": 3499,
+            "give": false,
+            "bannerSrc": [
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.91032872.jpg",
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637922.04175457.jpg",
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.96783722.jpg",
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.97192476.jpg",
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.9741674.jpg",
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.99193377.jpg"
+            ],
+            "version": false,
+            "theme": [
+                "蓝色"
+            ],
+            "package": false,
+            "size": [
+                "65英寸"
+            ],
+            "accident": false,
+            "guarantee": true,
+            "cloudSpace": false,
+            "install": true,
+            "id": 2
+        }
+    ],
+    "cart": [{
+            "name": "Xiaomi 11 6GB+64GB 晴光白雪",
+            "num": 4,
+            "additional": "云空间月卡50G",
+            "belongTo": 2,
+            "totalPrice": 1375,
+            "gID": 1,
+            "id": 1
+        },
+        {
+            "name": "Redmi X65 2022款",
+            "num": 1,
+            "additional": "",
+            "belongTo": 2,
+            "totalPrice": 3499,
+            "gID": 2,
+            "id": 2
+        },
+        {
+            "name": "Redmi X65 2022款",
+            "num": 1,
+            "additional": "",
+            "belongTo": 1,
+            "totalPrice": 3499,
+            "gID": 2,
+            "id": 2
+        }
+    ]
 }

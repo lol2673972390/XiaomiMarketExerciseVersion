@@ -1,4 +1,4 @@
-// 商品渲染 + 页面功能?
+// 商品渲染 + 提交按钮 + 喜欢按钮
 class goodsRender {
     // @param {obj1,obj2} 对象传参
     // obj1 存放单个节点对象 
@@ -9,6 +9,20 @@ class goodsRender {
         for (let ele in obj1) {
             this[ele] = document.querySelector(obj1[ele]);
         }
+        // 
+        let link = location.href.split(`?`);
+        // 跳转链接
+        this.hf = link[0].split(`/`).slice(0, -1).join(`/`);
+        // 当前HTML文件
+        this.htmlFile = link[0].split(`/`).pop();
+        // 没有商品参数默认为1
+        this.receiveId = 1;
+        // 有参数获取参数   只有一个传参的情况下
+        if (link[1]) {
+            this.receiveId = link[1].split(`=`)[1]
+        }
+        // 两个页面引用的共同js文件，需要判断当前页面是否是商品详情页
+        if (this.htmlFile != `goodsDetails.html`) return;
         // 获取地址栏的传参生成内容
         this.localSearchCreateHtml()
     }
@@ -19,7 +33,7 @@ class goodsRender {
         // 现在没有先测试
         let res = await axios({
             method: 'get',
-            url: 'http://localhost:3000/goodsPhone/1'
+            url: `http://localhost:3000/goodsPhone/${this.receiveId}`
         });
         // 获取data
         res = res.data;
@@ -55,6 +69,10 @@ class goodsRender {
         this.additionalCreate(res.install, `install`);
         // 设置总计
         this.totalCreate(res);
+        // 绑定提交购物车功能
+        this.addCartFn();
+        // 绑定喜欢商品功能
+        this.likeGoodsFn();
     }
     titleCreate(name) {
         // 顶部标题和商品标题
@@ -136,7 +154,7 @@ class goodsRender {
                 // 创建A标签
                 let a = goodsRender.createEle('a');
                 // 取消链接
-                a.setAttribute(`href`, `#none`);
+                a.setAttribute(`href`, `javascript:void(0)`);
                 // 设置样式
                 // 给一个默认添加选中
                 let active = ``;
@@ -164,7 +182,6 @@ class goodsRender {
         }
     }
     totalCreate(data) {
-
         // 设置默认选项--名字
         this.totalDetails.children[0].innerHTML = `${data.name}`;
         // 设置默认选项--版本/尺寸
@@ -188,6 +205,187 @@ class goodsRender {
         this.totalDetails.children[3].innerHTML = `${str3}元`;
         // 设置默认选项下的总价
         this.totalPrice.innerHTML = `总计：<span>${str3}</span>元`;
+    }
+    addCartFn() {
+        this.addCart.addEventListener('click', async() => {
+            // 获取总计里的文本信息和总价
+            let li = this.total.querySelectorAll(`ul:not(:first-child) li`);
+            // 第一个配置详情结构不一样所以单独获取处理
+            let details = this.total.querySelectorAll(`.details li`);
+            // 设置两个字符串分别处理文本
+            let detailsText = ``;
+            Array.from(details).forEach(e => {
+                detailsText += `${e.innerHTML} `
+            })
+            detailsText = detailsText.trim()
+            let liText = ``;
+            Array.from(li).forEach(e => {
+                liText += `${e.innerHTML} `
+            });
+            liText = liText.trim();
+            // 获取总价
+            let price = this.totalPrice.querySelector(`span`).innerHTML - 0;
+            // 获取名字
+            // let name = this.name.innerHTML;
+            // 获取页面登陆者信息---id
+            let userID = document.querySelector(`#header .testingLogin>a:nth-child(2)`).getAttribute(`login-id`) - 0;
+            // 存储到购物车
+            // 先判断有无用户登陆，没有则存到localStorage
+            if (userID) {
+                this.cartJSONData(detailsText, liText, price, userID)
+            } else {
+                this.cartLocalStorage(detailsText, liText, price)
+            }
+        })
+    }
+    likeGoodsFn() {
+        this
+    }
+    async cartJSONData(detailsText, liText, price, userID) {
+        // 发送Ajax请求
+        let cart = await axios({
+            method: "get",
+            url: `http://localhost:3000/cart?belongTo=${userID}`
+        });
+        // 设置一个标记
+        let flag = false;
+        // 保存id
+        let cId = null;
+        // 保存下标
+        let order = null;
+        // 遍历有无重复数据
+        cart.data.forEach((v, i) => {
+            if (v.name == detailsText) {
+                flag = true;
+                cId = v.id;
+                order = i
+                return
+            }
+        })
+        if (flag) {
+            // 有
+            let num = cart.data[order].num - 0 + 1
+            if (cart.data[order].additional == liText) {
+                // 如果服务重复，数量加1
+                axios({
+                    method: `patch`,
+                    url: `http://localhost:3000/cart/${cId}`,
+                    data: {
+                        "num": num
+                    }
+                });
+            } else {
+                // 提示是否修改？
+                layer.open({
+                    title: `友情提示`,
+                    content: `该商品已存在，是否更改服务选项？`,
+                    btn: [`取消`, `确认`],
+                    yes: () => {
+                        // 取消直接修改数量
+                        axios({
+                            method: `patch`,
+                            url: `http://localhost:3000/cart/${cId}`,
+                            data: {
+                                "num": num
+                            }
+                        });
+                        // layer.closeAll('dialog')
+                    },
+                    btn2: () => {
+                        // 确认修改其他
+                        axios({
+                            method: `patch`,
+                            url: `http://localhost:3000/cart/${cId}`,
+                            data: {
+                                "num": num,
+                                "additional": liText,
+                                "totalPrice": price
+                            }
+                        });
+                    }
+                })
+            }
+        } else {
+            // 新增
+            axios({
+                method: 'post',
+                url: `http://localhost:3000/cart`,
+                data: {
+                    "name": `${detailsText}`,
+                    "num": 1,
+                    "additional": `${liText}`,
+                    "belongTo": userID,
+                    "totalPrice": price,
+                    "gID": this.receiveId,
+                }
+            })
+        }
+    }
+    cartLocalStorage(detailsText, liText, price) {
+        // 获取
+        let cart = localStorage.getItem(`xiaomiCart`);
+        if (cart) {
+            // 有
+            cart = JSON.parse(cart);
+            // 设置一个标记
+            let flag = false;
+            let order = null
+            cart.forEach((val, i) => {
+                if (val.name == detailsText) {
+                    // 打开标记
+                    flag = true;
+                    // 记录下标
+                    order = i
+                    return
+                }
+            })
+            if (flag) {
+                // 修改数量+1
+                cart[order].num = cart[order].num - 0 + 1;
+                layer.open({
+                    title: `友情提示`,
+                    content: `该商品已存在，是否更改服务选项？`,
+                    btn: [`取消`, `确认`],
+                    yes: () => {
+                        // 设置新cart
+                        localStorage.setItem(`xiaomiCart`, JSON.stringify(cart))
+                        layer.closeAll('dialog')
+                    },
+                    btn2: () => {
+                        cart[order].additional = liText;
+                        cart[order].totalPrice = price;
+                        // 设置新cart
+                        localStorage.setItem(`xiaomiCart`, JSON.stringify(cart))
+                    }
+                })
+            } else {
+                console.log(1);
+                // 如果没有就新增一个
+                let obj = {
+                    "name": `${detailsText}`,
+                    "num": 1,
+                    "additional": `${liText}`,
+                    "belongTo": null,
+                    "totalPrice": price,
+                    "gID": this.receiveId,
+                }
+                cart.push(obj);
+                // 设置新cart
+                localStorage.setItem(`xiaomiCart`, JSON.stringify(cart))
+            }
+        } else {
+            // 没有
+            let obj = [{
+                "name": `${detailsText}`,
+                "num": 1,
+                "additional": `${liText}`,
+                "belongTo": null,
+                "totalPrice": price,
+                "gID": this.receiveId,
+            }];
+            // 添加
+            localStorage.setItem(`xiaomiCart`, JSON.stringify(obj))
+        }
     }
     static createEle(tag) {
         // 创建节点对象
