@@ -12,6 +12,7 @@ class activeTab {
         this.totalPrice = document.querySelector(`#choose>.total>.totalPrice`);
         this.totalDetails = document.querySelector(`#choose>.total>.details`);
         this.state = param.state;
+        this.price = document.querySelector(`#choose>.price`);
         // 选中效果
         this.activeTabFn();
         // 修改总价
@@ -82,6 +83,7 @@ class activeTab {
             // 修改第二个选项和价格
             this.totalDetails.querySelector(`.versionOf`).innerHTML = `${ele.innerHTML}`
             this.totalDetails.querySelector(`.right`).innerHTML = `${price}元`
+            this.price.innerHTML = `${price} 元`
         } else {
             // 只修改显示内容
             this.totalDetails.querySelector(`.themeOf`).innerHTML = `${ele.innerHTML}`

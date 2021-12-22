@@ -84,7 +84,9 @@ class testingLogin {
                     this.box[0].classList.remove('hide');
                     // 删除后台localStorage
                     localStorage.removeItem('user');
-                    layer.closeAll(`dialog`)
+                    layer.closeAll(`dialog`);
+                    // 刷新页面
+                    location.reload();
                 }
             });
         })

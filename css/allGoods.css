@@ -8,21 +8,21 @@
     background: #fff;
 }
 
-#phone {
+.list {
     padding: 10px;
 }
 
 
 /* 整行都可以触发 */
 
-#phone>h3 {
+.list>h3 {
     color: #000000;
     cursor: pointer;
     font-size: 18px;
     margin: 22px 0;
 }
 
-#phone>h3>span {
+.list>h3>span {
     color: #B0B0B0;
     cursor: pointer;
     border: 1px #b0b0b0 solid;
@@ -41,11 +41,11 @@
 
 /* 展开时图标亮色 */
 
-#phone>h3.show {
+.list>h3.show {
     color: #ff6700;
 }
 
-#phone>h3.show>span {
+.list>h3.show>span {
     color: #ff6700;
     border-color: #ff6700;
     transform: rotateX(180deg);

@@ -165,7 +165,7 @@
 }
 
 #oneNav>div>div:last-child>ul {
-    padding: 12px 0 0 70px;
+    padding: 12px 0 0 130px;
     display: inline-block;
 }
 
@@ -342,6 +342,8 @@
 
 #oneNavContent>div>ul>li img {
     width: 160px;
+    height: 110px;
+    margin-top: 30px;
 }
 
 #oneNavContent>div>ul>li div {

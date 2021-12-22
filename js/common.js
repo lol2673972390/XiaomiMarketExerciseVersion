@@ -13,3 +13,9 @@ window.addEventListener('load', function() {
     // 检测登陆状态,显示信息,注销
     new testingLogin('#header .testingLogin', '#header .testingLogin>a>span', '#header .testingLogin>a:nth-child(2)', '#main #tipsLogin')
 })
+
+// 获取当前页面
+let htmlFile = location.href.split(`/`).slice(-1)
+if (htmlFile != `index.html`) {
+    document.querySelector(`#oneNav>div>div:last-child>ul>li:first-child>a`).classList.remove(`hide`)
+}

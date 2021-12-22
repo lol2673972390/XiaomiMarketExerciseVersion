@@ -5,7 +5,9 @@
 电视 watchTv，
 笔记本 平板 laptop，
 家电 appliances，
-出行 穿戴 wear，
+穿戴 wear，
+
+后面的没写
 智能 路由器 router，
 电源 配件 accessories，
 健康 儿童 healthy，

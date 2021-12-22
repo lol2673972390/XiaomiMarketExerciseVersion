@@ -142,6 +142,7 @@
 
 #verticalNav>ul>li:hover>dl {
     display: block;
+    background: #fff;
 }
 
 
@@ -153,9 +154,20 @@
     top: -20px;
     width: 906px;
     height: 425px;
+    z-index: 99;
     box-sizing: border-box;
-    border: 5px solid black;
     display: none;
+}
+
+#verticalNav>ul>li>dl>dd {
+    float: left;
+    width: 30%;
+    margin: 12px 5px;
+}
+
+#verticalNav>ul>li>dl>dd img {
+    width: 60px;
+    height: 42px;
 }
 
 #newGoods {

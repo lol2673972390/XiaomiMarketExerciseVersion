@@ -6,18 +6,18 @@ class cartRender {
         for (let ele in param) {
             this[ele] = document.querySelector(param[ele])
         }
-        console.log(this.allTotal, this.selectedTotal, this.totalPrice, this.buyBtn, this.listBox, this.user, this.noCartBox);
+        this.lastTime = 0;
         setTimeout(() => {
             // 获取用户id
             this.userId = this.user.getAttribute(`login-id`) - 0;
             // 渲染商品数据
             this.listRenderFn();
-            // 功能
+            // 事件委托绑定功能
             this.cartClickFn();
         }, 700)
     }
     async listRenderFn() {
-
+        // 列表渲染
         // 如果有人登录
         if (this.userId) {
             // 根据id查询对应购物车里的数据
@@ -65,6 +65,7 @@ class cartRender {
                 // 没有数据
             }
         }
+        // 设置成宏任务，在页面渲染完的时候再检测数值
         setTimeout(() => {
             this.totalTesting()
         }, 200)
@@ -72,7 +73,7 @@ class cartRender {
     cartClickFn() {
         this.listBox.addEventListener(`click`, (e) => {
             let target = e.target;
-            console.log(target)
+            // console.log(target)
             if (target.classList.contains(`checkBox`)) {
                 // 绑定复选框选中样式
                 this.checkedFn(target);
@@ -82,15 +83,16 @@ class cartRender {
                 this.checkAllFn(target)
             }
             if (target.classList.contains(`checkOne`)) {
+                // 单选功能
                 this.checkOneFn(target)
             }
             if (target.classList.contains(`add`)) {
                 // 数量+1
-                this.addNumFn(target)
+                this.throttle(this.addNumFn.bind(this, target))
             }
             if (target.classList.contains(`reduce`)) {
                 // 数量-1
-                this.reduceNum(target)
+                this.throttle(this.reduceNum.bind(this, target))
             }
             if (target.classList.contains(`modify`)) {
                 // 输入框修改数量
@@ -101,7 +103,7 @@ class cartRender {
                 this.delData(target);
             }
             // 每次触发点击事件都判断一次总价，和已选个数
-            this.totalTesting()
+            this.totalTesting();
         })
     }
     checkedFn(target) {
@@ -169,6 +171,7 @@ class cartRender {
         let index = father.getAttribute(`no-login`);
         // 判断用户登录
         if (this.userId) {
+            // 添加请求拦截器
             // 已登录
             axios({
                 method: `patch`,
@@ -181,8 +184,7 @@ class cartRender {
             // 未登录
             // 取出localStorage
             let xiaomi = JSON.parse(localStorage.getItem(`xiaomiCart`));
-            console.log(xiaomi)
-                // 修改对应下标商品的数量
+            // 修改对应下标商品的数量
             xiaomi[index].num = xiaomi[index].num - 0 + 1;
             // 重新设置localStorage
             localStorage.setItem(`xiaomiCart`, JSON.stringify(xiaomi))
@@ -220,7 +222,6 @@ class cartRender {
             });
         } else {
             // 未登录
-
             // 取出localStorage
             let xiaomi = JSON.parse(localStorage.getItem(`xiaomiCart`));
             // 修改对应下标商品的数量
@@ -259,13 +260,20 @@ class cartRender {
                 let col_price = father.querySelector(`.col-price>span`).innerHTML - 0;
                 // 设置小计
                 col_total.innerHTML = (target.value - 0) * col_price;
+                // 拿到该商品存在浏览器中的序列号
+                let index = father.getAttribute(`no-login`);
                 // 判断用户登录
                 if (this.userId) {
                     // 已登录
+                    axios({
+                        method: `patch`,
+                        url: `http://localhost:3000/cart/${index}`,
+                        data: {
+                            "num": (target.value - 0)
+                        }
+                    });
                 } else {
                     // 未登录
-                    // 拿到该商品存在浏览器中的序列号
-                    let index = father.getAttribute(`no-login`);
                     // 取出localStorage
                     let xiaomi = JSON.parse(localStorage.getItem(`xiaomiCart`));
                     // 修改对应下标商品的数量
@@ -279,11 +287,27 @@ class cartRender {
     delData(target) {
         // 获取父级
         let father = target.parentNode.parentNode;
+        // 获取商品下标
+        let index = father.getAttribute(`no-login`);
         if (this.userId) {
-
+            layer.open({
+                title: `友情提醒`,
+                content: `亲爱的，真的要舍弃伦家吗？`,
+                btn: [`朕要将你打入冷宫!`, `朕，后悔了！`],
+                yes: () => {
+                    // 删除此行
+                    father.remove();
+                    // 删除数据库数据
+                    axios({
+                        method: `delete`,
+                        url: `http://localhost:3000/cart/${index}`
+                    });
+                    // 关闭弹窗
+                    layer.closeAll(`dialog`);
+                    this.totalTesting()
+                }
+            })
         } else {
-            // 获取商品下标
-            let index = father.getAttribute(`no-login`);
             layer.open({
                 title: `友情提醒`,
                 content: `您真的要删除这个商品吗？`,
@@ -370,6 +394,19 @@ class cartRender {
                         </div>
                     </div>`
         return html
+    }
+    throttle(callback, time = 500) {
+        // 函数节流
+        // 每次进来清空一次定时器
+        console.log(this.lastTime)
+        let now = new Date().getTime();
+        // 每次触发事件获取当前时间 单位毫秒
+        if ((now - this.lastTime) > time) {
+            // 变更为当前时间
+            this.lastTime = now;
+            // 执行回调函数
+            callback();
+        }
     }
 }
 

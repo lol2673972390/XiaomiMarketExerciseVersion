@@ -13,7 +13,25 @@ class verticalMenu {
             this.Show(this.ul[i])
         }
     }
-    Show(ele) {}
+    async Show(ele) {
+        let type = ele.className;
+        // 发送Ajax请求 
+        let data = await axios({
+            method: `get`,
+            url: `http://localhost:3000/goods?type=${type}&_page=1&_limit=20`
+        })
+        if (data.data.length != 0) {
+            data.data.forEach(val => {
+                let dd = `<dd>
+                         <a href="./goodsDetails.html?gId=${val.id}">
+                             <img src="${val.src}" alt="">
+                             <span>${val.name}</span>
+                         </a>
+                        </dd>`
+                ele.querySelector(`dl`).innerHTML += dd
+            })
+        }
+    }
     createDl(cssName) {
         let dl = document.createElement('dl');
         // 发送ajax请求 

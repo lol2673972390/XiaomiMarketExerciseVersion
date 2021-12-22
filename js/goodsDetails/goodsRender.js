@@ -42,7 +42,7 @@ class goodsRender {
         // 生成标题 name 属性
         this.titleCreate(res.name);
         // 插入轮播图片 bannerSrc 属性 数组 、Src 属性 字符串
-        this.bannerCreate(res.bannerSrc, res.src);
+        this.bannerCreate(res.bannerSrc, res.src2);
         // 设置活动
         this.activityCreate(res.activity);
         // 设置价格
@@ -107,7 +107,7 @@ class goodsRender {
             // 设置路径
             img.setAttribute(`src`, src);
             // 设置cs
-            img.setAttribute(`class`, ``);
+            img.setAttribute(`class`, `oneImg`);
             // 追加到页面中 大盒子
             this.bannerBigBox.appendChild(img);
         }
