@@ -1,2216 +1,2418 @@
 {
-    "users": [{
-            "id": 1,
-            "phone": "13776980023",
-            "password": "123456",
-            "username": "Lim",
-            "likeGoods": null,
-            "loginStatus": 0
-        },
-        {
-            "phone": "17628903772",
-            "password": "123456",
-            "username": "小明",
-            "likeGoods": null,
-            "loginStatus": 1,
-            "id": 2
-        },
-        {
-            "phone": "18790902233",
-            "password": "123456",
-            "username": "笑呵呵",
-            "likeGoods": null,
-            "loginStatus": 0,
-            "id": 3
-        }
-    ],
-    "goods": [{
-            "name": "Xiaomi 11",
-            "label": "xm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/fea69fb5990da9dfc909aa8279aaea7e.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": "",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「信用卡分期最高立减100元；+9.9元得小米定制马克杯；+110元得Air2 SE蓝牙耳机」",
-                "轻薄5G | 骁龙778G | 6400万主摄像头 | 柔性AMOLED 直屏 | 超线性立体声"
-            ],
-            "price": 1999,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1639469340.48245139.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950313.75237391.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950306.77395317.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950309.35894424.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950311.52976915.png"
-            ],
-            "version": [
-                [
-                    "6GB+64GB",
-                    1369
-                ],
-                [
-                    "8GB+128GB",
-                    1999
-                ],
-                [
-                    "8GB+256GB",
-                    2299
-                ]
-            ],
-            "theme": [
-                "晴光白雪",
-                "樱花蜜粉",
-                "冰峰黑提",
-                "清凉薄荷"
-            ],
-            "package": [
-                "标准版",
-                "套装版（赠充电器）"
-            ],
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 1
-        },
-        {
-            "name": "Xiaomi Civi",
-            "label": "xm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8cad77bda138fd94eadbc2ddfced7c56.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632713426.30988142.jpg",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「购机至高享24期免息；赠Redmi AirDots 2真无线蓝牙耳机；赠Keep会员7天体验卡；+110元得Air2 SE蓝牙耳机」",
-                "轻薄潮流设计 | 丝绒AG工艺 | 原生美肌人像 | 像素级肌肤焕新技术 | 3200万高清质感自拍 | 双柔光灯+自动对焦 | 3D曲面OLED柔性屏 | 120Hz+Dolby Vision | 4500mAh 大电量 | 55W有线闪充 | 立体声双扬声器 | 多功能NFC"
-            ],
-            "price": 2599,
-            "give": [
-                "满减",
-                "Xiaomi Civi 8+128下单立减100元"
-            ],
-            "bannerSrc": false,
-            "version": [
-                [
-                    "8GB+128GB",
-                    2599
-                ],
-                [
-                    "12GB+256GB",
-                    3199
-                ],
-                [
-                    "8GB+256GB",
-                    2899
-                ]
-            ],
-            "theme": [
-                "闪闪黑",
-                "轻轻蓝",
-                "怦怦粉色"
-            ],
-            "package": [
-                "标准版",
-                "套装版（赠充电器）",
-                "真无线降噪耳机 3 Pro 流光白套装版",
-                "真无线降噪耳机 3 Pro 曜石黑套装版",
-                "真无线降噪耳机 3 Pro 极光绿套装版"
-            ],
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 2
-        },
-        {
-            "name": "Xiaomi MIX 4",
-            "label": "xm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/087c52d253d9301dff7743d6bf2d0330.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628588553.56819324.jpg",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「12月21日-12月23日全版本优惠800元，领券再减500元，下单再减30元，券后价3669元起；买赠素皮保护壳（黑色）」",
-                "CUP全面屏 | 真彩原色 + 120Hz | 一体化轻量陶瓷机身 | 高通骁龙™888+ | WiFi 6 增强版 | 石墨烯「冰封」散热系统4500mAh 大电量 | 常温 120W 快充 | 50W 无线快充 | 1 亿像素电影相机"
-            ],
-            "price": 4199,
-            "give": [
-                "赠品",
-                "满1件赠价值149元Xiaomi MIX 4 素皮保护壳 黑色 赠完即止"
-            ],
-            "bannerSrc": false,
-            "version": [
-                [
-                    "8GB+128GB",
-                    4199
-                ],
-                [
-                    "12GB+256GB",
-                    4999
-                ],
-                [
-                    "8GB+256GB",
-                    4499
-                ],
-                [
-                    "12GB+512GB",
-                    5499
-                ]
-            ],
-            "theme": [
-                "陶瓷黑",
-                "影青灰",
-                "陶瓷白"
-            ],
-            "package": [
-                "标准版",
-                "加50元得129元风口上的猪挂件（全款支付专享）"
-            ],
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 3
-        },
-        {
-            "name": "Xiaomi MIX FOLD",
-            "label": "xm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/85e44ea2405ff8414148bbde7446b137.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1617098695.73526265.jpg",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「购机最高享24期分期免息；信用卡分期支付享优惠」",
-                "8.01''折叠大屏｜澎湃C1自研专业影像芯片｜液态镜头｜1亿像素｜骁龙888｜67W快充｜5020mAh超大电池｜LPDDR5满血版｜WiFi6（增强版）｜哈曼卡顿立体声四扬声器"
-            ],
-            "price": 6999,
-            "give": [
-                "赠品",
-                "满1件赠价值199元MIX FOLD 素皮保护壳 碳纤黑 赠完即止"
-            ],
-            "bannerSrc": false,
-            "version": [
-                [
-                    "12GB+256GB",
-                    6999
-                ],
-                [
-                    "12GB+512GB",
-                    7999
-                ]
-            ],
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": false,
-            "cloudSpace": true,
-            "install": false,
-            "id": 4
-        },
-        {
-            "name": "Xiaomi 11 Ultra",
-            "label": "xm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1a359e9346e3c6ee8c9d8389e3fd9458.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1617008590.88834809.jpg",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「最高享24期分期免息；信用卡分期至高立省300元；全款支付赠风口上的猪挂饰（选择风口上的猪套装下单）」",
-                "1/1.12''GN2｜128°超广角｜120X超长焦｜2K四微曲屏｜骁龙888｜IP68级防水｜67W 有线闪充｜67W 无线闪充｜10W 无线反充｜5000mAh超大电池｜LPDDR5｜WiFi6（增强版）｜哈曼卡顿音频认证｜立体声双扬声器"
-            ],
-            "price": 5499,
-            "give": false,
-            "bannerSrc": false,
-            "version": [
-                [
-                    "12GB+256GB",
-                    5999
-                ],
-                [
-                    "8GB+256GB",
-                    5499
-                ],
-                [
-                    "12GB+512GB",
-                    6499
-                ]
-            ],
-            "theme": [
-                "陶瓷白",
-                "陶瓷黑",
-                "大理石纹特别版"
-            ],
-            "package": [
-                "标准版",
-                "套装版（赠充电器）",
-                "赠129元风口上的猪挂饰（全款支付专享）"
-            ],
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 5
-        },
-        {
-            "name": "Xiaomi 11 Pro",
-            "label": "xm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a1c45eadcedeb27b1cafca0359422da9.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": false,
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「12月22-24日，全版本优惠50元，领券下单再减300元，券后到手价3649起；购机赠Air2 SE耳机，至高享24期免息」",
-                "1/1.12''GN2｜骁龙888｜2K四微曲屏｜IP68级防水｜67W 有线闪充｜67W 无线闪充｜10W 无线反充｜5000mAh超大电池｜LPDDR5｜WiFi6（增强版）｜哈曼卡顿音频认证｜立体声双扬声器"
-            ],
-            "price": 3999,
-            "give": [
-                "赠品",
-                "满1件赠价值129元小米真无线蓝牙耳机Air2 SE 白色 赠完即止"
-            ],
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634109528.42339555.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1617008363.42449006.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634109528.43086423.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634109528.42339555.jpg"
-            ],
-            "version": [
-                [
-                    "8GB+128GB",
-                    3949
-                ],
-                [
-                    "8GB+256GB",
-                    4249
-                ],
-                [
-                    "12GB+256GB",
-                    4649
-                ]
-            ],
-            "theme": [
-                "黑色",
-                "绿色",
-                "紫色"
-            ],
-            "package": [
-                "标准版",
-                "套装版（赠充电器）",
-                "赠129元风口上的猪挂饰（全款支付专享）"
-            ],
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 6
-        },
-        {
-            "name": "Redmi Note 11 Pro",
-            "label": "hm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7e78629420a392da6fd3e34dae9fac5d.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635332995.28485388.jpg",
-            "title": "Redmi Note 11 Pro",
-            "activity": [
-                "「至高优惠130元，券后到手价1669元起；光大信用卡分期支付满1000减80元」",
-                "三星AMOLED高刷屏 | JBL 对称式立体声 | 一亿像素超清影像 | 天玑920液冷芯 | VC液冷立体散热 |"
-            ],
-            "price": 1799,
-            "give": [
-                "优惠券",
-                "30元锦鲤券"
-            ],
-            "bannerSrc": false,
-            "version": [
-                [
-                    "6GB+128GB",
-                    1799
-                ],
-                [
-                    "8GB+128GB",
-                    1999
-                ],
-                [
-                    "12GB+256GB",
-                    4649
-                ]
-            ],
-            "theme": [
-                "浅梦星河",
-                "时光静紫",
-                "迷雾森林",
-                "神秘黑境"
-            ],
-            "package": [
-                "标准版",
-                "Redmi Buds 3白色套装版"
-            ],
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 7
-        },
-        {
-            "name": "Redmi Note 11 5G",
-            "label": "hm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7e78629420a392da6fd3e34dae9fac5d.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635333564.12183750.jpg",
-            "title": "5000mAh大电量",
-            "activity": [
-                "「至高优惠30元，券后到手价1169元起；购机赠小米定制聚酯纤维双肩包」",
-                "双卡双5G | X轴线性马达 | 5000mAh 大电量 | 33W快充 | 立体声双扬声器 | 天玑810处理器 | 90Hz变速高刷屏"
-            ],
-            "price": 1299,
-            "give": [
-                "赠品",
-                "满1件赠价值99元定制聚酯纤维双肩包 单品二灰色 赠完即止"
-            ],
-            "bannerSrc": false,
-            "version": [
-                [
-                    "6GB+128GB",
-                    1299
-                ],
-                [
-                    "4GB+128GB",
-                    1199
-                ],
-                [
-                    "8GB+128GB",
-                    1499
-                ],
-                [
-                    "8GB+256GB",
-                    1699
-                ]
-            ],
-            "theme": [
-                "神秘黑境",
-                "微醺薄荷",
-                "浅梦星河"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 8
-        },
-        {
-            "name": "Redmi Note 11 4G",
-            "label": "hm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a785b54d06c72ff63e64d0fa51ee02f5.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": "",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「全版本优惠30元，券后到手价969元起；光大信用卡分期支付满1000元减80元，数量有限」",
-                "5000万AI三摄 | Helio G88 高性能芯片 | 5000mAh 大电量 | 18W快充 | 支持最高9W反向充电 | 立体声双扬声器 | 90Hz变速高刷屏"
-            ],
-            "price": 999,
-            "give": [
-                "优惠券",
-                "30元锦鲤券"
-            ],
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1637659716.05251404.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1637674777.20217333.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1637674777.23555435.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1637674777.24385487.png"
-            ],
-            "version": [
-                [
-                    "6GB+128GB",
-                    1099
-                ],
-                [
-                    "4GB+128GB",
-                    999
-                ]
-            ],
-            "theme": [
-                "梦幻晴空",
-                "时光独白",
-                "神秘黑境"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 9
-        },
-        {
-            "name": "Redmi Note 10 Pro",
-            "label": "hm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e3c5d99c28700a3c45ea65eebbea0a04.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1621955784.84614979.jpg",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「全版本至高优惠130元，券后到手价1469元起；光大信用卡分期支付满1000元减80元，数量有限」",
-                "天玑1100年度旗舰芯｜VC液冷散热｜120Hz旗舰变速金刚屏 ｜67W 闪充 5000mAh 大电池｜JBL 立体声双扬声器｜UFS 3.1｜6400万AI三摄｜多功能NFC 3.0"
-            ],
-            "price": 1499,
-            "give": [
-                "优惠券",
-                "30元锦鲤券"
-            ],
-            "bannerSrc": false,
-            "version": [
-                [
-                    "6GB+128GB",
-                    1499
-                ],
-                [
-                    "8GB+128GB",
-                    1699
-                ],
-                [
-                    "8GB+256GB",
-                    1899
-                ]
-            ],
-            "theme": [
-                "月魄",
-                "幻青",
-                "星纱"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 10
-        },
-        {
-            "name": "Redmi Note 10 5G",
-            "label": "hm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/88bb84ff06f0ab467b859aeed36b817a.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1621955684.40846624.jpg",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「全版本至高优惠30元，券后到手价1069元起；光大信用卡分期支付满1000元减80元，数量有限」",
-                "5G小金刚｜旗舰长续航｜双5G待机｜5000mAh充电宝级大容量｜4800万高清相机｜天玑700八核高性能处理器"
-            ],
-            "price": 1099,
-            "give": [
-                "优惠券",
-                "30元锦鲤券"
-            ],
-            "bannerSrc": false,
-            "version": [
-                [
-                    "4GB+128GB",
-                    1099
-                ],
-                [
-                    "6GB+128GB",
-                    1199
-                ],
-                [
-                    "8GB+128GB",
-                    1399
-                ],
-                [
-                    "8GB+256GB",
-                    1599
-                ]
-            ],
-            "theme": [
-                "竹石青",
-                "晴山蓝",
-                "月影银",
-                "星云灰"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 11
-        },
-        {
-            "name": "K40 游戏增强版",
-            "label": "hm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/acd0f27496ccdf81ef42124c35e8bfc4.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "src2": "",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「购机享+110元得Air 2 SE蓝牙耳机；浦发信用卡分期满2000元减100元，数量有限」",
-                "天玑1200｜年度旗舰处理器｜弹出式肩键｜航天立体散热｜JBL立体声双扬声器｜64MP旗舰三摄"
-            ],
-            "price": 1999,
-            "give": [
-                "优惠券",
-                "30元锦鲤券"
-            ],
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1627353447.30892610.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097889.31877993.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097889.345879.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097889.32246800.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097895.37561303.png"
-            ],
-            "version": [
-                [
-                    "12GB+256GB",
-                    2799
-                ],
-                [
-                    "12GB+128GB",
-                    2599
-                ],
-                [
-                    "8GB+256GB",
-                    2399
-                ],
-                [
-                    "8GB+128GB",
-                    2199
-                ],
-                [
-                    "6GB+128GB",
-                    1599
-                ]
-            ],
-            "theme": [
-                "暗影",
-                "光刃",
-                "银翼",
-                "逆鳞",
-                "李小龙特别版"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 12
-        },
-        {
-            "name": "Xiaomi 10S",
-            "label": "xm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c89e7b3a3495acaa0a4df271d9da59ea.png",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1615342330.97933727.jpg",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「12.21-12.25 领券立减200元，券后价2499元起；至高享24期免息；赠蓝牙耳机Air2 SE;【全款支付套装】赠果冻包」",
-                "骁龙870 | 对称式双扬立体声 | 1亿像素 8K电影相机 | 33W有线快充 | 30W无线快充 | 10W反向充电 | 4780mAh超大电池 | LPDDR5+UFS3.0+Wi-Fi 6 | VC液冷散热 | 双模5G"
-            ],
-            "price": 3299,
-            "give": [
-                "赠品",
-                "满1件赠价值129元小米真无线蓝牙耳机Air2 SE 白色 赠完即止"
-            ],
-            "bannerSrc": false,
-            "version": [
-                [
-                    "8GB+128GB",
-                    3299
-                ],
-                [
-                    "8GB+256GB",
-                    3499
-                ],
-                [
-                    "12GB+2556GB",
-                    3799
-                ]
-            ],
-            "theme": [
-                "黑色",
-                "白色",
-                "蓝色"
-            ],
-            "package": [
-                "标准版",
-                "套装版（赠充电器）",
-                "赠生生不息果冻包（全款支付专享）"
-            ],
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 13
-        },
-        {
-            "name": "Redmi K40 Pro",
-            "label": "hm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0e5aa3cab478f5eeba1c7d4cf25cba9a.png",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1614153658.41363669.jpg",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「8GB+256GB优惠200元；享6期分期免息；赠 Keep 会员权益；赠小米移动流量卡」",
-                "骁龙888 / E4 旗舰直屏 / 120Hz高刷 / 杜比全景声 / 4520mAh大电量 / WiFi 6 增强版 / 7.8mm轻薄机身 / 多功能NFC / 红外遥控"
-            ],
-            "price": 3299,
-            "give": [
-                "赠品",
-                "满1件赠价值129元小米真无线蓝牙耳机Air2 SE 白色 赠完即止"
-            ],
-            "bannerSrc": false,
-            "version": [
-                [
-                    "8GB+128GB",
-                    2999
-                ],
-                [
-                    "8GB+256GB",
-                    3299
-                ]
-            ],
-            "theme": [
-                "墨羽",
-                "幻境",
-                "晴雪"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 14
-        },
-        {
-            "name": "黑鲨4S Pro",
-            "label": "hx",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b45cbcf2bbe244982b2e865fa5077a52.png",
-            "src2": "",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「火热开售中！享12期分期免息！至高闪降300元」",
-                "骁龙888 Plus| 增强版UFS3.1+SSD磁盘阵列系统 | “三明治”液冷散热系统| 120W极速闪充+4500mAh双电竞电池 | 磁动力升降肩键 | 144Hz 三星E4屏幕"
-            ],
-            "price": 5499,
-            "give": [
-                "赠品一",
-                "满1件赠价值29元3.5mm弯头音频转接线 赠完即止"
-            ],
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097487.52651410.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097501.27049003.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097505.05315572.png"
-            ],
-            "version": [
-                [
-                    "16GB+512GB",
-                    5499
-                ],
-                [
-                    "12GB+256GB",
-                    3299
-                ]
-            ],
-            "theme": [
-                "星河黑",
-                "天际白"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 15
-        },
-        {
-            "name": "黑鲨4S",
-            "label": "hx",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/958d5b4cf1f6a755b97b797f4cec67ed.png",
-            "src2": "",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "",
-                "120W超级闪充/磁动力升降肩键/144Hz电竞屏/旗舰音频系统/4500mAh 双竞电池/高通骁龙处理器"
-            ],
-            "price": 5499,
-            "give": [
-                "赠品一",
-                "满1件赠价值29元3.5mm弯头音频转接线 赠完即止"
-            ],
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097592.98569355.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097593.0186637.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097592.99792146.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097592.98269759.png"
-            ],
-            "version": [
-                [
-                    "12GB+256GB",
-                    3299
-                ],
-                [
-                    "12GB+128GB",
-                    2999
-                ],
-                [
-                    "8GB+128GB",
-                    2699
-                ]
-            ],
-            "theme": [
-                "雾白",
-                "玄黑",
-                "高达限定版"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": false,
-            "cloudSpace": true,
-            "install": false,
-            "id": 16
-        },
-        {
-            "name": "Redmi 9A",
-            "label": "hm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1db88cd66ff1a6a3e75116988b7f3e12.jpg",
-            "src2": "",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「128GB版本优惠10元；赠价值897元三人体检套餐；赠小米移动流量卡；赠Keep会员7天体验卡」",
-                "6.53”超大护眼屏幕｜ 5000mAh长循环大电量｜ 大音量扬声器 ｜1300万AI相机 ｜人脸解锁｜G25八核处理器"
-            ],
-            "price": 599,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.0831679.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.08014623.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.07921552.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.08042829.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.07966928.jpg"
-            ],
-            "version": [
-                [
-                    "4GB+64GB",
-                    599
-                ],
-                [
-                    "4GB+128GB",
-                    799
-                ],
-                [
-                    "6GB+128GB",
-                    999
-                ]
-            ],
-            "theme": [
-                "砂石黑",
-                "晴空蓝",
-                "湖光绿"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 17
-        },
-        {
-            "name": "Redmi Note 9  4G",
-            "label": "hm",
-            "type": "phone",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/947721c8bc4a4ecc3bca17237ee64dea.png",
-            "src2": "",
-            "title": "轻薄5G，内外皆出彩",
-            "activity": [
-                "「购机享+110元得Air 2 SE蓝牙耳机；农行信用卡快捷支付满299元减30元，数量有限」",
-                "6000mAh超长续航｜4800万超清三摄｜全高清6.53英寸护眼屏｜骁龙662处理器｜18W快速充电｜立体声双扬声器｜侧边指纹识别｜90%高屏占比｜康宁大猩猩保护玻璃"
-            ],
-            "price": 999,
-            "give": [
-                "优惠券",
-                "30元锦鲤券"
-            ],
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606289221.80685857.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634108516.94643643.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634108516.89793810.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634108516.90067917.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634108516.90292769.png"
-            ],
-            "version": [
-                [
-                    "4GB+128GB",
-                    999
-                ],
-                [
-                    "6GB+128GB",
-                    1099
-                ],
-                [
-                    "8GB+128GB",
-                    1299
-                ],
-                [
-                    "8GB+256GB",
-                    1499
-                ]
-            ],
-            "theme": [
-                "曙光橙",
-                "雾光青",
-                "烟波蓝",
-                "羽墨黑"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": true,
-            "cloudSpace": true,
-            "install": false,
-            "id": 18
-        },
-        {
-            "name": "Redmi 手表 2",
-            "label": "hot",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f84503dbf5adbdf17111c61d4a7cf893.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "AMOLED高清大屏",
-            "activity": [
-                "",
-                "1.6“AMOLED大屏 | 独立卫星定位 | 117种运动模式 | 12天长续航 | 血氧检测 | 24小时心率监测 | 多功能NFC | 31g轻量化设计 | 50米防水 | 独立卫星定位"
-            ],
-            "price": 399,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635387575.72049661.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635387561.78116374.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635387579.5924475.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "深空蓝",
-                "象牙白",
-                "典雅黑"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 19
-        },
-        {
-            "name": "小米手环6 NFC版",
-            "label": "hot",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b28153b80cb2c67564608e56d5c2f3f3.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "全屏实力",
-            "activity": [
-                "",
-                "1.56“跑道全面彩屏 / 30种运动模式 / 24小时心率监测 / 支持NFC功能"
-            ],
-            "price": 270,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937495.15214384.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937495.13948630.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937495.16989842.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937495.14595443.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": false,
-            "id": 20
-        },
-        {
-            "name": "Redmi 手表",
-            "label": "hot",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/cfec307342eb35ee4a437f664004c50f.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "35g超轻/1.4大屏/多功能NFC",
-            "activity": [
-                "",
-                "1.4英寸高清大屏 / 30天心率监测 / 多功能NFC / 35g轻量设计"
-            ],
-            "price": 299,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606357020.94553331.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606357020.87912193.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606357020.90171867.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606357020.85782041.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606357017.91427901.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "水墨蓝",
-                "象牙白",
-                "典雅黑"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 21
-        },
-        {
-            "name": "Xiaomi 真无线降噪耳机 3 Pro",
-            "label": "hot",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0cc4e8e58d7288cd8dff13b98bdc3ea8.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "动态降噪 静听曼妙",
-            "activity": [
-                "",
-                "40dB自适应降噪 ｜空间音频 ｜ HiFi高保真音质 ｜27小时超长续航 人体工学舒适佩戴｜双重通透模式｜跨平台双设备连接"
-            ],
-            "price": 699,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632824968.20185994.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632824971.67889872.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632824975.63358839.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632825160.29247375.png"
-            ],
-            "version": false,
-            "theme": [
-                "流光白",
-                "曜石黑",
-                "极光绿"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 22
-        },
-        {
-            "name": "Redmi Buds 无线蓝牙耳机",
-            "label": "hot",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/11570d5371f16d2d9b19f504e09d01f0.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "轻巧半入耳，舒适有天分",
-            "activity": [
-                "",
-                "轻巧半入耳 | 高通专业芯片 | 通话降噪 | 20小时长续航 | MIUI 快连弹窗 | IP54 防尘防水"
-            ],
-            "price": 199,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1631677394.01747266.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1630050983.11122580.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1630050982.13233689.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1630050983.42252797.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1630050982.86394689.png"
-            ],
-            "version": false,
-            "theme": [
-                "白色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 23
-        },
-        {
-            "name": "Redmi Buds 3 青春版",
-            "label": "hot",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/2fcf24e40ff09a254857ac8b4ace25b8.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635386883.7186389.png",
-            "title": "轻巧无线 持久动听",
-            "activity": [
-                "",
-                "轻巧真无线 | 猫耳状稳固设计 | 蓝牙5.2 | 18小时长续航"
-            ],
-            "price": 99,
-            "give": false,
-            "bannerSrc": false,
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 24
-        },
-        {
-            "name": "Redmi AirDots 3 Pro",
-            "label": "hot",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/72c4b2540c851b542e505058f1603823.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "智能降噪 超低延迟",
-            "activity": [
-                "",
-                "35dB智能降噪 | 69ms 游戏低延迟 | 无线充电 | 双设备智能连接 | 28h 长续航 | 自适应降噪"
-            ],
-            "price": 340,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.1781885.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.14287198.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.14793286.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.14679243.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.50985050.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.57184249.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.17877794.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "曜石黑"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 25
-        },
-        {
-            "name": "小米手环6",
-            "label": "wear",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b28153b80cb2c67564608e56d5c2f3f3.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "全屏实力",
-            "activity": [
-                "",
-                "1.56“跑道全面屏/血氧检测/30种专业运动模式"
-            ],
-            "price": 229,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937541.35886681.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937541.38863600.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937541.39134754.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937541.41525914.jpg"
-            ],
-            "version": [
-                [
-                    "标准版",
-                    299
-                ]
-            ],
-            "theme": false,
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": false,
-            "id": 26
-        },
-        {
-            "name": "小米手环5 NFC版",
-            "label": "wear",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c84e1bc129dda0c9c0169e1fab1fe521.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "多功能NFC 11种运动模式",
-            "activity": [
-                "",
-                "多功能彩显大屏 / 磁吸式充电 / 多功能NFC / 14天超长续航"
-            ],
-            "price": 229,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.23966403.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.50269005.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.3241223.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.23988738.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": false,
-            "id": 27
-        },
-        {
-            "name": "小米手环 5",
-            "label": "wear",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec0ec7692ba005710d1887262559609c.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": " 磁吸式充电",
-            "activity": [
-                "",
-                "动态大彩屏/小米运动APP/智能监测心率/离线支付/14天超长续航 / 磁吸式充电 / 11种运动模式"
-            ],
-            "price": 180,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.23966403.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.50269005.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.3241223.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.23988738.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": false,
-            "id": 28
-        },
-        {
-            "name": "Redmi AirDots 无线蓝牙耳机",
-            "label": "wear",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/66c7a6e46c5f1a7214eab8182d78171e.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "圈铁音质，超长续航",
-            "activity": [
-                "",
-                "圈铁音质/ 30小时超长续航/缤纷配色/蓝牙5.2"
-            ],
-            "price": 199,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1613983838.01557894.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1613983844.08531669.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1613983851.29647886.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "白色",
-                "粉色",
-                "蓝色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 29
-        },
-        {
-            "name": "小米真无线蓝牙耳机Air 2 Pro",
-            "label": "wear",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8fd19df34c6b2723f337cb3fb11984a6.png?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "主动降噪/持久续航/无线充",
-            "activity": [
-                "",
-                "弹窗快连语音唤醒/通话降噪同步传输/主动降噪通透模式/持久续航无线充电"
-            ],
-            "price": 699,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.78438981.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.77443537.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.7678597.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.77081636.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.8066842.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 30
-        },
-        {
-            "name": "小米真无线蓝牙耳机Air 2 Pro",
-            "label": "wear",
-            "type": "wear",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8fd19df34c6b2723f337cb3fb11984a6.png?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "主动降噪/持久续航/无线充",
-            "activity": [
-                "",
-                "弹窗快连语音唤醒/通话降噪同步传输/主动降噪通透模式/持久续航无线充电"
-            ],
-            "price": 699,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.78438981.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.77443537.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.7678597.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.77081636.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.8066842.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 30
-        },
-        {
-            "name": "小米电视4A 70英寸",
-            "label": "tv",
-            "type": "watchTv",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9d8674cd21c486feff5328772ab9cf01.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "大屏更享受",
-            "activity": [
-                "",
-                "70英寸震撼巨屏 / 4K画质 细腻如真 / 杜比音效 身临其境 / PatchWall智能系统 内置小爱同学 / 海量好内容"
-            ],
-            "price": 3699,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1568199413.36224361.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1568199415.62513479.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1568199416.71819095.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1568199418.88698462.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1568199420.44278280.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": [
-                "70英寸"
-            ],
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": true,
-            "id": 31
-        },
-        {
-            "name": "全面屏电视 55英寸E55X",
-            "label": "tv",
-            "type": "watchTv",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f193daba3989eadac5e13ae102b91582.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "潮流全面屏设计",
-            "activity": [
-                "",
-                "潮流全面屏设计 视野更广阔 / 4K超高清画质 细腻如真 / 杜比音效带来震撼体验 / 内置小爱同学 语音操控更便捷 / 智能PatchWall系统 / 2G+8G大存储空间 / 海量好内容 满足全家人的观看需求"
-            ],
-            "price": 2299,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570600947.92372088.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570600949.41437448.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570600950.85876006.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570600953.44392624.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570600955.02837545.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "灰色"
-            ],
-            "package": false,
-            "size": [
-                "55英寸"
-            ],
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": true,
-            "id": 32
-        },
-        {
-            "name": "小米电视4A 60英寸",
-            "label": "tv",
-            "type": "watchTv",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ecbe6a6c0d4950b78b086d7ada654e3b.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "人工智能语音系统,超高清画质",
-            "activity": [
-                "",
-                "4K HDR 超高清画质 / 人工智能语音系统 / 2G+8G大存储空间 / 海量视频好内容 / 64位四核高性能处理器"
-            ],
-            "price": 2799,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.37717048.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.29142762.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.22639160.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.26584325.png",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.21411920.png"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": [
-                "60英寸"
-            ],
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": true,
-            "id": 33
-        },
-        {
-            "name": "小米电视 EA75 2022款",
-            "label": "tv",
-            "type": "watchTv",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a5572d6d4adea2e8e9f936ef19024dd4.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "新一代金属全面屏",
-            "activity": [
-                "",
-                "4K超高清画质/AI远场语音/Unibody金属全面屏/DTS音频解码"
-            ],
-            "price": 4599,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1624974933.86955040.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1624974933.85639292.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1624974933.88683016.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1624974933.87469712.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1624974933.57051455.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": [
-                "标准版",
-                "影视会员版（内置两年影视会员权益）"
-            ],
-            "size": [
-                "75英寸"
-            ],
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": true,
-            "id": 34
-        },
-        {
-            "name": "小米全面屏电视65英寸 E65X",
-            "label": "tv",
-            "type": "watchTv",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/03a9e7e96a09d256ca1badeec186c859.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "全面屏设计",
-            "activity": [
-                "",
-                "4K超高清画质/AI远场语音/Unibody金属全面屏/DTS音频解码"
-            ],
-            "price": 2999,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601189808.02058075.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601189808.01835051.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601189808.01459567.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601189808.01469371.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601189808.01169013.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": [
-                "65英寸"
-            ],
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": true,
-            "id": 35
-        },
-        {
-            "name": "小米电视4C 32英寸",
-            "label": "tv",
-            "type": "watchTv",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3483b4ec83f3d085c567633f2edef1c1.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "高清液晶屏，人工智能系统",
-            "activity": [
-                "",
-                "4人工智能系统 | 64位处理器 | 1GB+4GB 内存"
-            ],
-            "price": 899,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1527060327.66235934.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1527060327.46737229.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1537866842.43711222.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": [
-                "32英寸"
-            ],
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": true,
-            "id": 36
-        },
-        {
-            "name": "Redmi智能电视A55",
-            "label": "tv",
-            "type": "watchTv",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f674ced205c2e81125dfd2d6659aabfc.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "澎湃音效影院级体验",
-            "activity": [
-                "",
-                "超高清画质/立体声澎湃音效/海量影音资源/64位四核处理器/超窄边框"
-            ],
-            "price": 1999,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1600242740.21454064.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1600242740.23697532.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1600242740.23684202.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1600242740.20094598.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": [
-                "55英寸"
-            ],
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": true,
-            "id": 37
-        },
-        {
-            "name": "Redmi X65 2022款",
-            "label": "recommend",
-            "type": "watchTv",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6511d77270e94146c0b1f96b66d8cc58.png?thumb=1&w=200&h=138&f=webp&q=90",
-            "title": "",
-            "activity": [
-                "【21号到手价3499元！赠2年延保：请确认购物车选购上2年延保】",
-                "金属全面屏，双120Hz高刷屏，4K HDR，全场景互联，94%P3电影级广色域"
-            ],
-            "price": 3499,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.91032872.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637922.04175457.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.96783722.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.97192476.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.9741674.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.99193377.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "蓝色"
-            ],
-            "package": false,
-            "size": [
-                "65英寸"
-            ],
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": true,
-            "id": 38
-        },
-        {
-            "name": "Redmi 智能电视 MAX 98“",
-            "label": "recommend",
-            "type": "watchTv",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9d649ec3d7d14da7090e396d56b7cc92.jpg",
-            "src2": "",
-            "title": "澎湃音效影院级体验",
-            "activity": [
-                "",
-                "客厅里的巨幕影院 大视野带来超震撼的沉浸感/4K HDR超高清画质 逼真画面栩栩如生/杜比+DTS双解码 清澈立体的声音环绕整个客厅/MEMC运动补偿 无拖尾无重影/4G+64G大存储 畅快不卡顿/海量片源 观影更爽/智能家居控制中心"
-            ],
-            "price": 17999,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584958755.36428250.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584958755.2476898.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584958755.13769522.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584958755.22099792.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584958755.11061040.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": [
-                "98英寸"
-            ],
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": true,
-            "id": 39
-        },
-        {
-            "name": "Redmi 智能电视 X55",
-            "label": "recommend",
-            "type": "watchTv",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/070b329c18c1ab167df2a42564a67813.png",
-            "src2": "",
-            "title": "澎湃音效影院级体验",
-            "activity": [
-                "",
-                "全金属边框/全面屏97%高屏占比/4K超高清/MEMC运动补偿"
-            ],
-            "price": 2699,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590401441.40816968.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590401441.54067145.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590401441.40431377.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590401441.59622918.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590401441.59812880.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "灰色"
-            ],
-            "package": false,
-            "size": [
-                "55英寸"
-            ],
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": true,
-            "id": 40
-        },
-        {
-            "name": "小米全面屏电视E43K",
-            "label": "recommend",
-            "type": "watchTv",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/319700f48d268f522664e1fc876b0044.png",
-            "src2": "",
-            "title": "澎湃音效影院级体验",
-            "activity": [
-                "",
-                "全金属边框/全面屏97%高屏占比/4K超高清/MEMC运动补偿"
-            ],
-            "price": 1399,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589855374.71192668.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589855374.61427305.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589855374.62169568.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589855374.61316540.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589855374.60037710.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": [
-                "43英寸"
-            ],
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": true,
-            "id": 41
-        },
-        {
-            "name": "米家互联网对开门冰箱 540L",
-            "label": "hot",
-            "type": "appliances",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6bed167fc905bab57dee478bcf1e5e0d.JPG?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "重磅新品福利特惠",
-            "activity": [
-                "「对开门爆款540L，12月23日到手价2799元！」「超大容量，分区存储，1级能效，风冷无霜，智能操控！」",
-                "风冷无霜/环绕出风/纤薄箱体/电脑控温,持久保鲜/智能互联"
-            ],
-            "price": 3699,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606296263.35176186.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606296265.26163194.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606296265.46377009.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606296263.35415824.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1625466899.91748701.png"
-            ],
-            "version": false,
-            "theme": [
-                "深灰"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 42
-        },
-        {
-            "name": "米家超薄电磁炉",
-            "label": "hot",
-            "type": "appliances",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/91bd66c0e6bf7a22d12a8b191da19078.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "纤薄美学，精准猛火",
-            "activity": [
-                "",
-                "23mm纤薄机身，易收纳 / 2100W爆炒功率 / 100W低功率持续加热 / 99挡细调火力 / NFC贴一下，米家APP即可闪现"
-            ],
-            "price": 499,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628495449.65995504.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628495449.66455413.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628495449.67218447.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628495449.66086349.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628495449.66082556.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 43
-        },
-        {
-            "name": "米家集尘扫拖机器人",
-            "label": "hot",
-            "type": "appliances",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7826279526dcce1e5a8b2eff2fa49784.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "自动倒垃圾，45天手不沾尘",
-            "activity": [
-                "",
-                "自动倒垃圾，45天手不沾尘"
-            ],
-            "price": 2999,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628217341.41494253.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628217341.30627957.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628217341.30242434.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628217341.31521064.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628217341.35637998.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 44
-        },
-        {
-            "name": "Redmi全自动波轮洗衣机1A 8kg",
-            "label": "hot",
-            "type": "appliances",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b8c63a2024528fe5410ebe669b7d2407.jpg?thumb=1&w=167&h=167&f=webp&q=90",
-            "src2": "",
-            "title": "一键操作，父母都爱用",
-            "activity": [
-                "「部分地区缺货，全自动波轮洗衣机8kg优先选择波轮洗衣机1S！」",
-                "8kg大容量 / 10种洗涤模式 / 10挡水位调节 / 耐腐蚀金属机身 / 桶自洁、桶风干模式避免细菌滋生 / 空气阻尼减震 / 免运费及基础安装费"
-            ],
-            "price": 899,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1552868299.27348967.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1552868299.23297041.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1552868299.30794969.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "白色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 45
-        },
-        {
-            "name": "米家电烤箱",
-            "label": "hot",
-            "type": "appliances",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1612c93ad4756215774a0dbec7a81bb2.jpg?thumb=1&w=83&h=83&f=webp&q=90",
-            "src2": "",
-            "title": "一键操作，父母都爱用",
-            "activity": [
-                "",
-                "32L大容积 / 上下独立控温 / 旋转烤叉 / 热风循环 / 40°C恒温发酵 / 120分钟定时 / 支持免定时持续运行"
-            ],
-            "price": 329,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.04136931.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.07563517.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.01636561.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.09832619.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644553.97449120.jpg"
-            ],
-            "version": false,
-            "theme": [
-                "白色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 46
-        },
-        {
-            "name": "小米/Redmi 显示器",
-            "label": "",
-            "type": "laptop",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b32e4db4b53b0c56c6040f094e96d945.png",
-            "src2": "",
-            "title": "一键操作，父母都爱用",
-            "activity": [
-                "",
-                "高清画质广视觉 | 满足工作学习娱乐需求 | 主流尺寸段 | 高性价比"
-            ],
-            "price": 1799,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635492538.83287093.jpg", "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1583999999.50692398.jpg", "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591755481.58867678.jpg", "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1621022440.50426069.jpg", "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638244450.88394454.jpg", "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1623049030.85341895.jpg", "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590547529.25156020.png"
-            ],
-            "version": [
-                ["24.5英寸 240Hz", 1799],
-                ["1A 23.8英寸", 899],
-                ["27英寸", 2199],
-                ["34英寸", 2599],
-                ["27英寸 4K版", 3499],
-                ["快速液晶 24.5英寸 165Hz", 1499],
-                ["1A 23.8英寸", 749]
-            ],
-            "theme": false,
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 47
-        },
-        {
-            "name": "RedmiBook Pro 14 增强版",
-            "label": "laptop",
-            "type": "laptop",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ac38f4abb13391b5f254cd47aebb55bb.png",
-            "src2": "",
-            "title": "一键操作，父母都爱用",
-            "activity": [
-                "",
-                "2.5K超视网膜屏 | MX450独立显卡(可选) | 小爱同学及MIUI+ | 这次很Pro"
-            ],
-            "price": 4999,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.04136931.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.07563517.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.01636561.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.09832619.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644553.97449120.jpg"
-            ],
-            "version": [
-                [
-                    "i5-11320H/锐炬Xe/16G/512G/2.5K",
-                    4499
-                ],
-                [
-                    "i5-11320H/MX450/16G/512G/2.5K",
-                    5399
-                ],
-                [
-                    "i7-11390H/MX450/16G/512G/2.5K",
-                    6149
-                ]
-            ],
-            "theme": [
-                "星空灰"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": false,
-            "id": 48
-        },
-        {
-            "name": "RedmiBook Pro 14",
-            "label": "laptop",
-            "type": "laptop",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ac38f4abb13391b5f254cd47aebb55bb.png",
-            "src2": "",
-            "title": "一键操作，父母都爱用",
-            "activity": [
-                "",
-                "2.5K超视网膜屏 | MX450独立显卡(可选) | 小爱同学及MIUI+ | 这次很Pro"
-            ],
-            "price": 4999,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.43459615.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.53299964.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.43643314.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.45184485.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.48793802.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.51554122.jpg"
-            ],
-            "version": [
-                [
-                    "i5-11320H/锐炬Xe/16G/512G/2.5K",
-                    4499
-                ],
-                [
-                    "i5-11320H/MX450/16G/512G/2.5K",
-                    5399
-                ],
-                [
-                    "i7-11390H/MX450/16G/512G/2.5K",
-                    6149
-                ]
-            ],
-            "theme": [
-                "星空灰"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": false,
-            "id": 49
-        },
-        {
-            "name": "RedmiBook Pro 15",
-            "label": "laptop",
-            "type": "laptop",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/70e30a90120626588b8ec6b96173776f.png",
-            "src2": "",
-            "title": "一键操作，父母都爱用",
-            "activity": [
-                "",
-                "3.2K 超视网膜屏 | 微米级一体精雕 | MX450独立显卡(可选) | Windows 11(可选)"
-            ],
-            "price": 5499,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947753.76432660.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.48918092.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.4637557.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.44319255.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.44329047.jpg"
-            ],
-            "version": [
-                [
-                    "i5-11320H/锐炬Xe/16G/512G/3.2K 90Hz",
-                    4999
-                ],
-                [
-                    "i5-11320H/MX450/16G/512G/3.2K 90Hz",
-                    5399
-                ],
-                [
-                    "i7-11390H/MX450/16G/512G/3.2K 90Hz",
-                    6449
-                ]
-            ],
-            "theme": [
-                "星光灰"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": false,
-            "id": 50
-        },
-        {
-            "name": "小米笔记本 Pro X 14",
-            "label": "laptop",
-            "type": "laptop",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/903da48ebe975727aeb5ef76186d03cf.png",
-            "src2": "",
-            "title": "一键操作，父母都爱用",
-            "activity": [
-                "",
-                "将一块高性能光追显卡装入轻薄本，超视网膜屏、高端工艺、智能体验，轻薄性能，小米笔记本Pro X 14，由此诞生。"
-            ],
-            "price": 7999,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632736547.87531567.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632736547.85799718.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632736547.8612384.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632736547.85961684.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632736547.87083016.jpg"
-            ],
-            "version": [
-                [
-                    "i7-11370H/16G/512G/RTX 3050/2.5K",
-                    7999
-                ]
-            ],
-            "theme": [
-                "灰色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": false,
-            "id": 51
-        },
-        {
-            "name": "Redmi G 2021 Intel版",
-            "label": "laptop",
-            "type": "laptop",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/994d6bcece6aa49d9c6cb709f4d9344a.png",
-            "src2": "",
-            "title": "一键操作，父母都爱用",
-            "activity": [
-                "",
-                "视野再突破，天生为赢而战，全方位为热爱进阶，Redmi G 2021 ，实力超能打。"
-            ],
-            "price": 7999,
-            "give": false,
-            "bannerSrc": [
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947753.76432660.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.48918092.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.4637557.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.44319255.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.44329047.jpg"
-            ],
-            "version": [
-                [
-                    "I5/RTX3050/16G/512G",
-                    6499
-                ]
-            ],
-            "theme": [
-                "黑色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": true,
-            "cloudSpace": false,
-            "install": false,
-            "id": 52
-        },
-        {
-            "name": "小米平板5",
-            "label": "tablet",
-            "type": "laptop",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d73037a32568723e7148395da0661ec5.png",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628600350.1553788.png",
-            "title": "一键操作，父母都爱用",
-            "activity": [
-                "",
-                "11英寸大屏|2.5K超清显示"
-            ],
-            "price": 1999,
-            "give": false,
-            "bannerSrc": false,
-            "version": [
-                [
-                    "6GB+128GB",
-                    1999
-                ],
-                [
-                    "6GB+256GB",
-                    2299
-                ]
-            ],
-            "theme": [
-                "绿色",
-                "黑色",
-                "白色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 53
-        },
-        {
-            "name": "小米平板5 Pro",
-            "label": "tablet",
-            "type": "laptop",
-            "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b34e14c8896df008e17e73e5cfdd3e2c.png",
-            "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1630006885.76232650.jpg",
-            "title": "一键操作，父母都爱用",
-            "activity": [
-                "",
-                "11英寸大屏|2.5K超清显示"
-            ],
-            "price": 1999,
-            "give": [
-                "赠品",
-                "满1件赠价值129元小米67W充电器套装 轻享版 白色 赠完即止"
-            ],
-            "bannerSrc": false,
-            "version": [
-                [
-                    "6GB+128GB",
-                    2499
-                ],
-                [
-                    "6GB+256GB",
-                    2799
-                ],
-                [
-                    "8GB+256GB",
-                    3499
-                ]
-            ],
-            "theme": [
-                "黑色",
-                "白色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": true,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 54
-        },
-        {
-            "name": "小米新3级立式空调",
-            "label": "appliances",
-            "type": "appliances",
-            "src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1609834043.87651899.jpg",
-            "src2": "//cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1609834043.87651899.jpg",
-            "title": "一键操作，父母都爱用",
-            "activity": [
-                "「6年质保！小爱语音控制，静音设计，智能自清洁，立体送风，热卖中...」",
-                "新三级能效/立体送风/静音设计/智能自清洁/简约外观/全屋互联IOT/直流变频压缩机"
-            ],
-            "price": 4299,
-            "give": false,
-            "bannerSrc": false,
-            "version": false,
-            "theme": [
-                "白色"
-            ],
-            "package": false,
-            "size": false,
-            "accident": false,
-            "guarantee": false,
-            "cloudSpace": false,
-            "install": false,
-            "id": 55
-        }
-    ],
-    "cart": [{
-            "name": "Xiaomi 11 6GB+64GB 晴光白雪",
-            "num": 1,
-            "additional": "云空间月卡50G",
-            "belongTo": 2,
-            "totalPrice": 1375,
-            "gID": 1,
-            "id": 1
-        },
-        {
-            "name": "Redmi X65 2022款 65英寸 蓝色",
-            "num": 1,
-            "additional": "",
-            "belongTo": 1,
-            "totalPrice": 3499,
-            "gID": 2,
-            "id": 3
-        },
-        {
-            "name": "Redmi智能电视A55 55英寸 黑色",
-            "num": 7,
-            "additional": "",
-            "belongTo": 2,
-            "totalPrice": 1999,
-            "gID": "37",
-            "id": 4
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "phone": "13776980023",
+      "password": "123456",
+      "username": "Lim",
+      "likeGoods": null,
+      "loginStatus": 0
+    },
+    {
+      "phone": "17628903772",
+      "password": "123456",
+      "username": "小明",
+      "likeGoods": null,
+      "loginStatus": 1,
+      "id": 2
+    },
+    {
+      "phone": "18790902233",
+      "password": "123456",
+      "username": "笑呵呵",
+      "likeGoods": null,
+      "loginStatus": 0,
+      "id": 3
+    },
+    {
+      "phone": "18286889593",
+      "password": "123456",
+      "username": "最靓的仔",
+      "likeGoods": null,
+      "loginStatus": 0,
+      "id": 4
+    }
+  ],
+  "goods": [
+    {
+      "name": "Xiaomi 11",
+      "label": "xm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/fea69fb5990da9dfc909aa8279aaea7e.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": "",
+      "title": "轻薄5G，内外皆出彩",
+      "activity": [
+        "「信用卡分期最高立减100元；+9.9元得小米定制马克杯；+110元得Air2 SE蓝牙耳机」",
+        "轻薄5G | 骁龙778G | 6400万主摄像头 | 柔性AMOLED 直屏 | 超线性立体声"
+      ],
+      "price": 1999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1639469340.48245139.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950313.75237391.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950306.77395317.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950309.35894424.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638950311.52976915.png"
+      ],
+      "version": [
+        [
+          "6GB+64GB",
+          1369
+        ],
+        [
+          "8GB+128GB",
+          1999
+        ],
+        [
+          "8GB+256GB",
+          2299
+        ]
+      ],
+      "theme": [
+        "晴光白雪",
+        "樱花蜜粉",
+        "冰峰黑提",
+        "清凉薄荷"
+      ],
+      "package": [
+        "标准版",
+        "套装版（赠充电器）"
+      ],
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 1
+    },
+    {
+      "name": "Xiaomi Civi",
+      "label": "xm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8cad77bda138fd94eadbc2ddfced7c56.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632713426.30988142.jpg",
+      "title": "3200万高清质感自拍",
+      "activity": [
+        "「购机至高享24期免息；赠Redmi AirDots 2真无线蓝牙耳机；赠Keep会员7天体验卡；+110元得Air2 SE蓝牙耳机」",
+        "轻薄潮流设计 | 丝绒AG工艺 | 原生美肌人像 | 像素级肌肤焕新技术 | 3200万高清质感自拍 | 双柔光灯+自动对焦 | 3D曲面OLED柔性屏 | 120Hz+Dolby Vision | 4500mAh 大电量 | 55W有线闪充 | 立体声双扬声器 | 多功能NFC"
+      ],
+      "price": 2599,
+      "give": [
+        "满减",
+        "Xiaomi Civi 8+128下单立减100元"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "8GB+128GB",
+          2599
+        ],
+        [
+          "12GB+256GB",
+          3199
+        ],
+        [
+          "8GB+256GB",
+          2899
+        ]
+      ],
+      "theme": [
+        "闪闪黑",
+        "轻轻蓝",
+        "怦怦粉色"
+      ],
+      "package": [
+        "标准版",
+        "套装版（赠充电器）",
+        "真无线降噪耳机 3 Pro 流光白套装版",
+        "真无线降噪耳机 3 Pro 曜石黑套装版",
+        "真无线降噪耳机 3 Pro 极光绿套装版"
+      ],
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 2
+    },
+    {
+      "name": "Xiaomi MIX 4",
+      "label": "xm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/087c52d253d9301dff7743d6bf2d0330.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628588553.56819324.jpg",
+      "title": "",
+      "activity": [
+        "「12月21日-12月23日全版本优惠800元，领券再减500元，下单再减30元，券后价3669元起；买赠素皮保护壳（黑色）」",
+        "CUP全面屏 | 真彩原色 + 120Hz | 一体化轻量陶瓷机身 | 高通骁龙™888+ | WiFi 6 增强版 | 石墨烯「冰封」散热系统4500mAh 大电量 | 常温 120W 快充 | 50W 无线快充 | 1 亿像素电影相机"
+      ],
+      "price": 4199,
+      "give": [
+        "赠品",
+        "满1件赠价值149元Xiaomi MIX 4 素皮保护壳 黑色 赠完即止"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "8GB+128GB",
+          4199
+        ],
+        [
+          "12GB+256GB",
+          4999
+        ],
+        [
+          "8GB+256GB",
+          4499
+        ],
+        [
+          "12GB+512GB",
+          5499
+        ]
+      ],
+      "theme": [
+        "陶瓷黑",
+        "影青灰",
+        "陶瓷白"
+      ],
+      "package": [
+        "标准版",
+        "加50元得129元风口上的猪挂件（全款支付专享）"
+      ],
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 3
+    },
+    {
+      "name": "Xiaomi MIX FOLD",
+      "label": "xm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/85e44ea2405ff8414148bbde7446b137.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1617098695.73526265.jpg",
+      "title": "",
+      "activity": [
+        "「购机最高享24期分期免息；信用卡分期支付享优惠」",
+        "8.01''折叠大屏｜澎湃C1自研专业影像芯片｜液态镜头｜1亿像素｜骁龙888｜67W快充｜5020mAh超大电池｜LPDDR5满血版｜WiFi6（增强版）｜哈曼卡顿立体声四扬声器"
+      ],
+      "price": 6999,
+      "give": [
+        "赠品",
+        "满1件赠价值199元MIX FOLD 素皮保护壳 碳纤黑 赠完即止"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "12GB+256GB",
+          6999
+        ],
+        [
+          "12GB+512GB",
+          7999
+        ]
+      ],
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": false,
+      "cloudSpace": true,
+      "install": false,
+      "id": 4
+    },
+    {
+      "name": "Xiaomi 11 Ultra",
+      "label": "xm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1a359e9346e3c6ee8c9d8389e3fd9458.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1617008590.88834809.jpg",
+      "title": "",
+      "activity": [
+        "「最高享24期分期免息；信用卡分期至高立省300元；全款支付赠风口上的猪挂饰（选择风口上的猪套装下单）」",
+        "1/1.12''GN2｜128°超广角｜120X超长焦｜2K四微曲屏｜骁龙888｜IP68级防水｜67W 有线闪充｜67W 无线闪充｜10W 无线反充｜5000mAh超大电池｜LPDDR5｜WiFi6（增强版）｜哈曼卡顿音频认证｜立体声双扬声器"
+      ],
+      "price": 5499,
+      "give": false,
+      "bannerSrc": false,
+      "version": [
+        [
+          "12GB+256GB",
+          5999
+        ],
+        [
+          "8GB+256GB",
+          5499
+        ],
+        [
+          "12GB+512GB",
+          6499
+        ]
+      ],
+      "theme": [
+        "陶瓷白",
+        "陶瓷黑",
+        "大理石纹特别版"
+      ],
+      "package": [
+        "标准版",
+        "套装版（赠充电器）",
+        "赠129元风口上的猪挂饰（全款支付专享）"
+      ],
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 5
+    },
+    {
+      "name": "Xiaomi 11 Pro",
+      "label": "xm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a1c45eadcedeb27b1cafca0359422da9.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": false,
+      "title": "",
+      "activity": [
+        "「12月22-24日，全版本优惠50元，领券下单再减300元，券后到手价3649起；购机赠Air2 SE耳机，至高享24期免息」",
+        "1/1.12''GN2｜骁龙888｜2K四微曲屏｜IP68级防水｜67W 有线闪充｜67W 无线闪充｜10W 无线反充｜5000mAh超大电池｜LPDDR5｜WiFi6（增强版）｜哈曼卡顿音频认证｜立体声双扬声器"
+      ],
+      "price": 3999,
+      "give": [
+        "赠品",
+        "满1件赠价值129元小米真无线蓝牙耳机Air2 SE 白色 赠完即止"
+      ],
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634109528.42339555.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1617008363.42449006.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634109528.43086423.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634109528.42339555.jpg"
+      ],
+      "version": [
+        [
+          "8GB+128GB",
+          3949
+        ],
+        [
+          "8GB+256GB",
+          4249
+        ],
+        [
+          "12GB+256GB",
+          4649
+        ]
+      ],
+      "theme": [
+        "黑色",
+        "绿色",
+        "紫色"
+      ],
+      "package": [
+        "标准版",
+        "套装版（赠充电器）",
+        "赠129元风口上的猪挂饰（全款支付专享）"
+      ],
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 6
+    },
+    {
+      "name": "Redmi Note 11 Pro",
+      "label": "hm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7e78629420a392da6fd3e34dae9fac5d.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635332995.28485388.jpg",
+      "title": "Redmi Note 11 Pro",
+      "activity": [
+        "「至高优惠130元，券后到手价1669元起；光大信用卡分期支付满1000减80元」",
+        "三星AMOLED高刷屏 | JBL 对称式立体声 | 一亿像素超清影像 | 天玑920液冷芯 | VC液冷立体散热 |"
+      ],
+      "price": 1799,
+      "give": [
+        "优惠券",
+        "30元锦鲤券"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "6GB+128GB",
+          1799
+        ],
+        [
+          "8GB+128GB",
+          1999
+        ],
+        [
+          "12GB+256GB",
+          4649
+        ]
+      ],
+      "theme": [
+        "浅梦星河",
+        "时光静紫",
+        "迷雾森林",
+        "神秘黑境"
+      ],
+      "package": [
+        "标准版",
+        "Redmi Buds 3白色套装版"
+      ],
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 7
+    },
+    {
+      "name": "Redmi Note 11 5G",
+      "label": "hm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7e78629420a392da6fd3e34dae9fac5d.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635333564.12183750.jpg",
+      "title": "5000mAh大电量",
+      "activity": [
+        "「至高优惠30元，券后到手价1169元起；购机赠小米定制聚酯纤维双肩包」",
+        "双卡双5G | X轴线性马达 | 5000mAh 大电量 | 33W快充 | 立体声双扬声器 | 天玑810处理器 | 90Hz变速高刷屏"
+      ],
+      "price": 1299,
+      "give": [
+        "赠品",
+        "满1件赠价值99元定制聚酯纤维双肩包 单品二灰色 赠完即止"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "6GB+128GB",
+          1299
+        ],
+        [
+          "4GB+128GB",
+          1199
+        ],
+        [
+          "8GB+128GB",
+          1499
+        ],
+        [
+          "8GB+256GB",
+          1699
+        ]
+      ],
+      "theme": [
+        "神秘黑境",
+        "微醺薄荷",
+        "浅梦星河"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 8
+    },
+    {
+      "name": "Redmi Note 11 4G",
+      "label": "hm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a785b54d06c72ff63e64d0fa51ee02f5.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": "",
+      "title": "",
+      "activity": [
+        "「全版本优惠30元，券后到手价969元起；光大信用卡分期支付满1000元减80元，数量有限」",
+        "5000万AI三摄 | Helio G88 高性能芯片 | 5000mAh 大电量 | 18W快充 | 支持最高9W反向充电 | 立体声双扬声器 | 90Hz变速高刷屏"
+      ],
+      "price": 999,
+      "give": [
+        "优惠券",
+        "30元锦鲤券"
+      ],
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1637659716.05251404.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1637674777.20217333.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1637674777.23555435.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1637674777.24385487.png"
+      ],
+      "version": [
+        [
+          "6GB+128GB",
+          1099
+        ],
+        [
+          "4GB+128GB",
+          999
+        ]
+      ],
+      "theme": [
+        "梦幻晴空",
+        "时光独白",
+        "神秘黑境"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 9
+    },
+    {
+      "name": "Redmi Note 10 Pro",
+      "label": "hm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e3c5d99c28700a3c45ea65eebbea0a04.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1621955784.84614979.jpg",
+      "title": "",
+      "activity": [
+        "「全版本至高优惠130元，券后到手价1469元起；光大信用卡分期支付满1000元减80元，数量有限」",
+        "天玑1100年度旗舰芯｜VC液冷散热｜120Hz旗舰变速金刚屏 ｜67W 闪充 5000mAh 大电池｜JBL 立体声双扬声器｜UFS 3.1｜6400万AI三摄｜多功能NFC 3.0"
+      ],
+      "price": 1499,
+      "give": [
+        "优惠券",
+        "30元锦鲤券"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "6GB+128GB",
+          1499
+        ],
+        [
+          "8GB+128GB",
+          1699
+        ],
+        [
+          "8GB+256GB",
+          1899
+        ]
+      ],
+      "theme": [
+        "月魄",
+        "幻青",
+        "星纱"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 10
+    },
+    {
+      "name": "Redmi Note 10 5G",
+      "label": "hm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/88bb84ff06f0ab467b859aeed36b817a.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1621955684.40846624.jpg",
+      "title": "",
+      "activity": [
+        "「全版本至高优惠30元，券后到手价1069元起；光大信用卡分期支付满1000元减80元，数量有限」",
+        "5G小金刚｜旗舰长续航｜双5G待机｜5000mAh充电宝级大容量｜4800万高清相机｜天玑700八核高性能处理器"
+      ],
+      "price": 1099,
+      "give": [
+        "优惠券",
+        "30元锦鲤券"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "4GB+128GB",
+          1099
+        ],
+        [
+          "6GB+128GB",
+          1199
+        ],
+        [
+          "8GB+128GB",
+          1399
+        ],
+        [
+          "8GB+256GB",
+          1599
+        ]
+      ],
+      "theme": [
+        "竹石青",
+        "晴山蓝",
+        "月影银",
+        "星云灰"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 11
+    },
+    {
+      "name": "K40 游戏增强版",
+      "label": "hm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/acd0f27496ccdf81ef42124c35e8bfc4.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "src2": "",
+      "title": "",
+      "activity": [
+        "「购机享+110元得Air 2 SE蓝牙耳机；浦发信用卡分期满2000元减100元，数量有限」",
+        "天玑1200｜年度旗舰处理器｜弹出式肩键｜航天立体散热｜JBL立体声双扬声器｜64MP旗舰三摄"
+      ],
+      "price": 1999,
+      "give": [
+        "优惠券",
+        "30元锦鲤券"
+      ],
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1627353447.30892610.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097889.31877993.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097889.345879.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097889.32246800.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097895.37561303.png"
+      ],
+      "version": [
+        [
+          "12GB+256GB",
+          2799
+        ],
+        [
+          "12GB+128GB",
+          2599
+        ],
+        [
+          "8GB+256GB",
+          2399
+        ],
+        [
+          "8GB+128GB",
+          2199
+        ],
+        [
+          "6GB+128GB",
+          1599
+        ]
+      ],
+      "theme": [
+        "暗影",
+        "光刃",
+        "银翼",
+        "逆鳞",
+        "李小龙特别版"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 12
+    },
+    {
+      "name": "Xiaomi 10S",
+      "label": "xm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c89e7b3a3495acaa0a4df271d9da59ea.png",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1615342330.97933727.jpg",
+      "title": "",
+      "activity": [
+        "「12.21-12.25 领券立减200元，券后价2499元起；至高享24期免息；赠蓝牙耳机Air2 SE;【全款支付套装】赠果冻包」",
+        "骁龙870 | 对称式双扬立体声 | 1亿像素 8K电影相机 | 33W有线快充 | 30W无线快充 | 10W反向充电 | 4780mAh超大电池 | LPDDR5+UFS3.0+Wi-Fi 6 | VC液冷散热 | 双模5G"
+      ],
+      "price": 3299,
+      "give": [
+        "赠品",
+        "满1件赠价值129元小米真无线蓝牙耳机Air2 SE 白色 赠完即止"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "8GB+128GB",
+          3299
+        ],
+        [
+          "8GB+256GB",
+          3499
+        ],
+        [
+          "12GB+2556GB",
+          3799
+        ]
+      ],
+      "theme": [
+        "黑色",
+        "白色",
+        "蓝色"
+      ],
+      "package": [
+        "标准版",
+        "套装版（赠充电器）",
+        "赠生生不息果冻包（全款支付专享）"
+      ],
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 13
+    },
+    {
+      "name": "Redmi K40 Pro",
+      "label": "hm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0e5aa3cab478f5eeba1c7d4cf25cba9a.png",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1614153658.41363669.jpg",
+      "title": "",
+      "activity": [
+        "「8GB+256GB优惠200元；享6期分期免息；赠 Keep 会员权益；赠小米移动流量卡」",
+        "骁龙888 / E4 旗舰直屏 / 120Hz高刷 / 杜比全景声 / 4520mAh大电量 / WiFi 6 增强版 / 7.8mm轻薄机身 / 多功能NFC / 红外遥控"
+      ],
+      "price": 3299,
+      "give": [
+        "赠品",
+        "满1件赠价值129元小米真无线蓝牙耳机Air2 SE 白色 赠完即止"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "8GB+128GB",
+          2999
+        ],
+        [
+          "8GB+256GB",
+          3299
+        ]
+      ],
+      "theme": [
+        "墨羽",
+        "幻境",
+        "晴雪"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 14
+    },
+    {
+      "name": "黑鲨4S Pro",
+      "label": "hx",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b45cbcf2bbe244982b2e865fa5077a52.png",
+      "src2": "",
+      "title": "磁动力升降肩键",
+      "activity": [
+        "「火热开售中！享12期分期免息！至高闪降300元」",
+        "骁龙888 Plus| 增强版UFS3.1+SSD磁盘阵列系统 | “三明治”液冷散热系统| 120W极速闪充+4500mAh双电竞电池 | 磁动力升降肩键 | 144Hz 三星E4屏幕"
+      ],
+      "price": 5499,
+      "give": [
+        "赠品一",
+        "满1件赠价值29元3.5mm弯头音频转接线 赠完即止"
+      ],
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097487.52651410.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097501.27049003.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097505.05315572.png"
+      ],
+      "version": [
+        [
+          "16GB+512GB",
+          5499
+        ],
+        [
+          "12GB+256GB",
+          3299
+        ]
+      ],
+      "theme": [
+        "星河黑",
+        "天际白"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 15
+    },
+    {
+      "name": "黑鲨4S",
+      "label": "hx",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/958d5b4cf1f6a755b97b797f4cec67ed.png",
+      "src2": "",
+      "title": "磁动力升降肩键",
+      "activity": [
+        "",
+        "120W超级闪充/磁动力升降肩键/144Hz电竞屏/旗舰音频系统/4500mAh 双竞电池/高通骁龙处理器"
+      ],
+      "price": 5499,
+      "give": [
+        "赠品一",
+        "满1件赠价值29元3.5mm弯头音频转接线 赠完即止"
+      ],
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097592.98569355.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097593.0186637.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097592.99792146.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634097592.98269759.png"
+      ],
+      "version": [
+        [
+          "12GB+256GB",
+          3299
+        ],
+        [
+          "12GB+128GB",
+          2999
+        ],
+        [
+          "8GB+128GB",
+          2699
+        ]
+      ],
+      "theme": [
+        "雾白",
+        "玄黑",
+        "高达限定版"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": false,
+      "cloudSpace": true,
+      "install": false,
+      "id": 16
+    },
+    {
+      "name": "Redmi 9A",
+      "label": "hm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1db88cd66ff1a6a3e75116988b7f3e12.jpg",
+      "src2": "",
+      "title": "",
+      "activity": [
+        "「128GB版本优惠10元；赠价值897元三人体检套餐；赠小米移动流量卡；赠Keep会员7天体验卡」",
+        "6.53”超大护眼屏幕｜ 5000mAh长循环大电量｜ 大音量扬声器 ｜1300万AI相机 ｜人脸解锁｜G25八核处理器"
+      ],
+      "price": 599,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.0831679.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.08014623.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.07921552.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.08042829.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400896.07966928.jpg"
+      ],
+      "version": [
+        [
+          "4GB+64GB",
+          599
+        ],
+        [
+          "4GB+128GB",
+          799
+        ],
+        [
+          "6GB+128GB",
+          999
+        ]
+      ],
+      "theme": [
+        "砂石黑",
+        "晴空蓝",
+        "湖光绿"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 17
+    },
+    {
+      "name": "Redmi Note 9  4G",
+      "label": "hm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/947721c8bc4a4ecc3bca17237ee64dea.png",
+      "src2": "",
+      "title": "",
+      "activity": [
+        "「购机享+110元得Air 2 SE蓝牙耳机；农行信用卡快捷支付满299元减30元，数量有限」",
+        "6000mAh超长续航｜4800万超清三摄｜全高清6.53英寸护眼屏｜骁龙662处理器｜18W快速充电｜立体声双扬声器｜侧边指纹识别｜90%高屏占比｜康宁大猩猩保护玻璃"
+      ],
+      "price": 999,
+      "give": [
+        "优惠券",
+        "30元锦鲤券"
+      ],
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606289221.80685857.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634108516.94643643.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634108516.89793810.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634108516.90067917.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634108516.90292769.png"
+      ],
+      "version": [
+        [
+          "4GB+128GB",
+          999
+        ],
+        [
+          "6GB+128GB",
+          1099
+        ],
+        [
+          "8GB+128GB",
+          1299
+        ],
+        [
+          "8GB+256GB",
+          1499
+        ]
+      ],
+      "theme": [
+        "曙光橙",
+        "雾光青",
+        "烟波蓝",
+        "羽墨黑"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 18
+    },
+    {
+      "name": "Redmi 手表 2",
+      "label": "hot",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f84503dbf5adbdf17111c61d4a7cf893.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "AMOLED高清大屏",
+      "activity": [
+        "",
+        "1.6“AMOLED大屏 | 独立卫星定位 | 117种运动模式 | 12天长续航 | 血氧检测 | 24小时心率监测 | 多功能NFC | 31g轻量化设计 | 50米防水 | 独立卫星定位"
+      ],
+      "price": 399,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635387575.72049661.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635387561.78116374.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635387579.5924475.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "深空蓝",
+        "象牙白",
+        "典雅黑"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 19
+    },
+    {
+      "name": "小米手环6 NFC版",
+      "label": "hot",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b28153b80cb2c67564608e56d5c2f3f3.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "全屏实力",
+      "activity": [
+        "",
+        "1.56“跑道全面彩屏 / 30种运动模式 / 24小时心率监测 / 支持NFC功能"
+      ],
+      "price": 270,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937495.15214384.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937495.13948630.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937495.16989842.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937495.14595443.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": false,
+      "id": 20
+    },
+    {
+      "name": "Redmi 手表",
+      "label": "hot",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/cfec307342eb35ee4a437f664004c50f.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "35g超轻/1.4大屏/多功能NFC",
+      "activity": [
+        "",
+        "1.4英寸高清大屏 / 30天心率监测 / 多功能NFC / 35g轻量设计"
+      ],
+      "price": 299,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606357020.94553331.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606357020.87912193.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606357020.90171867.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606357020.85782041.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606357017.91427901.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "水墨蓝",
+        "象牙白",
+        "典雅黑"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 21
+    },
+    {
+      "name": "Xiaomi 真无线降噪耳机 3 Pro",
+      "label": "hot",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0cc4e8e58d7288cd8dff13b98bdc3ea8.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "动态降噪 静听曼妙",
+      "activity": [
+        "",
+        "40dB自适应降噪 ｜空间音频 ｜ HiFi高保真音质 ｜27小时超长续航 人体工学舒适佩戴｜双重通透模式｜跨平台双设备连接"
+      ],
+      "price": 699,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632824968.20185994.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632824971.67889872.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632824975.63358839.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632825160.29247375.png"
+      ],
+      "version": false,
+      "theme": [
+        "流光白",
+        "曜石黑",
+        "极光绿"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 22
+    },
+    {
+      "name": "Redmi Buds 无线蓝牙耳机",
+      "label": "hot",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/11570d5371f16d2d9b19f504e09d01f0.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "轻巧半入耳，舒适有天分",
+      "activity": [
+        "",
+        "轻巧半入耳 | 高通专业芯片 | 通话降噪 | 20小时长续航 | MIUI 快连弹窗 | IP54 防尘防水"
+      ],
+      "price": 199,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1631677394.01747266.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1630050983.11122580.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1630050982.13233689.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1630050983.42252797.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1630050982.86394689.png"
+      ],
+      "version": false,
+      "theme": [
+        "白色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 23
+    },
+    {
+      "name": "Redmi Buds 3 青春版",
+      "label": "hot",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/2fcf24e40ff09a254857ac8b4ace25b8.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635386883.7186389.png",
+      "title": "轻巧无线 持久动听",
+      "activity": [
+        "",
+        "轻巧真无线 | 猫耳状稳固设计 | 蓝牙5.2 | 18小时长续航"
+      ],
+      "price": 99,
+      "give": false,
+      "bannerSrc": false,
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 24
+    },
+    {
+      "name": "Redmi AirDots 3 Pro",
+      "label": "hot",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/72c4b2540c851b542e505058f1603823.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "智能降噪 超低延迟",
+      "activity": [
+        "",
+        "35dB智能降噪 | 69ms 游戏低延迟 | 无线充电 | 双设备智能连接 | 28h 长续航 | 自适应降噪"
+      ],
+      "price": 340,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.1781885.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.14287198.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.14793286.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.14679243.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.50985050.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.57184249.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1622000680.17877794.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "曜石黑"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 25
+    },
+    {
+      "name": "小米手环6",
+      "label": "wear",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b28153b80cb2c67564608e56d5c2f3f3.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "全屏实力",
+      "activity": [
+        "",
+        "1.56“跑道全面屏/血氧检测/30种专业运动模式"
+      ],
+      "price": 229,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937541.35886681.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937541.38863600.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937541.39134754.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1616937541.41525914.jpg"
+      ],
+      "version": [
+        [
+          "标准版",
+          299
+        ]
+      ],
+      "theme": false,
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": false,
+      "id": 26
+    },
+    {
+      "name": "小米手环5 NFC版",
+      "label": "wear",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c84e1bc129dda0c9c0169e1fab1fe521.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "多功能NFC 11种运动模式",
+      "activity": [
+        "",
+        "多功能彩显大屏 / 磁吸式充电 / 多功能NFC / 14天超长续航"
+      ],
+      "price": 229,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.23966403.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.50269005.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.3241223.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.23988738.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": false,
+      "id": 27
+    },
+    {
+      "name": "小米手环 5",
+      "label": "wear",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec0ec7692ba005710d1887262559609c.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": " 磁吸式充电",
+      "activity": [
+        "",
+        "动态大彩屏/小米运动APP/智能监测心率/离线支付/14天超长续航 / 磁吸式充电 / 11种运动模式"
+      ],
+      "price": 180,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.23966403.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.50269005.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.3241223.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591780204.23988738.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": false,
+      "id": 28
+    },
+    {
+      "name": "Redmi AirDots 无线蓝牙耳机",
+      "label": "wear",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/66c7a6e46c5f1a7214eab8182d78171e.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "圈铁音质，超长续航",
+      "activity": [
+        "",
+        "圈铁音质/ 30小时超长续航/缤纷配色/蓝牙5.2"
+      ],
+      "price": 199,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1613983838.01557894.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1613983844.08531669.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1613983851.29647886.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "白色",
+        "粉色",
+        "蓝色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 29
+    },
+    {
+      "name": "小米真无线蓝牙耳机Air 2 Pro",
+      "label": "wear",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8fd19df34c6b2723f337cb3fb11984a6.png?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "主动降噪/持久续航/无线充",
+      "activity": [
+        "",
+        "弹窗快连语音唤醒/通话降噪同步传输/主动降噪通透模式/持久续航无线充电"
+      ],
+      "price": 699,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.78438981.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.77443537.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.7678597.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.77081636.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1602558654.8066842.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 30
+    },
+    {
+      "name": "小米电视4A 70英寸",
+      "label": "tv",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9d8674cd21c486feff5328772ab9cf01.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "大屏更享受",
+      "activity": [
+        "",
+        "70英寸震撼巨屏 / 4K画质 细腻如真 / 杜比音效 身临其境 / PatchWall智能系统 内置小爱同学 / 海量好内容"
+      ],
+      "price": 3699,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1568199413.36224361.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1568199415.62513479.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1568199416.71819095.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1568199418.88698462.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1568199420.44278280.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": [
+        "70英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 31
+    },
+    {
+      "name": "全面屏电视 55英寸E55X",
+      "label": "tv",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f193daba3989eadac5e13ae102b91582.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "潮流全面屏设计",
+      "activity": [
+        "",
+        "潮流全面屏设计 视野更广阔 / 4K超高清画质 细腻如真 / 杜比音效带来震撼体验 / 内置小爱同学 语音操控更便捷 / 智能PatchWall系统 / 2G+8G大存储空间 / 海量好内容 满足全家人的观看需求"
+      ],
+      "price": 2299,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570600947.92372088.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570600949.41437448.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570600950.85876006.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570600953.44392624.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570600955.02837545.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "灰色"
+      ],
+      "package": false,
+      "size": [
+        "55英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 32
+    },
+    {
+      "name": "小米电视4A 60英寸",
+      "label": "tv",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ecbe6a6c0d4950b78b086d7ada654e3b.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "人工智能语音系统,超高清画质",
+      "activity": [
+        "",
+        "4K HDR 超高清画质 / 人工智能语音系统 / 2G+8G大存储空间 / 海量视频好内容 / 64位四核高性能处理器"
+      ],
+      "price": 2799,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.37717048.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.29142762.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.22639160.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.26584325.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1586362097.21411920.png"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": [
+        "60英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 33
+    },
+    {
+      "name": "小米电视 EA75 2022款",
+      "label": "tv",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a5572d6d4adea2e8e9f936ef19024dd4.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "新一代金属全面屏",
+      "activity": [
+        "",
+        "4K超高清画质/AI远场语音/Unibody金属全面屏/DTS音频解码"
+      ],
+      "price": 4599,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1624974933.86955040.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1624974933.85639292.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1624974933.88683016.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1624974933.87469712.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1624974933.57051455.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": [
+        "标准版",
+        "影视会员版（内置两年影视会员权益）"
+      ],
+      "size": [
+        "75英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 34
+    },
+    {
+      "name": "小米全面屏电视65英寸 E65X",
+      "label": "tv",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/03a9e7e96a09d256ca1badeec186c859.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "全面屏设计",
+      "activity": [
+        "",
+        "4K超高清画质/AI远场语音/Unibody金属全面屏/DTS音频解码"
+      ],
+      "price": 2999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601189808.02058075.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601189808.01835051.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601189808.01459567.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601189808.01469371.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1601189808.01169013.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": [
+        "65英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 35
+    },
+    {
+      "name": "小米电视4C 32英寸",
+      "label": "tv",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3483b4ec83f3d085c567633f2edef1c1.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "高清液晶屏，人工智能系统",
+      "activity": [
+        "",
+        "4人工智能系统 | 64位处理器 | 1GB+4GB 内存"
+      ],
+      "price": 899,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1527060327.66235934.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1527060327.46737229.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1537866842.43711222.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": [
+        "32英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 36
+    },
+    {
+      "name": "Redmi智能电视A55",
+      "label": "tv",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f674ced205c2e81125dfd2d6659aabfc.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "澎湃音效影院级体验",
+      "activity": [
+        "",
+        "超高清画质/立体声澎湃音效/海量影音资源/64位四核处理器/超窄边框"
+      ],
+      "price": 1999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1600242740.21454064.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1600242740.23697532.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1600242740.23684202.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1600242740.20094598.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": [
+        "55英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 37
+    },
+    {
+      "name": "Redmi X65 2022款",
+      "label": "recommend",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6511d77270e94146c0b1f96b66d8cc58.png?thumb=1&w=200&h=138&f=webp&q=90",
+      "title": "",
+      "activity": [
+        "【21号到手价3499元！赠2年延保：请确认购物车选购上2年延保】",
+        "金属全面屏，双120Hz高刷屏，4K HDR，全场景互联，94%P3电影级广色域"
+      ],
+      "price": 3499,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.91032872.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637922.04175457.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.96783722.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.97192476.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.9741674.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1634637921.99193377.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "蓝色"
+      ],
+      "package": false,
+      "size": [
+        "65英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 38
+    },
+    {
+      "name": "Redmi 智能电视 MAX 98“",
+      "label": "recommend",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9d649ec3d7d14da7090e396d56b7cc92.jpg",
+      "src2": "",
+      "title": "澎湃音效影院级体验",
+      "activity": [
+        "",
+        "客厅里的巨幕影院 大视野带来超震撼的沉浸感/4K HDR超高清画质 逼真画面栩栩如生/杜比+DTS双解码 清澈立体的声音环绕整个客厅/MEMC运动补偿 无拖尾无重影/4G+64G大存储 畅快不卡顿/海量片源 观影更爽/智能家居控制中心"
+      ],
+      "price": 17999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584958755.36428250.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584958755.2476898.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584958755.13769522.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584958755.22099792.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584958755.11061040.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": [
+        "98英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 39
+    },
+    {
+      "name": "Redmi 智能电视 X55",
+      "label": "recommend",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/070b329c18c1ab167df2a42564a67813.png",
+      "src2": "",
+      "title": "澎湃音效影院级体验",
+      "activity": [
+        "",
+        "全金属边框/全面屏97%高屏占比/4K超高清/MEMC运动补偿"
+      ],
+      "price": 2699,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590401441.40816968.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590401441.54067145.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590401441.40431377.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590401441.59622918.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590401441.59812880.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "灰色"
+      ],
+      "package": false,
+      "size": [
+        "55英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 40
+    },
+    {
+      "name": "小米全面屏电视E43K",
+      "label": "recommend",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/319700f48d268f522664e1fc876b0044.png",
+      "src2": "",
+      "title": "澎湃音效影院级体验",
+      "activity": [
+        "",
+        "全金属边框/全面屏97%高屏占比/4K超高清/MEMC运动补偿"
+      ],
+      "price": 1399,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589855374.71192668.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589855374.61427305.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589855374.62169568.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589855374.61316540.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1589855374.60037710.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": [
+        "43英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 41
+    },
+    {
+      "name": "米家互联网对开门冰箱 540L",
+      "label": "hot",
+      "type": "appliances",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6bed167fc905bab57dee478bcf1e5e0d.JPG?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "重磅新品福利特惠",
+      "activity": [
+        "「对开门爆款540L，12月23日到手价2799元！」「超大容量，分区存储，1级能效，风冷无霜，智能操控！」",
+        "风冷无霜/环绕出风/纤薄箱体/电脑控温,持久保鲜/智能互联"
+      ],
+      "price": 3699,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606296263.35176186.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606296265.26163194.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606296265.46377009.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1606296263.35415824.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1625466899.91748701.png"
+      ],
+      "version": false,
+      "theme": [
+        "深灰"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 42
+    },
+    {
+      "name": "米家超薄电磁炉",
+      "label": "hot",
+      "type": "appliances",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/91bd66c0e6bf7a22d12a8b191da19078.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "纤薄美学，精准猛火",
+      "activity": [
+        "",
+        "23mm纤薄机身，易收纳 / 2100W爆炒功率 / 100W低功率持续加热 / 99挡细调火力 / NFC贴一下，米家APP即可闪现"
+      ],
+      "price": 499,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628495449.65995504.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628495449.66455413.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628495449.67218447.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628495449.66086349.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628495449.66082556.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 43
+    },
+    {
+      "name": "米家集尘扫拖机器人",
+      "label": "hot",
+      "type": "appliances",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7826279526dcce1e5a8b2eff2fa49784.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "自动倒垃圾，45天手不沾尘",
+      "activity": [
+        "",
+        "自动倒垃圾，45天手不沾尘"
+      ],
+      "price": 2999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628217341.41494253.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628217341.30627957.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628217341.30242434.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628217341.31521064.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628217341.35637998.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 44
+    },
+    {
+      "name": "Redmi全自动波轮洗衣机1A 8kg",
+      "label": "hot",
+      "type": "appliances",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b8c63a2024528fe5410ebe669b7d2407.jpg?thumb=1&w=167&h=167&f=webp&q=90",
+      "src2": "",
+      "title": "一键操作，父母都爱用",
+      "activity": [
+        "「部分地区缺货，全自动波轮洗衣机8kg优先选择波轮洗衣机1S！」",
+        "8kg大容量 / 10种洗涤模式 / 10挡水位调节 / 耐腐蚀金属机身 / 桶自洁、桶风干模式避免细菌滋生 / 空气阻尼减震 / 免运费及基础安装费"
+      ],
+      "price": 899,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1552868299.27348967.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1552868299.23297041.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1552868299.30794969.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "白色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 45
+    },
+    {
+      "name": "米家电烤箱",
+      "label": "hot",
+      "type": "appliances",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1612c93ad4756215774a0dbec7a81bb2.jpg?thumb=1&w=83&h=83&f=webp&q=90",
+      "src2": "",
+      "title": "一键操作，父母都爱用",
+      "activity": [
+        "",
+        "32L大容积 / 上下独立控温 / 旋转烤叉 / 热风循环 / 40°C恒温发酵 / 120分钟定时 / 支持免定时持续运行"
+      ],
+      "price": 329,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.04136931.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.07563517.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.01636561.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644554.09832619.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559644553.97449120.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "白色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 46
+    },
+    {
+      "name": "小米/Redmi 显示器",
+      "label": "",
+      "type": "laptop",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b32e4db4b53b0c56c6040f094e96d945.png",
+      "src2": "",
+      "title": "一键操作，父母都爱用",
+      "activity": [
+        "",
+        "高清画质广视觉 | 满足工作学习娱乐需求 | 主流尺寸段 | 高性价比"
+      ],
+      "price": 1799,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1635492538.83287093.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1583999999.50692398.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1591755481.58867678.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1621022440.50426069.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1638244450.88394454.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1623049030.85341895.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590547529.25156020.png"
+      ],
+      "version": [
+        [
+          "24.5英寸 240Hz",
+          1799
+        ],
+        [
+          "1A 23.8英寸",
+          899
+        ],
+        [
+          "27英寸",
+          2199
+        ],
+        [
+          "34英寸",
+          2599
+        ],
+        [
+          "27英寸 4K版",
+          3499
+        ],
+        [
+          "快速液晶 24.5英寸 165Hz",
+          1499
+        ],
+        [
+          "1A 23.8英寸",
+          749
+        ]
+      ],
+      "theme": false,
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 47
+    },
+    {
+      "name": "RedmiBook Pro 14 增强版",
+      "label": "laptop",
+      "type": "laptop",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ac38f4abb13391b5f254cd47aebb55bb.png",
+      "src2": "",
+      "title": "一键操作，父母都爱用",
+      "activity": [
+        "",
+        "2.5K超视网膜屏 | MX450独立显卡(可选) | 小爱同学及MIUI+ | 这次很Pro"
+      ],
+      "price": 4999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.43459615.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.53299964.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.43643314.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.45184485.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.48793802.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.51554122.jpg"
+      ],
+      "version": [
+        [
+          "i5-11320H/锐炬Xe/16G/512G/2.5K",
+          4499
+        ],
+        [
+          "i5-11320H/MX450/16G/512G/2.5K",
+          5399
+        ],
+        [
+          "i7-11390H/MX450/16G/512G/2.5K",
+          6149
+        ]
+      ],
+      "theme": [
+        "星空灰"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": false,
+      "id": 48
+    },
+    {
+      "name": "RedmiBook Pro 14",
+      "label": "laptop",
+      "type": "laptop",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ac38f4abb13391b5f254cd47aebb55bb.png",
+      "src2": "",
+      "title": "一键操作，父母都爱用",
+      "activity": [
+        "",
+        "2.5K超视网膜屏 | MX450独立显卡(可选) | 小爱同学及MIUI+ | 这次很Pro"
+      ],
+      "price": 4999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.43459615.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.53299964.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.43643314.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.45184485.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.48793802.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1629386404.51554122.jpg"
+      ],
+      "version": [
+        [
+          "i5-11320H/锐炬Xe/16G/512G/2.5K",
+          4499
+        ],
+        [
+          "i5-11320H/MX450/16G/512G/2.5K",
+          5399
+        ],
+        [
+          "i7-11390H/MX450/16G/512G/2.5K",
+          6149
+        ]
+      ],
+      "theme": [
+        "星空灰"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": false,
+      "id": 49
+    },
+    {
+      "name": "RedmiBook Pro 15",
+      "label": "laptop",
+      "type": "laptop",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/70e30a90120626588b8ec6b96173776f.png",
+      "src2": "",
+      "title": "一键操作，父母都爱用",
+      "activity": [
+        "",
+        "3.2K 超视网膜屏 | 微米级一体精雕 | MX450独立显卡(可选) | Windows 11(可选)"
+      ],
+      "price": 5499,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947753.76432660.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.48918092.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.4637557.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.44319255.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.44329047.jpg"
+      ],
+      "version": [
+        [
+          "i5-11320H/锐炬Xe/16G/512G/3.2K 90Hz",
+          4999
+        ],
+        [
+          "i5-11320H/MX450/16G/512G/3.2K 90Hz",
+          5399
+        ],
+        [
+          "i7-11390H/MX450/16G/512G/3.2K 90Hz",
+          6449
+        ]
+      ],
+      "theme": [
+        "星光灰"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": false,
+      "id": 50
+    },
+    {
+      "name": "小米笔记本 Pro X 14",
+      "label": "laptop",
+      "type": "laptop",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/903da48ebe975727aeb5ef76186d03cf.png",
+      "src2": "",
+      "title": "一键操作，父母都爱用",
+      "activity": [
+        "",
+        "将一块高性能光追显卡装入轻薄本，超视网膜屏、高端工艺、智能体验，轻薄性能，小米笔记本Pro X 14，由此诞生。"
+      ],
+      "price": 7999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632736547.87531567.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632736547.85799718.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632736547.8612384.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632736547.85961684.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1632736547.87083016.jpg"
+      ],
+      "version": [
+        [
+          "i7-11370H/16G/512G/RTX 3050/2.5K",
+          7999
+        ]
+      ],
+      "theme": [
+        "灰色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": false,
+      "id": 51
+    },
+    {
+      "name": "Redmi G 2021 Intel版",
+      "label": "laptop",
+      "type": "laptop",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/994d6bcece6aa49d9c6cb709f4d9344a.png",
+      "src2": "",
+      "title": "一键操作，父母都爱用",
+      "activity": [
+        "",
+        "视野再突破，天生为赢而战，全方位为热爱进阶，Redmi G 2021 ，实力超能打。"
+      ],
+      "price": 7999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947753.76432660.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.48918092.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.4637557.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.44319255.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1633947751.44329047.jpg"
+      ],
+      "version": [
+        [
+          "I5/RTX3050/16G/512G",
+          6499
+        ]
+      ],
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": false,
+      "id": 52
+    },
+    {
+      "name": "小米平板5",
+      "label": "tablet",
+      "type": "laptop",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d73037a32568723e7148395da0661ec5.png",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628600350.1553788.png",
+      "title": "一键操作，父母都爱用",
+      "activity": [
+        "",
+        "11英寸大屏|2.5K超清显示"
+      ],
+      "price": 1999,
+      "give": false,
+      "bannerSrc": false,
+      "version": [
+        [
+          "6GB+128GB",
+          1999
+        ],
+        [
+          "6GB+256GB",
+          2299
+        ]
+      ],
+      "theme": [
+        "绿色",
+        "黑色",
+        "白色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 53
+    },
+    {
+      "name": "小米平板5 Pro",
+      "label": "tablet",
+      "type": "laptop",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b34e14c8896df008e17e73e5cfdd3e2c.png",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1630006885.76232650.jpg",
+      "title": "一键操作，父母都爱用",
+      "activity": [
+        "",
+        "11英寸大屏|2.5K超清显示"
+      ],
+      "price": 1999,
+      "give": [
+        "赠品",
+        "满1件赠价值129元小米67W充电器套装 轻享版 白色 赠完即止"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "6GB+128GB",
+          2499
+        ],
+        [
+          "6GB+256GB",
+          2799
+        ],
+        [
+          "8GB+256GB",
+          3499
+        ]
+      ],
+      "theme": [
+        "黑色",
+        "白色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 54
+    },
+    {
+      "name": "小米新3级立式空调",
+      "label": "appliances",
+      "type": "appliances",
+      "src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1609834043.87651899.jpg",
+      "src2": "//cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1609834043.87651899.jpg",
+      "title": "一键操作，父母都爱用",
+      "activity": [
+        "「6年质保！小爱语音控制，静音设计，智能自清洁，立体送风，热卖中...」",
+        "新三级能效/立体送风/静音设计/智能自清洁/简约外观/全屋互联IOT/直流变频压缩机"
+      ],
+      "price": 4299,
+      "give": false,
+      "bannerSrc": false,
+      "version": false,
+      "theme": [
+        "白色"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 55
+    },
+    {
+      "name": "Redmi K40",
+      "label": "hm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0e5aa3cab478f5eeba1c7d4cf25cba9a.png",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1619422149.16423896.jpg",
+      "title": "",
+      "activity": [
+        "「12GB领券再减30元；12GB版本券后到手价2269元；享6期免息」",
+        "骁龙870｜新一代 E4 AMOLED旗舰直屏｜杜比全景声｜7.8mm轻薄机身设计｜4520mAh大电量｜360Hz 三指触控 ｜120Hz 高刷新｜X轴线性马达｜ NFC｜红外遥控"
+      ],
+      "price": 2699,
+      "give": [
+        "优惠券",
+        "K40 30元优惠券（部分版本可用）"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "12GB+256GB",
+          2699
+        ],
+        [
+          "6GB+128GB",
+          1999
+        ],
+        [
+          "8GB+128GB",
+          2199
+        ],
+        [
+          "8GB+256GB",
+          2499
+        ]
+      ],
+      "theme": [
+        "亮黑",
+        "晴雪",
+        "墨羽",
+        "幻境"
+      ],
+      "package": false,
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 56
+    },
+    {
+      "name": "XiXiaomi MIX 4",
+      "label": "xm",
+      "type": "phone",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ab07e0fcbec3beb8b0f409db8bee8da4.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+      "src2": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628588553.56819324.jpg",
+      "title": "CUP全面屏",
+      "activity": [
+        "「12月21日-12月23日全版本优惠800元，领券再减500元，下单再减30元，券后价3669元起；买赠素皮保护壳（黑色）」",
+        "CUP全面屏 | 真彩原色 + 120Hz | 一体化轻量陶瓷机身 | 高通骁龙™888+ | WiFi 6 增强版 | 石墨烯「冰封」散热系统4500mAh 大电量 | 常温 120W 快充 | 50W 无线快充 | 1 亿像素电影相机"
+      ],
+      "price": 4999,
+      "give": [
+        "赠品",
+        "满1件赠价值149元Xiaomi MIX 4 素皮保护壳 黑色 赠完即止"
+      ],
+      "bannerSrc": false,
+      "version": [
+        [
+          "8GB+128GB",
+          4999
+        ],
+        [
+          "12GB+256GB",
+          5799
+        ],
+        [
+          "8GB+256GB",
+          5299
+        ],
+        [
+          "12GB+512GB",
+          6299
+        ]
+      ],
+      "theme": [
+        "陶瓷黑",
+        "影青灰",
+        "陶瓷白"
+      ],
+      "package": [
+        "标准版",
+        "加50元得129元风口上的猪挂件（全款支付专享）"
+      ],
+      "size": false,
+      "accident": true,
+      "guarantee": true,
+      "cloudSpace": true,
+      "install": false,
+      "id": 57
+    },
+    {
+      "name": "小米电视6 OLED系列",
+      "label": "",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/50194366cfebbc7c82489d0094c1f944.png",
+      "src2": "",
+      "title": "",
+      "activity": [
+        "",
+        "4K OLED,更薄更清晰,0nit极夜黑,低蓝光认证,全场景互联"
+      ],
+      "price": 6999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628162373.00133777.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628162373.06517676.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628162373.03845259.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628162373.04743578.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628162373.05337457.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": false,
+      "size": [
+        "65英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 58
+    },
+    {
+      "name": "小米电视 大师 77″OLED",
+      "label": "",
+      "type": "watchTv",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b91c9ef670fa1c12eddf23b209f9ff33.png",
+      "src2": "",
+      "title": "",
+      "activity": [
+        "【12期免息，首装免费】",
+        "全新一代OLED屏幕,原色屏Pro,1000nits峰值亮度,哈曼卡顿专业调校,双120Hz高刷屏"
+      ],
+      "price": 19999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628162459.67483588.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628162459.71794204.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628162459.75256821.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628162459.75142568.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628162459.72376106.jpg",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1628162459.70175226.jpg"
+      ],
+      "version": false,
+      "theme": [
+        "黑色"
+      ],
+      "package": [
+        "标准版",
+        "影视会员版（内置两年影视会员权益）"
+      ],
+      "size": [
+        "77英寸"
+      ],
+      "accident": false,
+      "guarantee": true,
+      "cloudSpace": false,
+      "install": true,
+      "id": 59
+    },
+    {
+      "name": "Xiaomi Watch Color 2",
+      "label": "",
+      "type": "wear",
+      "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c8f0da517177fd03bb14e1f2ef3b448b.jpg",
+      "src2": "",
+      "title": "",
+      "activity": [
+        "12.20-12.23下单赠表带1个，米金兑换95折券，享6期免息",
+        "60Hz高刷高清视网膜屏 / 心率监测 / 蓝牙通话 / NFC功能 / 扫码支付 / 双频GPS四模定位"
+      ],
+      "price": 999,
+      "give": false,
+      "bannerSrc": [
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1636013466.46185049.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1636013452.61344609.png",
+        "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1636013458.46111023.png"
+      ],
+      "version": false,
+      "theme": [
+        "皓月白",
+        "星耀黑",
+        "海洋蓝"
+      ],
+      "package": false,
+      "size": false,
+      "accident": false,
+      "guarantee": false,
+      "cloudSpace": false,
+      "install": false,
+      "id": 60
+    }
+  ],
+  "cart": [
+    {
+      "name": "Redmi X65 2022款 65英寸 蓝色",
+      "num": 1,
+      "additional": "",
+      "belongTo": 1,
+      "totalPrice": 3499,
+      "gID": 2,
+      "id": 3
+    },
+    {
+      "name": "小米平板5 Pro 6GB+128GB 黑色",
+      "num": 1,
+      "additional": "",
+      "belongTo": 2,
+      "totalPrice": 2499,
+      "gID": "54",
+      "id": 9
+    }
+  ]
 }

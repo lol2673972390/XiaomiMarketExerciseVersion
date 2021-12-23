@@ -125,8 +125,80 @@
     position: absolute;
     right: 0;
     top: 40px;
-    z-index: 99;
+    z-index: 10086;
     overflow: hidden;
+    text-align: center;
+}
+
+
+/* 每列商品 */
+
+#header .miniCart-menu .list {
+    height: 100px;
+    display: block;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    line-height: 60px;
+}
+
+
+/* 商品图片 */
+
+#header .miniCart-menu .list img {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* 商品名字 */
+
+#header .miniCart-menu .list p {
+    width: 85px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+/* 商品名字 */
+
+#header .miniCart-menu .list span {
+    width: 45px;
+}
+
+
+/* 清楚按钮 */
+
+#header .miniCart-menu .list span:nth-of-type(3) {
+    opacity: 0;
+    transition: all .5s;
+}
+
+
+/* 悬停时出现 */
+
+#header .miniCart-menu .list:hover span:nth-of-type(3) {
+    opacity: 1;
+}
+
+#header .miniCart-menu>.box {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+
+/* 最后一个显示总价和总个数 */
+
+#header .miniCart-menu>div:last-child {
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-size: 20px;
+    position: absolute;
+    background: #ff6700;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
 }
 
 #nav {

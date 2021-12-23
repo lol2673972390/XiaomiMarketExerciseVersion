@@ -18,7 +18,7 @@ class verticalMenu {
         // 发送Ajax请求 
         let data = await axios({
             method: `get`,
-            url: `http://localhost:3000/goods?type=${type}&_page=1&_limit=20`
+            url: `http://localhost:3000/goods?type=${type}&_page=1&_limit=15`
         })
         if (data.data.length != 0) {
             data.data.forEach(val => {
@@ -30,6 +30,8 @@ class verticalMenu {
                         </dd>`
                 ele.querySelector(`dl`).innerHTML += dd
             })
+        } else {
+            ele.querySelector(`dl`).style.display = `none`
         }
     }
     createDl(cssName) {

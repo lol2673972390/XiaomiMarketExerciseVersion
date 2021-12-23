@@ -1,11 +1,11 @@
 用户参数说明：
 
 商品种类、分类参数说明：
-手机 phone，
-电视 watchTv，
-笔记本 平板 laptop，
-家电 appliances，
-穿戴 wear，
+手机 phone
+电视 watchTv
+笔记本 平板 laptop
+家电 appliances
+穿戴 wear
 
 后面的没写
 智能 路由器 router，

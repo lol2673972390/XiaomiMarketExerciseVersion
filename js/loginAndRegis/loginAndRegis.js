@@ -156,17 +156,12 @@ class loginAndRegis {
         // 发送axios get请求  获取数据
         let res = await axios({
             method: 'get',
-            url: 'http://localhost:3000/users'
+            url: `http://localhost:3000/users?phone=${phone}`
         });
         // 取出所有用户数据
         res = res.data;
         // 遍历判断手机号是否已经注册
-        if (res.some(ele => {
-                if (ele.phone == phone) {
-                    // 有重复的返回true
-                    return true
-                }
-            })) {
+        if (res.phone == phone) {
             // 设置错误3
             this.inputs[0].className = `error3`;
             return
@@ -204,20 +199,19 @@ class loginAndRegis {
         // axios get 获取用户数据
         let res = await axios({
             method: 'get',
-            url: 'http://localhost:3000/users'
+            url: `http://localhost:3000/users?phone=${phone}`
         });
-        res = res.data;
+        res = res.data[0];
+        if (!res) {
+            // 没找到该手机号
+            this.inputs[0].className = `error3`;
+            return
+        }
         // 判断手机号，如果没有则提示，有的话就保存下标order
-        let order = null;
-        if (res.some((ele, index) => {
-                if (ele.phone == phone) {
-                    order = index;
-                    return true
-                }
-            })) {
+        if (res.phone == phone) {
             // 有该手机号
             // 判断密码是否正确
-            if (res[order].password == pwd) {
+            if (res.password == pwd) {
                 // 获取localStorage,判断是否有人登录
                 let local = localStorage.getItem('user');
                 // 如果有数据，则不允许登陆，并2秒后跳转到首页
@@ -228,12 +222,12 @@ class loginAndRegis {
                     }, 2000)
                     return
                 }
-                layer.msg(`登陆成功！欢迎"${res[order].username}"来到小米商城`);
+                layer.msg(`登陆成功！欢迎"${res.username}"来到小米商城`);
                 // 2秒后修改对应用户的登陆状态并且跳转到主页
                 setTimeout(async() => {
                     let a = await axios({
                         method: 'patch',
-                        url: `http://localhost:3000/users/${res[order].id}`,
+                        url: `http://localhost:3000/users/${res.id}`,
                         data: {
                             "loginStatus": 1
                         }
@@ -243,9 +237,6 @@ class loginAndRegis {
             } else {
                 this.inputs[1].className = `error2`
             }
-        } else {
-            // 没找到该手机号
-            this.inputs[0].className = `error3`
         }
     };
     // 手机号正则判断

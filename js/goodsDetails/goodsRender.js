@@ -37,7 +37,6 @@ class goodsRender {
         });
         // 获取data
         res = res.data;
-        console.log(res);
         // 生成页面 安装从上到下顺序依次赋值
         // 生成标题 name 属性
         this.titleCreate(res.name);
@@ -359,7 +358,6 @@ class goodsRender {
                     }
                 })
             } else {
-                console.log(1);
                 // 如果没有就新增一个
                 let obj = {
                     "name": `${detailsText}`,

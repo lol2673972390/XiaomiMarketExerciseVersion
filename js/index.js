@@ -4,7 +4,10 @@ new verticalMenu('#verticalNav>ul>li', '#verticalNav>ul>li>dl')
 
 // 页面对应选项卡内容的创建
 // 待完成 异步
-new tabSelectContent()
+new tabSelectContent(`#phone ul`, ``, `phone`)
+new tabSelectContent(`#wear ul`, `#wear .listTitle span`)
+new tabSelectContent(`#appliances ul`, `#appliances .listTitle span`)
+new tabSelectContent(`#laptop ul`, `#laptop .listTitle span`)
 
 
 window.addEventListener('load', function() {
@@ -20,5 +23,5 @@ window.addEventListener('load', function() {
     // 根据当前选中样式
     new tabSelect('#wear .listTitle>div>span', '#wear .contentList')
     new tabSelect('#appliances .listTitle>div>span', '#appliances .contentList')
-    new tabSelect('#liftDevice .listTitle>div>span', '#liftDevice .contentList')
+    new tabSelect('#laptop .listTitle>div>span', '#laptop .contentList')
 })

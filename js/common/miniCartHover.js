@@ -19,13 +19,22 @@ class miniCartHover {
     miniCartMouseoverFn() {
         // 外置this
         let _this = this;
-        // 给迷你购物车绑定事件
-        this.miniCart.onmouseover = function() {
-            // 添加被选中css类
-            this.classList.add(_this.eleCssName);
-            // 给迷你购物车菜单绑定展开动画
-            animation.easingAnimate(_this.miniCartMenu, 100, 'height')
-        }
+        setTimeout(() => {
+            let div = this.miniCartMenu.querySelector(`.box`);
+            let h = 0
+            if (!div) {
+                h = 100
+            } else {
+                h += parseInt(getComputedStyle(div, null).height)
+            }
+            // 给迷你购物车绑定事件
+            this.miniCart.onmouseover = function() {
+                // 添加被选中css类
+                this.classList.add(_this.eleCssName);
+                // 给迷你购物车菜单绑定展开动画
+                animation.easingAnimate(_this.miniCartMenu, h + 40, 'height')
+            }
+        }, 1000)
     }
     miniCartMouseoutFn() {
         // 外置this

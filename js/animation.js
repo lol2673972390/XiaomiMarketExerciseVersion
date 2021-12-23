@@ -28,13 +28,14 @@ class animation {
             ele.style[attr] = `${res}px`
         }, 30)
     }
-    static easingAnimate(ele, target, attr, callback) {
+    static easingAnimate(ele, target, attr, callback, ) {
         // 清除定时器
         clearInterval(ele.timer);
         // 设置动画
         ele.timer = setInterval(function() {
             // 获取初始值
             let start = parseInt(animation.getStyle(ele, attr));
+            // console.log(start);
             // 计算步长
             let speed = (target - start) / 10;
             // 步长不能为0
