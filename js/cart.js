@@ -14,6 +14,8 @@ class cartRender {
             this.listRenderFn();
             // 事件委托绑定功能
             this.cartClickFn();
+            // 结算
+            this.buyBtnFn();
         }, 700)
     }
     async listRenderFn() {
@@ -359,6 +361,32 @@ class cartRender {
         });
         // 设置内容
         this.allTotal.innerHTML = totalNum
+            // 根据内容判断结算按钮是否点击
+        if (num == 0) {
+            this.buyBtn.classList.add(`btnDisabled`)
+        } else {
+            this.buyBtn.classList.remove(`btnDisabled`)
+        }
+    }
+    buyBtnFn() {
+        this.buyBtn.addEventListener(`click`, () => {
+            // 判断当前是否禁用？
+            if (this.buyBtn.classList.contains(`btnDisabled`)) return;
+            // 获取总个数和总价
+            let num = this.selectedTotal.innerHTML - 0;
+            let price = this.totalPrice.innerHTML - 0;
+            // 弹出模态框提醒用户
+            if ((this.userId)) {
+                // 判断当前是否登陆
+                layer.open({
+                    title: `共${num}件商品，合计:${price}元`,
+                    content: `您的余额不足，请联系小米商城内部人员进行充值！`,
+                    btn: [`取消`, `不买了`]
+                })
+            } else {
+                layer.msg(`您还没有登陆，请登陆后再操作`)
+            }
+        })
     }
     createHtml(data, val, i) {
         if (i != 'login') {
