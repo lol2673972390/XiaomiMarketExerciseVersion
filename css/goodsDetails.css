@@ -16,6 +16,10 @@
     left: 0;
 }
 
+.loadHide {
+    display: none;
+}
+
 
 /* 商品名称 */
 

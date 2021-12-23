@@ -9,6 +9,8 @@ class goodsRender {
         for (let ele in obj1) {
             this[ele] = document.querySelector(obj1[ele]);
         }
+        // 加载动画
+        this.goodsContent = document.querySelector(`#goodsContent`);
         // 
         let link = location.href.split(`?`);
         // 跳转链接
@@ -28,6 +30,15 @@ class goodsRender {
     }
     async localSearchCreateHtml() {
         // 添加请求拦截器
+        const a = axios.interceptors.request.use((config) => {
+            // 在发送请求之前做些什么
+            this.goodsContent.classList.add(`loadHide`)
+                // 
+            return config;
+        }, function(error) {
+            // 对请求错误做些什么
+            return Promise.reject(error);
+        });
         // 
         // 
         // 现在没有先测试
@@ -72,6 +83,8 @@ class goodsRender {
         this.addCartFn();
         // 绑定喜欢商品功能
         this.likeGoodsFn();
+        axios.interceptors.request.eject(a);
+        this.goodsContent.classList.remove(`loadHide`)
     }
     titleCreate(name) {
         // 顶部标题和商品标题

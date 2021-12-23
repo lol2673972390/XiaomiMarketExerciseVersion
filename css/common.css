@@ -3,6 +3,34 @@
 }
 
 
+/* 加载动画 */
+
+.load {
+    font-size: 60px;
+    text-align: center;
+}
+
+.load.hide {
+    display: none;
+}
+
+.load::before {
+    animation: xuan 3s linear infinite;
+    transition: all 2s;
+    display: inline-block;
+    color: #ff6700;
+}
+
+@keyframes xuan {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
 /* 浮动 */
 
 .left {

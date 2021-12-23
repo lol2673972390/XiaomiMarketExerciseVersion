@@ -193,10 +193,11 @@
         </div>
         <!-- 商品购买时类型选择 -->
         <div id="buySelect">
-            <div class="layui-container clearF">
+            <div class="layui-icon layui-icon-loading load hide" id="loading"></div>
+            <div class="layui-container clearF" id="goodsContent">
+
                 <!-- 左侧商品展示 -->
                 <!-- 带轮播效果 -->
-                <!-- 展示图片暂时不考虑? -->
                 <div class="left" id="exhibition">
                     <div class="exhBanner">
                         <!-- 动态生成所以注释，如果没有数据手动恢复 -->
@@ -661,10 +662,8 @@
         </div>
     </div>
 
-    <!-- 引入Ajax -->
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script>
-    </script>
+    <!-- axios -->
+    <script src="./js/axios/axios.js"></script>
     <!-- 引入动画js -->
     <script src="./js/animation.js"></script>
     <!--  -->
