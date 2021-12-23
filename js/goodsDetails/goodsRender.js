@@ -11,7 +11,8 @@ class goodsRender {
         }
         // 加载动画
         this.goodsContent = document.querySelector(`#goodsContent`);
-        // 
+        this.load = document.querySelector(`#loading`)
+            // 
         let link = location.href.split(`?`);
         // 跳转链接
         this.hf = link[0].split(`/`).slice(0, -1).join(`/`);
@@ -33,7 +34,7 @@ class goodsRender {
         const a = axios.interceptors.request.use((config) => {
             // 在发送请求之前做些什么
             this.goodsContent.classList.add(`loadHide`)
-                // 
+            this.load.classList.remove(`hide`)
             return config;
         }, function(error) {
             // 对请求错误做些什么
@@ -85,6 +86,7 @@ class goodsRender {
         this.likeGoodsFn();
         axios.interceptors.request.eject(a);
         this.goodsContent.classList.remove(`loadHide`)
+        this.load.classList.add(`hide`)
     }
     titleCreate(name) {
         // 顶部标题和商品标题

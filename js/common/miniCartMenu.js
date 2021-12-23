@@ -93,7 +93,7 @@ class miniCartMenu {
                                 <span>x ${val.num}</span>
                                 <span cId="${i}">清除</span>
                             </div>`
-                    this.menuBox.innerHTML += div
+                    this.menuBox.querySelector('.box').innerHTML += div
                     num += (val.num - 0)
                     price += ((val.num - 0) * (val.totalPrice - 0))
                 });
