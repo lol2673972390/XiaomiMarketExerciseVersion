@@ -31,6 +31,30 @@
       "likeGoods": null,
       "loginStatus": 0,
       "id": 4
+    },
+    {
+      "phone": "13345678900",
+      "password": "123456",
+      "username": "小条条",
+      "likeGoods": null,
+      "loginStatus": 0,
+      "id": 5
+    },
+    {
+      "phone": "13345678912",
+      "password": "123456",
+      "username": "xxx",
+      "likeGoods": null,
+      "loginStatus": 0,
+      "id": 6
+    },
+    {
+      "phone": "13345678978",
+      "password": "123456",
+      "username": "x1",
+      "likeGoods": null,
+      "loginStatus": 0,
+      "id": 7
     }
   ],
   "goods": [

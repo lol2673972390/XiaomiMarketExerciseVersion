@@ -148,45 +148,48 @@ class loginAndRegis {
             this.inputs[2].className = ``
         }
         // 遍历三个输入框， 如果有class则不进行后续操作
-        // if (Array.from(this.inputs).some(ele => {
-        //         if (ele.className != '') {
-        //             return true
-        //         }
-        //     })) return;
+        if (Array.from(this.inputs).some(ele => {
+                if (ele.className != '') {
+                    return true
+                }
+            })) return;
         // 发送axios get请求  获取数据
         let res = await axios({
             method: 'get',
             url: `http://localhost:3000/users?phone=${phone}`
         });
         // 取出所有用户数据
-        res = res.data;
+        res = res.data[0];
         // 遍历判断手机号是否已经注册
-        if (res.phone == phone) {
-            // 设置错误3
-            this.inputs[0].className = `error3`;
-            return
+        if (res) {
+            if (res.phone == phone) {
+                // 设置错误3
+                this.inputs[0].className = `error3`;
+                return
+            }
+        } else {
+            // 删除错误
+            this.inputs[0].className = ``;
+            // 显示一个提示信息
+            layer.msg('正在注册，成功后跳转到登录界面');
+            // 发送axios post 添加数据
+            setTimeout(async() => {
+                // 传参
+                let end = await axios({
+                    method: 'post',
+                    url: 'http://localhost:3000/users',
+                    data: {
+                        "phone": phone,
+                        "password": pwd,
+                        "username": username,
+                        "likeGoods": null,
+                        "loginStatus": 0
+                    }
+                });
+                // 跳转到登陆界面
+                location.href = `${address}?method=login`
+            }, 3000)
         }
-        // 删除错误
-        this.inputs[0].className = ``;
-        // 显示一个提示信息
-        layer.msg('正在注册，成功后跳转到登录界面');
-        // 发送axios post 添加数据
-        setTimeout(async() => {
-            // 传参
-            let end = await axios({
-                method: 'post',
-                url: 'http://localhost:3000/users',
-                data: {
-                    "phone": phone,
-                    "password": pwd,
-                    "username": username,
-                    "likeGoods": null,
-                    "loginStatus": 0
-                }
-            });
-            // 跳转到登陆界面
-            location.href = `${address}?method=login`
-        }, 3000)
     };
     async loginFn(phone, pwd, indexHtml) {
         // 先密码长度判断,不符合规范则结束
